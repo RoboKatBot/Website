@@ -1,7 +1,6 @@
 ////////////////////Website Designed For And Tested With Chrome Version 66+. Not Tested With Other Browsers///////////////////
 
 const config = require('./config.json')
-const pug = require('pug');
 const WebSocket = require('ws');
 const router = require('./other/router.js')(); //Custom Router Implementation
 const ETagger = new (require('./other/ETagger.js'))('./public/static',/sw\.js$/) //Custom Not Really An ETag System
@@ -27,9 +26,9 @@ wss.on('connection',(ws,req)=>{
 	router(ws,req);
 });
 
-const router2 = require('./router/NN.js');
+// const router2 = require('./router/NN.js');
 
-router.use(/^\/Neural Network\//,router2);
+// router.use(/^\/Neural Network\//,router2);
 
 
 
