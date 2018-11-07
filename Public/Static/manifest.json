@@ -1,0 +1,16 @@
+{
+	"short_name": "LKAO",
+	"name": "LKAO Science",
+	"icons": [
+		{
+			"src": "/icon192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		}
+	],
+	"start_url": "/",
+	"background_color": "#080b12",
+	"display": "minimal-ui",
+	"scope": "/",
+	"theme_color": "#080b12"
+}
