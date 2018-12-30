@@ -1,5 +1,6 @@
-var CACHE_NAME = 'my-site-cache-v1';
+"use strict";
 
+const CACHE_NAME = 'my-site-cache-v1';
 var cacheDigest = digest();
 
 
@@ -9,6 +10,9 @@ addEventListener('activate',(event)=>{
 			await clients.claim()
 			var keys = await cache.keys()
 			console.log('Service worker activated, cache currently contains: ',keys);
+			await Promise.all(keys.map(req=>{  
+				return getFile(req.url,event);
+			}));
 		})
 	);
 });
@@ -18,21 +22,23 @@ addEventListener('activate',(event)=>{
 addEventListener('install',(event)=>{
 	event.waitUntil(
 	caches.open(CACHE_NAME)
-    	.then(function(cache) {
-        	return cache.addAll([
-        			'/index.html',
-        			'/index.js',
-        			'/index.css',
-        			'/offline.html',
-        		]);
+		.then(function(cache) {
+			return Promise.all([
+					'/index.html',
+					'/index.js',
+					'/index.css',
+					'/offline.html',
+			].map(k=>getFile(k,event)));
 		}).then(self.skipWaiting)
 	);
 });
 
 
 self.onfetch = event => {
+	// if(!event.clientId) return; //Ignore cross origin requests
 	event.waitUntil((async ()=>{
-		if (!/html$|8000\/$/.exec(event.request.url)) 
+		if(event.request.method!=='GET') return;
+		if (!/html$|8000\/$/.exec(event.request.url)||event.request.headers.get('Transclude-Free')) 
 			event.respondWith(getFile(event.request.url,event));
 		else {
 			const bodyStream = new TransformStream();
@@ -43,11 +49,15 @@ self.onfetch = event => {
 
 			const resPromises = [
 				getFile('https://lkao.science:8000/index.html',event),
-				getFile(event.request.url,event)
+				getFile(event.request.url,event).then(res=>{
+					if(!res) return getFile('https://lkao.science:8000/offline.html',event);
+					if(res.status===404) return getFile('https://lkao.science:8000/404.html',event);
+					return res;
+				})
 			];
 
 			for (let i=0;i<resPromises.length;i++) {
-				await (await resPromises[i]).body.pipeTo(bodyStream.writable, { preventClose: i-resPromises.length+100 });
+				await (await resPromises[i]).body.pipeTo(bodyStream.writable, { preventClose: i-resPromises.length+1 });
 			}
 		}
 
@@ -57,12 +67,12 @@ self.onfetch = event => {
 
 async function getFile(url,event) {
 	var fetcher = cacheDigest.then((CD)=>
-		fetch(url, {cache:"no-store",headers:{"cache-digest":CD,sw:true}}).catch(console.log)
+		fetch(url, {cache:"no-store", credentials:'include',headers:{"cache-digest":CD,sw:true}}).catch(e=>console.error('Failed to fetch ',url))
 	)
-	cache = await caches.open(CACHE_NAME);
-	file = await cache.match(url);
+	const cache = await caches.open(CACHE_NAME);
+	const file = await cache.match(url);
 	if (file) {
-		console.log('using cached file: ',file.url,file.headers.get('etag'))
+		// console.log('using cached file: ',file.url,file.headers.get('etag'))
 		event.waitUntil(fetcher.then(async (res)=>{
 			if (!res) {
 				//offline
@@ -72,6 +82,9 @@ async function getFile(url,event) {
 				console.log(url, ' changed, updating cache ', res.headers.get('etag'));
 				await cache.put(url,res);
 				cacheDigest = digest();
+				const client = await self.clients.get(event.clientId);
+				if(client) client.postMessage({msg:'Refresh Required'});
+
 				await cacheDigest;
 			}
 		}));
@@ -82,11 +95,10 @@ async function getFile(url,event) {
 
 	var res = await fetcher;
 	if (!res) {
-		console.log('No Connection')
-		return getFile('https://lkao.science:8000/offline.html',event)
+		return console.log('No Connection')
 	}
 
-	if(res.status === 200 && res.type === 'basic') {
+	if(res.status === 200 && res.type === 'basic' && res.headers.get('ETAG')) {
 		var resClone = res.clone();
 		console.log('catching ',res,' from', url)
 		event.waitUntil(caches.open(CACHE_NAME).then(async(cache)=>{
@@ -97,9 +109,7 @@ async function getFile(url,event) {
 	}
 
 	if (res.status === 404) {
-		if (/html$|8000\/$/.exec(url)) {
-			return getFile('https://lkao.science:8000/404.html',event)
-		}
+		console.log(`404 ${url} not found`)
 	}
 
 	return res;
@@ -110,7 +120,6 @@ async function getFile(url,event) {
 
 async function digest() {
 	return caches.open(CACHE_NAME).then(async cache=>{
-		cached = await cache.matchAll();
-		return btoa(cached.map(k=>k.headers.get('etag')));
+		return btoa((await cache.matchAll()).map(k=>k.headers.get('etag')));
 	})
 }

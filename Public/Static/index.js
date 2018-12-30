@@ -1,8 +1,22 @@
-HTMLCollection.prototype.forEach = Array.prototype.forEach;
+"use strict";
+
+/*window.onerror = (e)=>{
+	fetch('https://lkao.science:8000/debug',{headers:{msg:btoa(JSON.stringify(e))}})
+}
+
+window.onunhandledrejection = (e)=>{
+	fetch('https://lkao.science:8000/debug',{headers:{msg:btoa(JSON.stringify(e))}})
+}*/
 
 
-document.addEventListener('DOMContentLoaded',()=>{
+const ready = new Promise((res)=>{
+	document.addEventListener('DOMContentLoaded',res);
+})
 
+
+
+
+ready.then(_=>{
 	function toggleHidden() {
 		if(this.classList.contains("-hidden")) {
 			this.classList.remove("-hidden");
@@ -14,58 +28,47 @@ document.addEventListener('DOMContentLoaded',()=>{
 		}
 	}
 
-	document.getElementsByClassName("nav-menu-dropdown-toggle").forEach(function(button) {
+	[...document.querySelectorAll(".nav-menu-dropdown-toggle")].forEach(function(button) {
 		button.addEventListener("click",toggleHidden);
 	})
 
-	document.getElementsByClassName('nav-menu-link').forEach((link)=>{
-		link.onclick = (event)=>{
-			if(event.ctrlKey||event.shiftKey) {return true;}
-			var href = link.href;
-			var xhttp = new XMLHttpRequest();
-			xhttp.onreadystatechange = function(){
-				if(this.readyState==4&&this.status==200) {
-					window.history.pushState({},'',href);
-					parser=new DOMParser();
-					newdocument=parser.parseFromString(this.response, "text/html");
 
-					Array.from(document.head.children).filter(k=>(!k.className||k.className!=='index'))
-						.forEach(k=>{k.remove();});
-					var i = newdocument.head.children.length-1;
-					while ( i >= 0) {
-						k = newdocument.head.children[i--];
-						if(k.className && k.className=='index') {}
-						else if(k.tagName==="SCRIPT") {
-							var newScript = document.createElement('script');
-							newScript.async=false;
-							newScript.setAttribute('src',k.src);
-							document.head.prepend(newScript);
-						}
-						else {
-							document.head.prepend(k);
-						}
-					}
+	/*[...document.querySelectorAll('.nav-menu-link')].forEach(k=>{
+		k.addEventListener('click',(event)=>{
+			if(event.getModifierState('Shift')||event.getModifierState('Control')) return;
+			event.preventDefualt();
+			let super = document.getElementsByClass('super'),
+				decoder = new TextDecoder();
+			fetch(k.href,{'Transclude-Free':true})
+				.then(res=>res.body.getReader())
+				.then(reader =>reader.read()
+					.then(function process({done,value}) {
+						if(done) return reader.closed;
+						super.innerhtml += decoder.decode(value);
+						return reader.read().then(process);
+					})
+				);
+		});
+	});*/
 
-					document.getElementsByClassName('super')[0].innerHTML = newdocument.getElementsByClassName('super')[0].innerHTML;
-					document.dispatchEvent(new Event('SoftLoad'));
-					delete parser;
-				}
-			};
-			xhttp.open('GET',href);
-			xhttp.send();
-			event.preventDefault();
-		};
-	});
-
-
-
+	
 	//Service Worker
 
-	navigator.serviceWorker.register('/sw.js').then(reg=>{
+	navigator.serviceWorker.register('/sw.js',{updateViaCache: 'none'}).then(reg=>{
 		console.log('Registration of service worker was successful with scope: ',reg.scope);
 	}).catch(e=>{
 		console.log('Error registering service worker: ',e)
 	});
+
+	
+
+	navigator.serviceWorker.addEventListener('message', ({data:{msg}}) => {
+		if(msg==="Refresh Required") {
+			// location.reload(); //Temporary  
+			console.log('Page refreshed');
+		}
+	});
+
 
 
 	let defferedEvent;
@@ -81,19 +84,4 @@ document.addEventListener('DOMContentLoaded',()=>{
 	})
 
 
-},{once:true}); //End On Document Load Event
-
-
-document.ready = function(cb) {
-	if (document.readyState=='complete'||document.readyState=='interactive') {
-		cb();
-		return;
-	}
-	function ready() {
-		document.removeEventListener('SoftLoad',ready);
-		document.removeEventListener('DOMContentLoaded',ready);
-		cb();
-	}
-	document.addEventListener('DOMContentLoaded',ready);
-	document.addEventListener('SoftLoad',ready);
-}
+},{once:true});//End Of Document Load Event

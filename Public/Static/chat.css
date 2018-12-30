@@ -42,6 +42,4 @@
     padding: 5px 10px;
 }
 
-#messages li:nth-child(odd) {
-    background: #eee;
-}
+#messages li:nth-child(odd) {background-color: #bbb4;}

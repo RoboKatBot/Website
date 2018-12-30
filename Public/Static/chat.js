@@ -1,18 +1,16 @@
-socket = new WebSocket('wss://127.0.0.1:9090/Chatroom/wss');
-document.addEventListener('SoftLoad',()=>{
-	socket.close();
-});
-document.ready(()=>{
+"use strict";
+
+var socket = new WebSocket(`wss://${location.host}/Chatroom/wss`);
+ready.then(()=>{
 	var input = document.getElementsByClassName('chat-input')[0];
 	var form = document.getElementsByClassName('chat')[0];
-	form.addEventListener('submit',()=>{
-		socket.send(input.value);
+	form.addEventListener('submit',(event)=>{
+		event.preventDefault();
 		var message = document.createElement('li');
 		message.innerText=input.value;
 		document.getElementById('messages').append(message)
+		socket.send(input.value);
 		input.value='';
-		event.preventDefault();
-		return false
 	});
 	socket.addEventListener('message',(msg)=>{
 		var message = document.createElement('li');

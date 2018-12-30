@@ -25,6 +25,7 @@ class ETagger {
 			.on('change',this.update.bind(this))
 			.on('unlink',file=>{
 			file = file.slice(this.path.length-2).toLowerCase().replace(/\\/g,'/')
+			console.log(`${file} deleted`);
 			delete state[file]
 			this.save();
 		});
@@ -47,6 +48,7 @@ class ETagger {
 
 	update(file) {
 		file = file.slice(this.path.length-2).toLowerCase().replace(/\\/g,'/');
+		if(this.ready) console.log(`${file} updated`);
 		this.files.push(file);
 		this.hashFile(`./public/static${file}`).then((hash)=>{
 			if(state[file]&&state[file][0]===hash) return;
@@ -67,6 +69,7 @@ class ETagger {
 	}
 
 	getETag(file) {
+		file = file.toLowerCase().replace(/\\/g,'/');
 		if(this.ignored.exec(file)) return;
 		if(!state[file]) {
 			console.log('No ETag for ',file);

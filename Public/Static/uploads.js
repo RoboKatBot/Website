@@ -1,19 +1,18 @@
-document.addEventListener('DOMContentLoaded',()=>{
-var input = document.getElementById('upload-input');
+"use strict"
 
-document.getElementById('upload-button').addEventListener('click',()=>{
-	input.click();
-});
+ready.then(()=>{
+	const input = document.getElementById('upload-input');
 
-input.addEventListener('change',()=>{
-	if(input.files.length>0){
-		var formData = new FormData();
-		for (var i = 0; i < files.length; i++) {
-      		formData.append('uploads[]', files[i], files[i].name);
-      	}
-	}
-});
+	document.getElementById('upload-button').addEventListener('click',()=>{
+		input.click();
+	});
 
-
+	input.addEventListener('change',async()=>{
+		for(let file of input.files){
+			console.log(file)
+			const req = new Request(`${location.origin}/upload/`,{method: 'POST', body:file.slice(0), headers:{ filename: file.name }});
+			fetch(req);
+		}
+	});
 
 },{once:true});
