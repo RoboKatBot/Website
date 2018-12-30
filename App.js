@@ -7,9 +7,12 @@ const ETagger = new (require('./other/ETagger.js'))('./public/static',/sw\.js$/)
 const Dependents = require('./dependents.json');
 const http2 = require('http2');
 const fs = require('fs');
-const options = {
+const pfx = {
 	cert: fs.readFileSync('/etc/letsencrypt/live/lkao.science/fullchain.pem'),
 	key: fs.readFileSync('/etc/letsencrypt/live/lkao.science/privkey.pem'),
+};
+const options = {
+	...pfx,
 	allowHTTP1:true,
 	settings:{
 		// enableConnectProtocol: true,
@@ -199,7 +202,7 @@ require('http').createServer(redirect).listen(80);
 //Http 2 doesn't work on port 443 for some reason? Probably my modem
 //Redirect it to port 8000
 
-require('https').createServer({pfx},redirect).listen(443);
+require('https').createServer(pfx,redirect).listen(443);
 
 
 // process.on('unhandledRejection',()=>{
