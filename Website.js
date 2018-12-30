@@ -8,8 +8,8 @@ const Dependents = require('./Dependents.json');
 const http2 = require('http2');
 const fs = require('fs');
 const options = {
-	key: fs.readFileSync('/etc/letsencrypt/live/lkao.science/fullchain.pem'),
-	cert: fs.readFileSync('/etc/letsencrypt/live/lkao.science/privkey.pem'),
+	cert: fs.readFileSync('/etc/letsencrypt/live/lkao.science/fullchain.pem'),
+	key: fs.readFileSync('/etc/letsencrypt/live/lkao.science/privkey.pem'),
 	allowHTTP1:true,
 	settings:{
 		// enableConnectProtocol: true,
