@@ -4,6 +4,7 @@
   "description": "Website \"# Website\"",
   "main": "Website.js",
   "dependencies": {
+    "chokidar": "^2.0.4",
     "ws": "^6.1.2"
   },
   "devDependencies": {},
