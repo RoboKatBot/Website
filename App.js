@@ -36,7 +36,7 @@ fs.promises.readdir('./public/generators').then(fileList=>{
 
 
 
-////////////////////////Routing/////////////////
+////////////////////////Routing////////////////
 
 const router2 = require('./router/NN.js');
 
