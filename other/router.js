@@ -24,7 +24,7 @@ router.route = function(route,methods,handler) {
 
 function routerFact() {
 	function app(stream,req) {
-		req[':path'] = decodeURI(req[':path']).toLowerCase();	
+		req[':path'] = decodeURI(req[':path']);	
 		// console.log(req[':path'],req[':method'])
 		return app.handle(stream,req)
 	}
