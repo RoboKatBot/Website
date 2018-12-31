@@ -3,8 +3,8 @@ const fs = require('fs');
 class Data {
 	constructor() {
 		var testdata = false;
-		this.LabelFile = fs.openSync("./Neural Network/TrainingData/" + (testdata?"t10k-labels.idx1-ubyte":"train-labels.idx1-ubyte"),'r');
-		this.ImageFile = fs.openSync("./Neural Network/TrainingData/" + (testdata?"t10k-images.idx3-ubyte":"train-images.idx3-ubyte"),'r');
+		this.LabelFile = fs.openSync("./neural network/trainingdata/" + (testdata?"t10k-labels.idx1-ubyte":"train-labels.idx1-ubyte"),'r');
+		this.ImageFile = fs.openSync("./neural network/trainingdata/" + (testdata?"t10k-images.idx3-ubyte":"train-images.idx3-ubyte"),'r');
 		this.length = testdata?5000:60000;
 		this.x = 28;
 		this.y = 28;
