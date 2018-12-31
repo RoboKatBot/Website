@@ -1,6 +1,6 @@
-const Data 			= require("../Neural Network/other/ReadData");
+const Data 			= require("../neural network/other/readdata");
 const router 		= require('../other/router.js')();
-const Dependents 	= require('../Dependents.json');
+const Dependents 	= require('../dependents.json');
 router.baseRouter;
 
 router.route(/\/home\.html$/,'GET',(stream,req,next)=>{
