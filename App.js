@@ -41,9 +41,9 @@ fs.promises.readdir('./public/generators').then(fileList=>{
 
 ////////////////////////Routing////////////////
 
-// const router2 = require('./router/NN.js');
+const router2 = require('./router/NN.js');
 
-// router.use(/^\/neural network/,router2);
+router.use(/^\/neural network/,router2);
 
 
 
