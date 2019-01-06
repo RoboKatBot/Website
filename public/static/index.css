@@ -87,3 +87,9 @@
 .A2HS-Button p {
 	cursor: pointer;
 }
+
+.offline {
+	display:none;
+	position: fixed;
+	background-color: #000022;
+}

@@ -60,7 +60,7 @@ router.route(/debug/,'GET',(stream,req)=>{
 
 ////////////////////////////////////////////////Static File Handler/////////////////////////////////////
 
-router.route(/^(\/(?:.(?!\.\.))+)\.(css|mjs|js|png|wasm|pdf|html|json|mp4)$|\/$/,'GET',(stream,req,next)=>{
+router.route(/^(\/(?:.(?!\.\.))+)\.(css|mjs|js|png|wasm|pdf|html|json|mp4|mp3)$|\/$/,'GET',(stream,req,next)=>{
 	if (req[':path']==='/') {req[':path']='/home.html'; req.params = ['/home','html'];}
 
 	const cached = ETagger.checkCached(req['cache-digest']);
