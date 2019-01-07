@@ -67,6 +67,7 @@ router.route(/^(\/(?:.(?!\.\.))+)\.(css|mjs|js|png|wasm|pdf|html|json|mp4|mp3)$|
 	var dependents = Dependents[req[':path']] || [];
 
 	var headers = {
+		'Last-Modified':'Wed, 21 Oct 2015 07:28:00 GMT',
 		'Content-Type': ({css:'text/css',js:'application/javascript',mjs:'application/javascript',png:'image/png',wasm:'application/wasm',pdf:'application/pdf',html:'text/html',json:'application/json',mp4:'video/mp4'})[req.params[1]],
 		'Strict-Transport-Security':'max-age=31536000; includeSubDomains',
 		':status':req.params[0]==='/404' ? 404 : 200, 
