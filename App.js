@@ -198,12 +198,12 @@ function redirect(req,res) {
 	res.end();
 }
 
-require('http').createServer(redirect).listen(80);
+require('http').createServer(redirect).listen(8080);
 
 //Http 2 doesn't work on port 443 for some reason? Probably my modem
 //Redirect it to port 8000
 
-require('https').createServer(pfx,redirect).listen(443);
+require('https').createServer(pfx,redirect).listen(8443);
 
 
 // process.on('unhandledRejection',()=>{
