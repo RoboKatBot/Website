@@ -6,3 +6,8 @@
 	width: -webkit-fill-available;
 	transition: opacity 0.5s ease-in-out;
 }
+
+.super h1 {
+	color: #19191a;
+	text-shadow: 1px 1.2px #550cca;
+}

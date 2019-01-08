@@ -7,9 +7,10 @@ const ETagger = new (require('./other/ETagger.js'))('./public/static',/sw\.js$/)
 const Dependents = require('./dependents.json');
 const http2 = require('http2');
 const fs = require('fs');
+const keyPath = os.arch() === 'x64' ? 'C:/Users/Lachlan/Desktop/Certificate/' : '/etc/letsencrypt/live/lkao.science/';
 const pfx = {
-	cert: fs.readFileSync('/etc/letsencrypt/live/lkao.science/fullchain.pem'),
-	key: fs.readFileSync('/etc/letsencrypt/live/lkao.science/privkey.pem'),
+	cert: fs.readFileSync(keyPath + 'fullchain.pem'),
+	key: fs.readFileSync(keyPath + 'privkey.pem'),
 };
 const options = {
 	...pfx,
@@ -67,11 +68,10 @@ router.route(/^(\/(?:.(?!\.\.))+)\.(css|mjs|js|png|wasm|pdf|html|json|mp4|mp3)$|
 	var dependents = Dependents[req[':path']] || [];
 
 	var headers = {
-		'Last-Modified':'Wed, 21 Oct 2015 07:28:00 GMT',
 		'Content-Type': ({css:'text/css',js:'application/javascript',mjs:'application/javascript',png:'image/png',wasm:'application/wasm',pdf:'application/pdf',html:'text/html',json:'application/json',mp4:'video/mp4'})[req.params[1]],
 		'Strict-Transport-Security':'max-age=31536000; includeSubDomains',
 		':status':req.params[0]==='/404' ? 404 : 200, 
-		...(req['sw']==='true' && {'ETag':ETagger.getETag(req[':path'])})
+		//...(req['sw']==='true' && {'ETag':ETagger.getETag(req[':path'])})
 	}
 
 

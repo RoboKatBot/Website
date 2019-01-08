@@ -47,6 +47,7 @@
 	font-size: 51px;
 	text-align: center;
 	letter-spacing: 6px;
+	font-weight: 300;
 }
 
 #nav-menu-bar-subtitle {
@@ -70,12 +71,14 @@
 	z-index: -9002;
 	display: inline-block;
 	position: absolute;
+	/* left: 79px; */
 	right: 0px;
-	top: 0px;
+	top: var(--offline-top);
 	height: 100%;
 	bottom: 0px;
 	width: 84%;
 	max-width: calc(100% - 200px);
+	transition: top 0.4s;
 }
 
 .A2HS-button {
@@ -89,7 +92,37 @@
 }
 
 .offline {
-	display:none;
 	position: fixed;
-	background-color: #000022;
+	background-color: #2e6da3;
+	right: 0px;
+	top: calc(var(--offline-top) - 35px);
+	width: 84%;
+	max-width: calc(100% - 200px);
+	transition: top 0.4s;
+	height: 35px;
+}
+
+.offline h3, .offline h4 {
+	position: relative;
+	top: -3px;
+	left: 1px;
+	transform: translateY(-50%);
+	color: #0b2a06;
+	text-shadow: 1px 1px #825972;
+}
+
+.offline div {
+	position:absolute;
+	right: 40px;
+	top:10px;
+	cursor: pointer;
+}
+
+.offline div * {
+	display:inline;
+}
+
+
+body {
+	--offline-top: 0px;
 }

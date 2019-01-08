@@ -50,7 +50,13 @@ ready.then(_=>{
 				);
 		});
 	});*/
-
+	{
+		const div = document.querySelector('.offline div');
+		div.addEventListener('click',e=>{
+			document.body.style.setProperty('--offline-top',CSS.px(0));
+		})
+	}
+	
 	
 	//Service Worker
 
