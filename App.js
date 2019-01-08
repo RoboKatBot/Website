@@ -189,7 +189,7 @@ router.route(/.*/,'all',(stream,req)=>{
 // QueryData = JSON.parse(`{${data.toString().replace(/(\w+)=(\w+)(&?)/g,(_,p1,p2,p3)=>`"${p1}":"${p2}"${p3&&','}`)}}`); 
 // Query string parser
 
-server.listen(8443);
+server.listen(8000);
 
 
 //Redirect http traffic to https
@@ -198,12 +198,12 @@ function redirect(req,res) {
 	res.end();
 }
 
-require('http').createServer(redirect).listen(8080);
+require('http').createServer(redirect).listen(80);
 
 //Http 2 doesn't work on port 443 for some reason? Probably my modem
 //Redirect it to port 8000
 
-// require('https').createServer(pfx,redirect).listen(443);
+require('https').createServer(pfx,redirect).listen(443);
 
 
 // process.on('unhandledRejection',()=>{
