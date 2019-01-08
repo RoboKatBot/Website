@@ -7,7 +7,7 @@ const ETagger = new (require('./other/ETagger.js'))('./public/static',/sw\.js$/)
 const Dependents = require('./dependents.json');
 const http2 = require('http2');
 const fs = require('fs');
-const keyPath = require('os').arch() === 'x64' ? 'C:/Users/Lachlan/Desktop/Certificate/' : '/etc/letsencrypt/live/lkao.science/';
+const keyPath = require('os').arch() === 'x64' ? 'C:/Users/Lachlan/Documents/Certificate/' : '/etc/letsencrypt/live/lkao.science/';
 const pfx = {
 	cert: fs.readFileSync(keyPath + 'fullchain.pem'),
 	key: fs.readFileSync(keyPath + 'privkey.pem'),
@@ -189,7 +189,7 @@ router.route(/.*/,'all',(stream,req)=>{
 // QueryData = JSON.parse(`{${data.toString().replace(/(\w+)=(\w+)(&?)/g,(_,p1,p2,p3)=>`"${p1}":"${p2}"${p3&&','}`)}}`); 
 // Query string parser
 
-server.listen(443);
+server.listen(8443);
 
 
 //Redirect http traffic to https
@@ -198,7 +198,7 @@ function redirect(req,res) {
 	res.end();
 }
 
-require('http').createServer(redirect).listen(80);
+require('http').createServer(redirect).listen(8080);
 
 //Http 2 doesn't work on port 443 for some reason? Probably my modem
 //Redirect it to port 8000
