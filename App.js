@@ -7,7 +7,7 @@ const ETagger = new (require('./other/ETagger.js'))('./public/static',/sw\.js$/)
 const Dependents = require('./dependents.json');
 const http2 = require('http2');
 const fs = require('fs');
-const keyPath = os.arch() === 'x64' ? 'C:/Users/Lachlan/Desktop/Certificate/' : '/etc/letsencrypt/live/lkao.science/';
+const keyPath = require('os').arch() === 'x64' ? 'C:/Users/Lachlan/Desktop/Certificate/' : '/etc/letsencrypt/live/lkao.science/';
 const pfx = {
 	cert: fs.readFileSync(keyPath + 'fullchain.pem'),
 	key: fs.readFileSync(keyPath + 'privkey.pem'),
