@@ -47,7 +47,6 @@
 	font-size: 51px;
 	text-align: center;
 	letter-spacing: 6px;
-	font-weight: 300;
 }
 
 #nav-menu-bar-subtitle {
@@ -62,8 +61,8 @@
 	width: 12px;
 	height: 6px;
 	right: 15px;
-    top: 14px;
-    position: absolute;
+	top: 14px;
+	position: absolute;
 }
 
 .super {

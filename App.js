@@ -71,7 +71,7 @@ router.route(/^(\/(?:.(?!\.\.))+)\.(css|mjs|js|png|wasm|pdf|html|json|mp4|mp3)$|
 		'Content-Type': ({css:'text/css',js:'application/javascript',mjs:'application/javascript',png:'image/png',wasm:'application/wasm',pdf:'application/pdf',html:'text/html',json:'application/json',mp4:'video/mp4'})[req.params[1]],
 		'Strict-Transport-Security':'max-age=31536000; includeSubDomains',
 		':status':req.params[0]==='/404' ? 404 : 200, 
-		//...(req['sw']==='true' && {'ETag':ETagger.getETag(req[':path'])})
+		...(req['sw']==='true' && {'ETag':ETagger.getETag(req[':path'])})
 	}
 
 
