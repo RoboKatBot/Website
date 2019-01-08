@@ -38,7 +38,7 @@ self.onfetch = event => {
 	// if(!event.clientId) return; //Ignore cross origin requests
 	event.waitUntil((async ()=>{
 		if(event.request.method!=='GET') return;
-		if (!/html$|^8000\/$/.exec(event.request.url)||event.request.headers.get('Transclude-Free')) 
+		if (!/html$|8000\/$/.exec(event.request.url)||event.request.headers.get('Transclude-Free')) 
 			event.respondWith(getFile(event.request.url,event));
 		else {
 			const bodyStream = new TransformStream();
