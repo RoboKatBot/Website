@@ -136,12 +136,12 @@ router.route(/^(\/(?:.(?!\.\.))+)\.html$/,'GET',(stream,req,next)=>{ //  	/(?:.(
 			router(stream,{...req,':path':'/404.html'});
 			return Promise.reject();
 		})
-		.then(_=>console.log('streamend')||stream.end()).catch(_=>0);
+		.then(_=>stream.end()).catch(_=>0);
 	return;
 
 	function transclude(s) {
 		return new Promise((res,rej)=>{
-			const RS = s instanceof stream ? s : fs.createReadStream(s);
+			const RS = s.pipe ? s : fs.existsSync(s) ? fs.createReadStream(s) : rej();
 			RS.pipe(stream,{end:false})
 			RS.on('end',res);
 		});
