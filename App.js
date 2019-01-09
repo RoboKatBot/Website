@@ -120,7 +120,6 @@ router.route(/^(\/(?:.(?!\.\.))+)\.(css|mjs|js|png|wasm|pdf|html|json|mp4|mp3)$|
 });
 
 
-
 //////////////////////Transclude html for non service worker html requests////////////////////////////////
 
 router.route(/^(\/(?:.(?!\.\.))+)\.html$/,'GET',(stream,req,next)=>{ //  	/(?:.(?!\.\.))+/ Will not match any url with ../ or ..\\x
