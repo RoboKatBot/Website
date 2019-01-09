@@ -19,7 +19,7 @@ var pageSize = 15;
 module.exports = (pageNumber)=>{
 	let PT = PassThrough();
 	PT.write(header);
-	const content = fs.readdir(`./public/static/uploaded`).then(fileArray=>{
+	const content = fs.readdir(`./public/uploaded`).then(fileArray=>{
 		return fileArray.slice(pageSize*pageNumber,pageSize*(pageNumber+1)).map(file=>{
 			if(/^(.*)\.(image|png|bmp|jpeg|gif)$/.exec(file)) {
 				return `<li><img src="/uploaded/${file}"></li>`

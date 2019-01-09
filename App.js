@@ -128,7 +128,6 @@ router.route(/^(\/(?:.(?!\.\.))+)\.html$/,'GET',(stream,req,next)=>{ //  	/(?:.(
 	transclude('./public/static/index.html')
 		.then(_=>transclude(`./public/static${req[':path']}`))
 		.catch(e=>{
-			console.log('transcluding uploaded.html');
 			if(generators[req.params[0]]) {
 				return transclude(generators[req.params[0]](0));
 			}
@@ -169,7 +168,7 @@ server.on('upgrade',(incomingMessage,socket,head)=>{
 
 router.route(/^\/upload\/$/,'POST',(stream,req)=>{
 	console.log(`file: ${req.filename} uploaded`);
-	fw = fs.createWriteStream(`./public/static/uploaded/${req['filename']}`);
+	fw = fs.createWriteStream(`./public/uploaded/${req['filename']}`);
 	stream.pipe(fw);
 });
 
