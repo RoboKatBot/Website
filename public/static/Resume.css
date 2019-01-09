@@ -1,3 +1,39 @@
 .super {
-	background-image: repeating-radial-gradient(#bbffff 13%,#b9F2F7 14%);
+	background-image: none;
+	background-color: cornsilk;
+	height: 5000px;
+}
+
+.super::after {
+  content: "";
+  background: url(/icon512.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #545454;
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.details {
+	float: right;
+	margin-right: 10px;
+	position: sticky;
+	top: 10px;
+}
+
+.details thead {
+	background-color: aqua;
+}
+
+.segment {
+	float:left;
+}
+
+h2 {
+	border-bottom: 1px solid black;
 }

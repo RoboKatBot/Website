@@ -127,19 +127,20 @@ router.route(/^(\/(?:.(?!\.\.))+)\.html$/,'GET',(stream,req,next)=>{ //  	/(?:.(
 
 	transclude('./public/static/index.html')
 		.then(_=>transclude(`./public/static${req[':path']}`))
-		.then(()=>stream.end())
 		.catch(e=>{
 			if(generators[req.params[0]]) {
-				return generators[req.params[0]](0).pipe(stream);
+				return transclude(generators[req.params[0]](0));
 			}
 			console.log(`File: ${req[':path']} requested, and was not found.`);
-			return router(stream,{...req,':path':'/404.html'});
-		});
+			router(stream,{...req,':path':'/404.html'});
+			return Promise.reject();
+		})
+		.then(_=>stream.end()).catch(_=>0);
 	return;
 
-	function transclude(file) {
+	function transclude(s) {
 		return new Promise((res,rej)=>{
-			const RS = fs.createReadStream(file);
+			const RS = s instanceof stream ? s : fs.createReadStream(s);
 			RS.pipe(stream,{end:false})
 			RS.on('end',res);
 		});
