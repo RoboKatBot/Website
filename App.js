@@ -136,7 +136,7 @@ router.route(/^(\/(?:.(?!\.\.))+)\.html$/,'GET',(stream,req,next)=>{ //  	/(?:.(
 			router(stream,{...req,':path':'/404.html'});
 			return Promise.reject();
 		})
-		.then(_=>stream.end()).catch(_=>0);
+		.then(_=>console.log('streamend')||stream.end()).catch(_=>0);
 	return;
 
 	function transclude(s) {
