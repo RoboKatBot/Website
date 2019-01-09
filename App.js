@@ -61,6 +61,11 @@ router.route(/debug/,'GET',(stream,req)=>{
 
 ////////////////////////////////////////////////Static File Handler/////////////////////////////////////
 
+router.route(/^uploaded\//,'GET',(stream,req,next)=>{
+	req.dir = './uploaded/'
+	next();
+});
+
 router.route(/^(\/(?:.(?!\.\.))+)\.(css|mjs|js|png|wasm|pdf|html|json|mp4|mp3)$|\/$/,'GET',(stream,req,next)=>{
 	if (req[':path']==='/') {req[':path']='/home.html'; req.params = ['/home','html'];}
 
@@ -82,7 +87,7 @@ router.route(/^(\/(?:.(?!\.\.))+)\.(css|mjs|js|png|wasm|pdf|html|json|mp4|mp3)$|
 			console.log('no service worker, passing at', req[':path'])
 			next();
 		} else {
-			stream.respondWithFile(`./public/static${req[':path']}`,headers,{onError:(err)=>{
+			stream.respondWithFile(`${req.dir||'./public/static'}${req[':path']}`,headers,{onError:(err)=>{
 				if(err.code==='ENOENT') {
 					if(generators[req.params[0]]) {
 						stream.respond(headers);
