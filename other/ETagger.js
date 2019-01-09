@@ -25,7 +25,8 @@ class ETagger {
 			.on('change',this.update.bind(this))
 			.on('unlink',file=>{
 			file = file.slice(this.path.length-2).replace(/\\/g,'/')
-			console.log(`${file} deleted`);
+			console.log(`${file} deleted`)
+			.on('error', error => console.error(`Watcher error: ${error}`));
 			delete state[file]
 			this.save();
 		});
