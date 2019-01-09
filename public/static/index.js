@@ -14,8 +14,6 @@ const ready = new Promise((res)=>{
 })
 
 
-
-
 ready.then(_=>{
 	function toggleHidden() {
 		if(this.classList.contains("-hidden")) {

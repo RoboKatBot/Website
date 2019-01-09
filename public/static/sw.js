@@ -60,9 +60,7 @@ self.onfetch = event => {
 				await (await resPromises[i]).body.pipeTo(bodyStream.writable, { preventClose: i-resPromises.length+1 });
 			}
 		}
-
 	})())
-	
 }
 
 async function getFile(url,event) {

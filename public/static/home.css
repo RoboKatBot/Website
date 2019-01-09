@@ -1,3 +1,8 @@
+.super {
+	height: 3000px;
+}
+
+
 .super-bg {
 	position: absolute;
 	z-index: -9001;
@@ -8,6 +13,8 @@
 }
 
 .super h1 {
-	color: #19191a;
-	text-shadow: 1px 1.2px #550cca;
+	
+color: #19191a;
+	
+text-shadow: 1px 1.2px #550cca;
 }
