@@ -20,7 +20,7 @@ class ETagger {
 		this.path = path;
 		this.files = [];
 		this.ignored = ignored;
-		var watcher = chokidar.watch(path,{persistent:false,ignored});
+		var watcher = chokidar.watch(path,{persistent:false,ignored,usePolling: true}); //Polling used to avoid bug linked to sftp syncing
 		watcher.on('add',this.update.bind(this))
 			.on('change',this.update.bind(this))
 			.on('unlink',file=>{
