@@ -23,11 +23,11 @@ class ETagger {
 		var watcher = chokidar.watch(path,{persistent:false,ignored,usePolling: true}); //Polling used to avoid bug linked to sftp syncing
 		watcher.on('add',this.update.bind(this))
 			.on('change',this.update.bind(this))
+			.on('error', error => console.error(`Watcher error: ${error}`))
 			.on('unlink',file=>{
 			file = file.slice(this.path.length-2).replace(/\\/g,'/')
-			console.log(`${file} deleted`)
-			.on('error', error => console.error(`Watcher error: ${error}`));
-			delete state[file]
+			console.log(`${file} deleted`);
+			delete state[file];
 			this.save();
 		});
 

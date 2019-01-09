@@ -61,8 +61,8 @@ router.route(/debug/,'GET',(stream,req)=>{
 
 ////////////////////////////////////////////////Static File Handler/////////////////////////////////////
 
-router.route(/^uploaded\//,'GET',(stream,req,next)=>{
-	req.dir = './public/uploaded/'
+router.route(/^\/uploaded\//,'GET',(stream,req,next)=>{
+	req.dir = './public'
 	next();
 });
 
@@ -95,8 +95,12 @@ router.route(/^(\/(?:.(?!\.\.))+)\.(css|mjs|js|png|wasm|pdf|html|json|mp4|mp3)$|
 					}
 					else {
 						console.log(`File: ${req[':path']} requested, and was not found.`);
-						router(stream,{...req,':path':'/404.html'});
-						dependents = Dependents['/404.html'];
+						if (req.params[1]==='html') {
+							router(stream,{...req,':path':'/404.html'});
+						}
+						else {
+							router(stream,{...req,':path':'/404'});
+						}
 					}
 				}
 				else {
