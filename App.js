@@ -62,7 +62,7 @@ router.route(/debug/,'GET',(stream,req)=>{
 ////////////////////////////////////////////////Static File Handler/////////////////////////////////////
 
 router.route(/^uploaded\//,'GET',(stream,req,next)=>{
-	req.dir = './uploaded/'
+	req.dir = './public/uploaded/'
 	next();
 });
 
