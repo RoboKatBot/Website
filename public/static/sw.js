@@ -48,11 +48,10 @@ self.onfetch = event => {
 			}));
 
 			const resPromises = [
-				getFile('https://lkao.science:8000/index.html',event),
-				getFile(event.request.url,event).then(res=>{
-					if(!res) return getFile('https://lkao.science:8000/offline.html',event);
-					if(res.status===404) return getFile('https://lkao.science:8000/404.html',event);
-					return res;
+				getFile(location.origin + '/index.html',event),
+				getFile(event.request.url,event).catch(e=>{
+					if(e==='OfflineNoCached')
+						return getFile(location.origin + '/offline.html');
 				})
 			];
 
@@ -70,20 +69,18 @@ async function getFile(url,event) {
 	const cache = await caches.open(CACHE_NAME);
 	const file = await cache.match(url);
 	if (file) {
+		const client = self.clients.get(event.clientId);
 		// console.log('using cached file: ',file.url,file.headers.get('etag'))
 		event.waitUntil(fetcher.then(async (res)=>{
 			if (!res) {
-				//offline
-				return
+				await client.then(c=>c&&c.postMessage({msg:'OfflineCached'}));
+				return;
 			}
 			if (res.status!==304) { //Fresher version of file available
 				console.log(url, ' changed, updating cache ', res.headers.get('etag'));
 				await cache.put(url,res);
-				cacheDigest = digest();
-				const client = await self.clients.get(event.clientId);
-				if(client) client.postMessage({msg:'Refresh Required'});
-
-				await cacheDigest;
+				await client.then(c=>c&&c.postMessage({msg:'Refresh Required'}));
+				await cacheDigest = digest();
 			}
 		}));
 		return(file);
@@ -93,7 +90,8 @@ async function getFile(url,event) {
 
 	var res = await fetcher;
 	if (!res) {
-		return console.log('No Connection')
+		throw 'OfflineNoCached';
+		return console.log('No Connection') //Can't Retrieve file and no version cached.
 	}
 
 	if(res.status === 200 && res.type === 'basic' && res.headers.get('ETAG')) {
