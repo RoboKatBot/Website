@@ -128,6 +128,7 @@ router.route(/^(\/(?:.(?!\.\.))+)\.html$/,'GET',(stream,req,next)=>{ //  	/(?:.(
 	transclude('./public/static/index.html')
 		.then(_=>transclude(`./public/static${req[':path']}`))
 		.catch(e=>{
+			console.log('transcluding uploaded.html');
 			if(generators[req.params[0]]) {
 				return transclude(generators[req.params[0]](0));
 			}
