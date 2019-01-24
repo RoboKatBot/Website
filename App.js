@@ -21,7 +21,7 @@ const options = {
 	}
 };
 const server = http2.createSecureServer(options);
-server.on('listening',()=>{console.log('Server Started Test')});
+server.on('listening',()=>{console.log('Server Started')});
 server.on('stream', router);
 server.on('error', (err) => console.error(err));
 server.on('session',()=>{});
@@ -69,7 +69,7 @@ router.route(/^\/uploaded\//,'GET',(stream,req,next)=>{
 router.route(/^(\/(?:.(?!\.\.))+)\.(css|mjs|js|png|wasm|pdf|html|json|mp4|mp3)$|\/$/,'GET',(stream,req,next)=>{
 	if (req[':path']==='/') {req[':path']='/home.html'; req.params = ['/home','html'];}
 
-	console.log('SW: ' + req['Service-Worker-Navigation-Preload']);
+	console.log('SW: ' + req);
 
 	const cached = ETagger.checkCached(req['cache-digest']);
 	var dependents = Dependents[req[':path']] || [];
