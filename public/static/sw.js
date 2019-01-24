@@ -7,13 +7,13 @@ var cacheDigest = digest();
 addEventListener('activate',(event)=>{
 	event.waitUntil(
 		caches.open(CACHE_NAME).then(async (cache)=>{
-			await clients.claim()
+			// await clients.claim()
 			var keys = await cache.keys()
 			console.log('Service worker activated, cache currently contains: ',keys);
 			await Promise.all(keys.map(req=>{  
 				return getFile(req.url,event);
 			}));
-		})
+		}).catch(console.error)
 	);
 });
 
@@ -29,9 +29,10 @@ addEventListener('install',(event)=>{
 					'/index.css',
 					'/offline.html',
 					'/offline.css',
-			].map(k=>getFile(k,event)))
+			].map(k=>getFile(k,event).catch(console.error)))
 		)	.then(_=>self.registration.navigationPreload.enable())
-			.then(_=>self.skipWaiting())
+			// .then(_=>self.skipWaiting())
+			.catch(console.error)
 	);
 });
 
@@ -120,7 +121,11 @@ async function getFile(url,event) {
 
 
 async function digest() {
-	return caches.open(CACHE_NAME).then(async cache=>{
+	const digest = caches.open(CACHE_NAME).then(async cache=>{
 		return btoa((await cache.matchAll()).map(k=>k.headers.get('etag')));
 	})
+	digest.then(d=>
+		registration.navigationPreload.setHeaderValue(d)
+	);
+	return digest;
 }

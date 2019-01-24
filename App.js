@@ -71,21 +71,20 @@ router.route(/^(\/(?:.(?!\.\.))+)\.(css|mjs|js|png|wasm|pdf|html|json|mp4|mp3)$|
 
 	req.params[1] ==='html' && console.log(req);
 
-	const cached = ETagger.checkCached(req['cache-digest']);
-	var dependents = Dependents[req[':path']] || [];
+	const cached = ETagger.checkCached(req['service-worker-navigation-preload'] || req['service-worker']);
 
 	var headers = {
 		'Content-Type': ({css:'text/css',js:'application/javascript',mjs:'application/javascript',png:'image/png',wasm:'application/wasm',pdf:'application/pdf',html:'text/html',json:'application/json',mp4:'video/mp4'})[req.params[1]],
 		'Strict-Transport-Security':'max-age=31536000; includeSubDomains',
 		':status':req.params[0]==='/404' ? 404 : 200, 
-		...(req['sw']==='true' && {'ETag':ETagger.getETag(req[':path'])})
+		...(cached.length && {'ETag':ETagger.getETag(req[':path'])})
 	}
 
 
 
 	if (!cached.includes(req[':path'])) {
 		if (req.params[1]==='html'||req.params[1]==='css') stream.priority({weight:50,silent:true}); //prioritise html & css to give faster draw times
-		if (req.params[1]==='html'&&req.sw !== 'true'&&req[':path']!=='/index.html') {
+		if (req.params[1]==='html'&&!cached.length&&req[':path']!=='/index.html') {
 			console.log('no service worker, passing at', req[':path'])
 			next();
 		} else {
@@ -116,7 +115,7 @@ router.route(/^(\/(?:.(?!\.\.))+)\.(css|mjs|js|png|wasm|pdf|html|json|mp4|mp3)$|
 		stream.respond(headers);
 	}
 
-	if(stream.session.pushAllowed) dependents.forEach(k=>{	//If there are dependents associated with the file, push them
+	if(stream.session.pushAllowed) (Dependents[req[':path']] || []).forEach(k=>{	//If there are dependents associated with the file, push them
 		stream.session.pushStream({':path':`${k}`,'cache-digest':req['cache-digest']},{parent:stream.id},router.push);
 	});
 });
