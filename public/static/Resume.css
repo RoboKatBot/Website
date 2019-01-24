@@ -31,9 +31,18 @@
 }
 
 .segment {
-	float:left;
+
+}
+
+.content {
+	width: fit-content;
+	margin-left: 10px;
 }
 
 h2 {
-	border-bottom: 1px solid black;
+	border-bottom: 3px double #591111;
+}
+
+p, li {
+	font-size: 20px;
 }

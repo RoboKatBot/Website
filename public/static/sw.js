@@ -22,14 +22,16 @@ addEventListener('activate',(event)=>{
 addEventListener('install',(event)=>{
 	event.waitUntil(
 	caches.open(CACHE_NAME)
-		.then(function(cache) {
-			return Promise.all([
+		.then(cache=>
+			Promise.all([
 					'/index.html',
 					'/index.js',
 					'/index.css',
 					'/offline.html',
-			].map(k=>getFile(k,event)));
-		}).then(self.skipWaiting)
+					'/offline.css',
+			].map(k=>getFile(k,event)))
+		)	.then(_=>self.registration.navigationPreload.enable())
+			.then(_=>self.skipWaiting())
 	);
 });
 
@@ -37,6 +39,8 @@ addEventListener('install',(event)=>{
 self.onfetch = event => {
 	// if(!event.clientId) return; //Ignore cross origin requests
 	event.waitUntil((async ()=>{
+
+
 		if(event.request.method!=='GET') return;
 		if (!/html$|8000\/$/.exec(event.request.url)||event.request.headers.get('Transclude-Free')) 
 			event.respondWith(getFile(event.request.url,event));
@@ -48,10 +52,10 @@ self.onfetch = event => {
 			}));
 
 			const resPromises = [
-				getFile(location.origin + '/index.html',event),
+				getFile('/index.html',event),
 				getFile(event.request.url,event).catch(e=>{
 					if(e==='OfflineNoCached')
-						return getFile(location.origin + '/offline.html');
+						return getFile('/offline.html',event);
 				})
 			];
 
@@ -63,9 +67,9 @@ self.onfetch = event => {
 }
 
 async function getFile(url,event) {
-	var fetcher = cacheDigest.then((CD)=>
+	var fetcher = Promise.resolve(event.preloadResponse).then(r=>r||cacheDigest.then((CD)=>
 		fetch(url, {cache:"no-store", credentials:'include',headers:{"cache-digest":CD,sw:true}}).catch(e=>console.error('Failed to fetch ',url))
-	)
+	));
 	const cache = await caches.open(CACHE_NAME);
 	const file = await cache.match(url);
 	if (file) {
@@ -79,8 +83,9 @@ async function getFile(url,event) {
 			if (res.status!==304) { //Fresher version of file available
 				console.log(url, ' changed, updating cache ', res.headers.get('etag'));
 				await cache.put(url,res);
-				await client.then(c=>c&&c.postMessage({msg:'Refresh Required'}));
-				await cacheDigest = digest();
+				cacheDigest = digest();
+				await client.then(c=>c&&c.postMessage({msg:'RefreshRequired'}));
+				await cacheDigest;
 			}
 		}));
 		return(file);

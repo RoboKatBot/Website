@@ -69,7 +69,7 @@ router.route(/^\/uploaded\//,'GET',(stream,req,next)=>{
 router.route(/^(\/(?:.(?!\.\.))+)\.(css|mjs|js|png|wasm|pdf|html|json|mp4|mp3)$|\/$/,'GET',(stream,req,next)=>{
 	if (req[':path']==='/') {req[':path']='/home.html'; req.params = ['/home','html'];}
 
-	console.log(req['Service-Worker-Navigation-Preload']);
+	console.log('SW: ' + req['Service-Worker-Navigation-Preload']);
 
 	const cached = ETagger.checkCached(req['cache-digest']);
 	var dependents = Dependents[req[':path']] || [];

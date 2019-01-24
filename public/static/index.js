@@ -49,9 +49,8 @@ ready.then(_=>{
 		});
 	});*/
 	{
-		const div = document.querySelector('.offline div');
-		div.addEventListener('click',e=>{
-			document.body.style.setProperty('--offline-top',CSS.px(0));
+		document.querySelector('.dismiss-banner').addEventListener('click',e=>{
+			document.body.style.setProperty('--banner-top',CSS.px(0));
 		})
 	}
 	
@@ -67,9 +66,23 @@ ready.then(_=>{
 	
 
 	navigator.serviceWorker.addEventListener('message', ({data:{msg}}) => {
-		if(msg==="Refresh Required") {
-			// location.reload(); //Temporary  
-			console.log('Page refreshed');
+		console.log(`Message from service worker: ${msg}`);
+		switch(msg) {
+			case 'OfflineCached':
+				document.body.style.setProperty('--banner-top',CSS.px(35));
+				document.querySelector('.banner h3').innerText = 'Unable to connect to server, serving page from cache.';
+				break;
+			case 'RefreshRequired':
+				document.body.style.setProperty('--banner-top',CSS.px(35));
+				let div = document.querySelector('.banner h3');
+				div.innerText = 'A newer version of this page is avaliable, click here to refresh.';
+				div.style.cursor = 'pointer';
+				div.addEventListener('click',(e)=>{
+					location.reload();
+				},{once:true});
+				break;
+			default:
+				console.log('Uknown message',data);
 		}
 	});
 
