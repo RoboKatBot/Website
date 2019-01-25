@@ -70,23 +70,23 @@ router.route(/^(\/(?:.(?!\.\.))+)\.(css|mjs|js|png|wasm|pdf|html|json|mp4|mp3)$|
 	if (req[':path']==='/') {req[':path']='/home.html'; req.params = ['/home','html'];}
 
 	// req.params[1] ==='html' && console.log(req);
-
-	const cached = ETagger.checkCached(req['service-worker-navigation-preload'] || req['service-worker']);
-	console.log(req['service-worker-navigation-preload']?'SWNP' + req['service-worker-navigation-preload']:req['service-worker']?'SW':'None');
+	const cacheDigest = req['service-worker-navigation-preload'] || req['service-worker'];
+	const cached = ETagger.checkCached(cacheDigest);
+	console.log(req['service-worker-navigation-preload']?'SWNP: ' + req['service-worker-navigation-preload']:req['service-worker']?'SW':'None');
 	console.log(cached);
 
 	var headers = {
 		'Content-Type': ({css:'text/css',js:'application/javascript',mjs:'application/javascript',png:'image/png',wasm:'application/wasm',pdf:'application/pdf',html:'text/html',json:'application/json',mp4:'video/mp4'})[req.params[1]],
 		'Strict-Transport-Security':'max-age=31536000; includeSubDomains',
 		':status':req.params[0]==='/404' ? 404 : 200, 
-		...(cached.length && {'ETag':ETagger.getETag(req[':path'])})
+		...(cacheDigest && {'ETag':ETagger.getETag(req[':path'])})
 	}
 
 
 
 	if (!cached.includes(req[':path'])) {
 		if (req.params[1]==='html'||req.params[1]==='css') stream.priority({weight:50,silent:true}); //prioritise html & css to give faster draw times
-		if (req.params[1]==='html'&&!cached.length&&req[':path']!=='/index.html') {
+		if (req.params[1]==='html'&&!cachedDigest&&req[':path']!=='/index.html') {
 			console.log('no service worker, passing at', req[':path'])
 			next();
 		} else {
