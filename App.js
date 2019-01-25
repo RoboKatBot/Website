@@ -72,6 +72,7 @@ router.route(/^(\/(?:.(?!\.\.))+)\.(css|mjs|js|png|wasm|pdf|html|json|mp4|mp3)$|
 	// req.params[1] ==='html' && console.log(req);
 
 	const cached = ETagger.checkCached(req['service-worker-navigation-preload'] || req['service-worker']);
+	req['service-worker-navigation-preload'] && console.log('SWNP: ',req['service-worker-navigation-preload'])
 
 	var headers = {
 		'Content-Type': ({css:'text/css',js:'application/javascript',mjs:'application/javascript',png:'image/png',wasm:'application/wasm',pdf:'application/pdf',html:'text/html',json:'application/json',mp4:'video/mp4'})[req.params[1]],
