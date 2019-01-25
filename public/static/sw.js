@@ -29,17 +29,23 @@ addEventListener('install',(event)=>{
 					'/index.css',
 					'/offline.html',
 					'/offline.css',
-			].map(k=>getFile(k,event).catch(console.error)))
+			].map(k=>getFile(location.origin+k,event).catch(console.error)))
 		)	.then(_=>self.registration.navigationPreload.enable())
 			// .then(_=>self.skipWaiting())
 			.catch(console.error)
 	);
 });
 
+let q;
 
 self.onfetch = event => {
 	// if(!event.clientId) return; //Ignore cross origin requests
 	event.waitUntil((async ()=>{
+
+		if(/gl.?\.html/i.exec(event.request.url)) {
+			q = await event.preloadResponse;
+			debugger;
+		}
 
 
 		if(event.request.method!=='GET') return;
@@ -47,32 +53,32 @@ self.onfetch = event => {
 			event.respondWith(getFile(event.request.url,event));
 		else {
 			const bodyStream = new TransformStream();
-
-			event.respondWith(new Response(bodyStream.readable, {
-				headers: {'Content-Type': 'text/html'}
-			}));
-
+			
 			const resPromises = [
-				getFile('/index.html',event),
+				getFile(location.origin+'/index.html',event),
 				getFile(event.request.url,event).catch(e=>{
 					if(e==='OfflineNoCached')
-						return getFile('/offline.html',event);
+						return getFile(location.origin+'/offline.html',event);
 				})
 			];
 
 			for (let i=0;i<resPromises.length;i++) {
 				await (await resPromises[i]).body.pipeTo(bodyStream.writable, { preventClose: i-resPromises.length+1 });
 			}
+
+			event.respondWith(new Response(bodyStream.readable, {
+				headers: {'Content-Type': 'text/html'}
+			}));			
 		}
 	})())
 }
 
 async function getFile(url,event) {
-	var fetcher = Promise.resolve(event.preloadResponse).then(r=>r||cacheDigest.then((CD)=>
-		fetch(url, {cache:"no-store", credentials:'include',headers:{"cache-digest":CD,sw:true}}).catch(e=>console.error('Failed to fetch ',url))
+	var fetcher = Promise.resolve(event.preloadResponse).then(r=>0||cacheDigest.then((CD)=>
+		fetch(url, {cache:"no-store", credentials:'include',headers:{"service-worker":CD}}).catch(e=>console.error('Failed to fetch ',url))
 	));
 	const cache = await caches.open(CACHE_NAME);
-	const file = await cache.match(url);
+	const file = await cache.match(url); //preloadResponse body consumed if too long a wait
 	if (file) {
 		const client = self.clients.get(event.clientId);
 		// console.log('using cached file: ',file.url,file.headers.get('etag'))
@@ -126,6 +132,6 @@ async function digest() {
 	})
 	digest.then(d=>
 		registration.navigationPreload.setHeaderValue(d)
-	);
+	).catch(console.error);
 	return digest;
 }
