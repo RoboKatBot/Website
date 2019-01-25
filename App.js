@@ -86,7 +86,7 @@ router.route(/^(\/(?:.(?!\.\.))+)\.(css|mjs|js|png|wasm|pdf|html|json|mp4|mp3)$|
 
 	if (!cached.includes(req[':path'])) {
 		if (req.params[1]==='html'||req.params[1]==='css') stream.priority({weight:50,silent:true}); //prioritise html & css to give faster draw times
-		if (req.params[1]==='html'&&!cachedDigest&&req[':path']!=='/index.html') {
+		if (req.params[1]==='html'&&!cacheDigest&&req[':path']!=='/index.html') {
 			console.log('no service worker, passing at', req[':path'])
 			next();
 		} else {
