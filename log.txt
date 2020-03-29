@@ -1,0 +1,4569 @@
+[33m[nodemon] 1.18.9[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node App.js`[39m
+Server Started
+[32m[nodemon] restarting child process[39m
+[32m[nodemon] starting `node App.js`[39m
+Server Started
+[33m[nodemon] 1.18.9[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node App.js`[39m
+(node:6485) ExperimentalWarning: The fs.promises API is experimental
+{ Error: listen EADDRINUSE: address already in use :::8000
+    at Http2SecureServer.setupListenHandle [as _listen2] (net.js:1255:14)
+    at listenInCluster (net.js:1303:12)
+    at Http2SecureServer.Server.listen (net.js:1391:7)
+    at Object.<anonymous> (/home/pi/bin/Website/App.js:204:8)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:774:12)
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8000 }
+events.js:173
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1255:14)
+    at listenInCluster (net.js:1303:12)
+    at Server.listen (net.js:1391:7)
+    at Object.<anonymous> (/home/pi/bin/Website/App.js:213:40)
+    at Module._compile (internal/modules/cjs/loader.js:721:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:774:12)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1282:8)
+    at internalTickCallback (internal/process/next_tick.js:72:19)
+    at process._tickCallback (internal/process/next_tick.js:47:5)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:777:11)
+    at executeUserCode (internal/bootstrap/node.js:342:17)
+    at startExecution (internal/bootstrap/node.js:276:5)
+    at startup (internal/bootstrap/node.js:227:5)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 1.18.9[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node App.js`[39m
+(node:653) ExperimentalWarning: The fs.promises API is experimental
+Server Started
+[33m[nodemon] 1.18.9[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node App.js`[39m
+(node:655) ExperimentalWarning: The fs.promises API is experimental
+Server Started
+[33m[nodemon] 1.18.9[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node App.js`[39m
+(node:716) ExperimentalWarning: The fs.promises API is experimental
+Server Started
+[33m[nodemon] 1.18.9[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node App.js`[39m
+(node:669) ExperimentalWarning: The fs.promises API is experimental
+Server Started
+[33m[nodemon] 1.18.9[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node App.js`[39m
+(node:659) ExperimentalWarning: The fs.promises API is experimental
+Server Started
+[33m[nodemon] 1.18.9[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node App.js`[39m
+(node:644) ExperimentalWarning: The fs.promises API is experimental
+Server Started
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node App.js`[39m
+(node:5032) ExperimentalWarning: The fs.promises API is experimental
+Server Started
+::ffff:194.223.172.240:33664 connected
+::ffff:194.223.172.240:65000 connected
+::ffff:194.223.172.240:65009 connected
+::ffff:194.223.172.240:65051 connected
+::ffff:194.223.172.240:34146 connected
+::ffff:194.223.172.240:65135 connected
+::ffff:194.223.172.240:34636 connected
+::ffff:194.223.172.240:35126 connected
+::ffff:194.223.172.240:35624 connected
+::ffff:194.223.172.240:65442 connected
+::ffff:194.223.172.240:36130 connected
+::ffff:194.223.172.240:36636 connected
+::ffff:181.214.183.45:45226 connected
+::ffff:194.223.172.240:37146 connected
+::ffff:194.223.172.240:37660 connected
+::ffff:194.223.172.240:38178 connected
+::ffff:194.223.172.240:38700 connected
+::ffff:194.223.172.240:39222 connected
+::ffff:194.223.172.240:39744 connected
+::ffff:194.223.172.240:40266 connected
+::ffff:194.223.172.240:40788 connected
+::ffff:194.223.172.240:41310 connected
+::ffff:194.223.172.240:41832 connected
+::ffff:194.223.172.240:42354 connected
+::ffff:194.223.172.240:42876 connected
+::ffff:194.223.172.240:43398 connected
+::ffff:206.189.98.156:41218 connected
+::ffff:184.105.247.252:18684 connected
+::ffff:51.91.212.81:34228 connected
+::ffff:159.203.201.177:34650 connected
+::ffff:61.219.11.153:61589 connected
+::ffff:178.128.229.22:49114 connected
+::ffff:107.178.232.255:61154 connected
+::ffff:183.129.160.229:23238 connected
+::ffff:23.95.56.162:63660 connected
+::ffff:92.118.160.25:56769 connected
+::ffff:51.15.191.81:52001 connected
+::ffff:8.39.233.87:59043 connected
+::ffff:61.219.11.153:63368 connected
+::ffff:164.52.24.162:37850 connected
+::ffff:198.108.66.161:60836 connected
+::ffff:66.175.220.5:36708 connected
+::ffff:196.52.43.57:59726 connected
+::ffff:216.218.206.67:63638 connected
+::ffff:137.226.113.9:39332 connected
+::ffff:137.226.113.20:51060 connected
+digest: undefined  |  false
+None
+[]
+no service worker, passing at /home.html
+Sending transcluded  /home.html
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+::ffff:212.83.163.170:52027 connected
+::ffff:212.83.163.170:52455 connected
+::ffff:212.83.163.170:60853 connected
+::ffff:212.83.163.170:52929 connected
+::ffff:212.83.163.170:62680 connected
+::ffff:212.83.163.170:63086 connected
+::ffff:212.83.163.170:63662 connected
+::ffff:193.188.22.56:778 connected
+::ffff:193.188.22.56:728 connected
+::ffff:62.4.14.198:46549 connected
+::ffff:62.4.14.198:53743 connected
+::ffff:183.129.160.229:12583 connected
+::ffff:169.197.108.42:33860 connected
+::ffff:185.156.177.197:2150 connected
+::ffff:46.161.27.112:54575 connected
+::ffff:159.203.201.16:38942 connected
+::ffff:167.71.55.114:41718 connected
+::ffff:5.39.95.31:37626 connected
+::ffff:51.91.212.80:45686 connected
+::ffff:216.218.206.68:46220 connected
+::ffff:159.203.201.145:39046 connected
+::ffff:185.143.221.62:38674 connected
+::ffff:92.119.160.95:124 connected
+::ffff:198.108.66.144:63126 connected
+::ffff:208.93.152.17:60316 connected
+::ffff:208.93.152.17:32928 connected
+::ffff:208.93.152.17:33928 connected
+::ffff:208.93.152.17:35512 connected
+::ffff:208.93.152.17:44720 connected
+::ffff:208.93.152.17:47884 connected
+::ffff:208.93.152.17:49506 connected
+::ffff:208.93.152.17:51076 connected
+::ffff:216.218.206.68:63772 connected
+::ffff:193.106.29.210:17258 connected
+::ffff:61.219.11.153:65431 connected
+::ffff:198.143.155.138:38438 connected
+::ffff:198.143.155.138:47740 connected
+::ffff:198.143.155.138:52008 connected
+::ffff:198.143.155.138:60356 connected
+::ffff:198.143.155.138:42230 connected
+::ffff:198.143.155.138:45120 connected
+::ffff:198.143.155.138:47938 connected
+::ffff:198.143.155.138:50394 connected
+::ffff:198.143.155.138:58570 connected
+::ffff:198.143.155.138:52598 connected
+::ffff:171.67.70.80:55526 connected
+::ffff:45.136.108.25:2266 connected
+::ffff:104.248.194.110:35146 connected
+::ffff:146.88.240.23:50052 connected
+::ffff:128.14.209.178:43048 connected
+::ffff:139.162.113.204:40580 connected
+::ffff:128.14.209.154:35402 connected
+::ffff:35.195.59.94:39132 connected
+::ffff:71.6.232.7:47166 connected
+::ffff:45.79.114.128:48740 connected
+::ffff:92.118.160.45:52812 connected
+::ffff:5.188.210.101:52160 connected
+::ffff:5.188.210.101:19231 connected
+::ffff:5.188.210.101:36592 connected
+::ffff:5.188.210.101:42945 connected
+::ffff:5.188.210.101:17020 connected
+::ffff:128.14.133.58:51190 connected
+::ffff:198.108.66.161:61542 connected
+::ffff:184.105.139.67:50686 connected
+::ffff:51.91.212.80:37908 connected
+::ffff:146.88.240.16:34428 connected
+::ffff:172.104.242.173:45338 connected
+::ffff:198.108.66.192:31266 connected
+::ffff:171.67.70.80:40586 connected
+::ffff:159.203.193.246:52966 connected
+::ffff:193.188.22.56:1741 connected
+::ffff:35.196.238.16:40308 connected
+::ffff:185.156.177.233:2160 connected
+::ffff:23.95.56.162:50940 connected
+::ffff:128.14.209.226:44434 connected
+::ffff:61.219.11.153:61053 connected
+::ffff:23.95.56.162:62918 connected
+::ffff:23.95.56.162:61325 connected
+::ffff:184.105.139.68:41066 connected
+::ffff:146.88.240.15:33295 connected
+::ffff:162.216.19.219:59284 connected
+::ffff:162.216.19.219:59794 connected
+::ffff:45.79.137.31:59476 connected
+::ffff:45.79.137.31:32836 connected
+::ffff:45.79.137.31:34068 connected
+::ffff:45.79.137.31:34392 connected
+::ffff:45.79.137.31:37430 connected
+::ffff:45.79.137.31:37670 connected
+::ffff:45.79.137.31:38160 connected
+::ffff:45.79.137.31:39954 connected
+::ffff:45.79.137.31:41384 connected
+::ffff:45.79.137.31:43126 connected
+::ffff:45.79.137.31:44712 connected
+::ffff:45.79.137.31:46304 connected
+::ffff:45.79.137.31:49290 connected
+::ffff:45.79.137.31:50062 connected
+::ffff:45.79.137.31:50856 connected
+::ffff:45.79.137.31:51556 connected
+::ffff:45.79.137.31:52184 connected
+::ffff:45.79.137.31:52750 connected
+::ffff:45.79.137.31:53210 connected
+::ffff:45.79.137.31:53414 connected
+::ffff:45.79.137.31:53684 connected
+::ffff:45.79.137.31:54022 connected
+::ffff:45.79.137.31:54760 connected
+::ffff:45.79.137.31:55378 connected
+::ffff:45.79.137.31:55996 connected
+::ffff:45.79.137.31:56540 connected
+::ffff:207.154.209.220:59356 connected
+::ffff:198.108.66.240:3236 connected
+::ffff:66.240.205.34:33706 connected
+::ffff:171.67.70.80:58044 connected
+::ffff:61.219.11.153:61473 connected
+::ffff:92.118.160.13:34319 connected
+::ffff:92.63.194.15:863 connected
+::ffff:45.227.255.100:1321 connected
+::ffff:139.162.113.204:44844 connected
+::ffff:178.73.215.171:2259 connected
+::ffff:104.152.52.22:49142 connected
+::ffff:74.82.47.5:10582 connected
+::ffff:169.197.108.38:59230 connected
+::ffff:66.240.205.34:40124 connected
+::ffff:61.219.11.153:61473 connected
+::ffff:198.108.66.161:43872 connected
+::ffff:198.108.66.224:58978 connected
+::ffff:198.108.66.16:6054 connected
+::ffff:51.91.212.80:60988 connected
+::ffff:146.88.240.39:46022 connected
+::ffff:164.52.24.162:44939 connected
+::ffff:66.240.205.34:36262 connected
+::ffff:62.173.147.6:61217 connected
+::ffff:62.173.147.6:53721 connected
+::ffff:185.143.221.62:35220 connected
+::ffff:159.203.201.117:35014 connected
+::ffff:183.129.160.229:52755 connected
+::ffff:74.82.47.5:26860 connected
+::ffff:146.88.240.31:56171 connected
+::ffff:139.162.113.204:36048 connected
+::ffff:171.67.70.80:38144 connected
+::ffff:172.105.89.161:53178 connected
+::ffff:185.143.221.62:59329 connected
+::ffff:113.96.223.207:46159 connected
+::ffff:61.219.11.153:63653 connected
+::ffff:128.14.136.78:40342 connected
+::ffff:62.173.139.152:64041 connected
+::ffff:62.173.139.152:51800 connected
+::ffff:171.67.70.96:43938 connected
+::ffff:172.104.242.173:44745 connected
+::ffff:74.82.47.3:28986 connected
+::ffff:159.203.201.143:59850 connected
+::ffff:196.52.43.101:34092 connected
+::ffff:196.52.43.65:57364 connected
+::ffff:5.188.210.101:50047 connected
+::ffff:5.188.210.101:16752 connected
+::ffff:5.188.210.101:30032 connected
+::ffff:5.188.210.101:13512 connected
+::ffff:5.188.210.101:54780 connected
+::ffff:137.226.113.9:38655 connected
+::ffff:137.226.113.20:60896 connected
+digest: undefined  |  false
+None
+[]
+no service worker, passing at /home.html
+Sending transcluded  /home.html
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+::ffff:198.108.66.208:45602 connected
+::ffff:183.129.160.229:12454 connected
+::ffff:123.243.148.139:54531 connected
+::ffff:123.243.148.139:54646 connected
+::ffff:192.168.1.100:54653 connected
+::ffff:192.168.1.100:54654 connected
+::ffff:192.168.1.100:54659 connected
+::ffff:185.143.221.62:60443 connected
+::ffff:96.126.100.87:39876 connected
+::ffff:128.14.134.134:38100 connected
+::ffff:62.4.14.206:56403 connected
+::ffff:183.129.160.229:25291 connected
+::ffff:77.247.108.229:53528 connected
+::ffff:159.203.201.155:58062 connected
+::ffff:74.82.47.5:37606 connected
+::ffff:146.88.240.17:50943 connected
+::ffff:159.203.201.47:48746 connected
+::ffff:198.108.66.224:40108 connected
+::ffff:141.98.80.117:892 connected
+::ffff:183.129.160.229:51393 connected
+::ffff:60.191.23.58:29057 connected
+::ffff:115.238.44.234:60725 connected
+::ffff:185.153.196.219:732 connected
+::ffff:61.219.11.153:63783 connected
+::ffff:185.128.26.18:59725 connected
+::ffff:185.128.26.18:39129 connected
+::ffff:185.128.26.18:49726 connected
+::ffff:185.128.26.18:57435 connected
+::ffff:185.128.26.18:39599 connected
+::ffff:185.128.26.18:47113 connected
+::ffff:185.128.26.18:57530 connected
+::ffff:185.128.26.18:36996 connected
+::ffff:185.128.26.18:47500 connected
+::ffff:185.128.26.18:55028 connected
+::ffff:185.128.26.18:36982 connected
+::ffff:185.128.26.18:44237 connected
+::ffff:185.128.26.18:54471 connected
+::ffff:185.128.26.18:33662 connected
+::ffff:185.128.26.18:43920 connected
+::ffff:185.128.26.18:51256 connected
+::ffff:185.128.26.18:33135 connected
+::ffff:185.128.26.18:40575 connected
+::ffff:185.128.26.18:51100 connected
+::ffff:185.128.26.18:58680 connected
+::ffff:185.128.26.18:41100 connected
+::ffff:185.128.26.18:48613 connected
+::ffff:185.128.26.18:58907 connected
+::ffff:185.128.26.18:38369 connected
+::ffff:185.128.26.18:49270 connected
+::ffff:185.128.26.18:57225 connected
+::ffff:185.128.26.18:39867 connected
+::ffff:185.128.26.18:47589 connected
+::ffff:185.128.26.18:58258 connected
+::ffff:185.128.26.18:37715 connected
+::ffff:185.128.26.18:48129 connected
+::ffff:185.128.26.18:55868 connected
+::ffff:185.128.26.18:38157 connected
+::ffff:185.128.26.18:45713 connected
+::ffff:185.128.26.18:56182 connected
+::ffff:185.128.26.18:35738 connected
+::ffff:185.128.26.18:46717 connected
+::ffff:185.128.26.18:54552 connected
+::ffff:185.128.26.18:36791 connected
+::ffff:185.128.26.18:44329 connected
+::ffff:185.128.26.18:54694 connected
+::ffff:185.128.26.18:34201 connected
+::ffff:185.128.26.18:44934 connected
+::ffff:185.128.26.18:52583 connected
+::ffff:185.128.26.18:34918 connected
+::ffff:185.128.26.18:42573 connected
+::ffff:185.128.26.18:52898 connected
+::ffff:185.128.26.18:60378 connected
+::ffff:185.128.26.18:42718 connected
+::ffff:185.128.26.18:50340 connected
+::ffff:185.128.26.18:60662 connected
+::ffff:185.128.26.18:39945 connected
+::ffff:185.128.26.18:50554 connected
+::ffff:185.128.26.18:58466 connected
+::ffff:185.128.26.18:41119 connected
+::ffff:185.128.26.18:48990 connected
+::ffff:185.128.26.18:60120 connected
+::ffff:185.128.26.18:39928 connected
+::ffff:185.128.26.18:50715 connected
+::ffff:185.128.26.18:58593 connected
+::ffff:185.128.26.18:41242 connected
+::ffff:185.128.26.18:49108 connected
+::ffff:185.128.26.18:60066 connected
+::ffff:185.128.26.18:39876 connected
+::ffff:185.128.26.18:50759 connected
+::ffff:185.128.26.18:58688 connected
+::ffff:185.128.26.18:41681 connected
+::ffff:185.128.26.18:50064 connected
+::ffff:185.128.26.18:33282 connected
+::ffff:185.128.26.18:41728 connected
+::ffff:185.128.26.18:53285 connected
+::ffff:185.128.26.18:33264 connected
+::ffff:185.128.26.18:44490 connected
+::ffff:185.128.26.18:52872 connected
+::ffff:185.128.26.18:36243 connected
+::ffff:185.128.26.18:44754 connected
+::ffff:185.128.26.18:55903 connected
+::ffff:185.128.26.18:36018 connected
+::ffff:185.128.26.18:47365 connected
+::ffff:185.128.26.18:55570 connected
+::ffff:185.128.26.18:38651 connected
+::ffff:185.128.26.18:46722 connected
+::ffff:185.128.26.18:57715 connected
+::ffff:185.128.26.18:37271 connected
+::ffff:185.128.26.18:48334 connected
+::ffff:185.128.26.18:56402 connected
+::ffff:185.128.26.18:38956 connected
+::ffff:185.128.26.18:46832 connected
+::ffff:185.128.26.18:57884 connected
+::ffff:185.128.26.18:37589 connected
+::ffff:185.128.26.18:48356 connected
+::ffff:185.128.26.18:56167 connected
+::ffff:185.128.26.18:38906 connected
+::ffff:185.128.26.18:46974 connected
+::ffff:185.128.26.18:58226 connected
+::ffff:185.128.26.18:38027 connected
+::ffff:185.128.26.18:48835 connected
+::ffff:185.128.26.18:56743 connected
+::ffff:185.128.26.18:39574 connected
+::ffff:185.128.26.18:47082 connected
+::ffff:185.128.26.18:57641 connected
+::ffff:185.128.26.18:37295 connected
+::ffff:185.128.26.18:47917 connected
+::ffff:185.128.26.18:55410 connected
+::ffff:185.128.26.18:37663 connected
+::ffff:185.128.26.18:45646 connected
+::ffff:185.128.26.18:56554 connected
+::ffff:185.128.26.18:36111 connected
+::ffff:185.176.27.114:11152 connected
+::ffff:216.218.206.69:26418 connected
+::ffff:185.156.177.235:1119 connected
+::ffff:146.88.240.35:42950 connected
+::ffff:192.168.1.106:44186 connected
+::ffff:171.67.70.80:39752 connected
+::ffff:80.82.77.139:36390 connected
+::ffff:80.82.77.139:40299 connected
+::ffff:80.82.77.139:45169 connected
+::ffff:80.82.77.139:49400 connected
+::ffff:80.82.77.139:53403 connected
+::ffff:80.82.77.139:57694 connected
+::ffff:80.82.77.139:59140 connected
+::ffff:80.82.77.139:60630 connected
+::ffff:80.82.77.139:33521 connected
+::ffff:80.82.77.139:34420 connected
+::ffff:80.82.77.139:35594 connected
+::ffff:80.82.77.139:37479 connected
+::ffff:80.82.77.139:38692 connected
+::ffff:80.82.77.139:40224 connected
+::ffff:80.82.77.139:41718 connected
+::ffff:80.82.77.139:46264 connected
+::ffff:80.82.77.139:49232 connected
+::ffff:80.82.77.139:52296 connected
+::ffff:80.82.77.139:55840 connected
+::ffff:80.82.77.139:56261 connected
+::ffff:223.105.4.248:3954 connected
+::ffff:176.58.124.134:58602 connected
+::ffff:193.106.29.210:35724 connected
+::ffff:185.143.221.62:48829 connected
+::ffff:128.14.134.134:45018 connected
+::ffff:35.241.187.75:55932 connected
+::ffff:128.14.133.58:51888 connected
+::ffff:176.58.124.134:35144 connected
+::ffff:74.82.47.3:59852 connected
+::ffff:128.14.134.170:35640 connected
+::ffff:62.173.147.6:64802 connected
+::ffff:35.166.43.255:38148 connected
+::ffff:62.173.147.6:56141 connected
+::ffff:193.188.22.56:1804 connected
+::ffff:198.108.66.32:5086 connected
+::ffff:198.108.66.112:57158 connected
+::ffff:45.83.67.55:46184 connected
+::ffff:128.14.133.58:56498 connected
+::ffff:77.247.108.110:52821 connected
+::ffff:77.247.108.110:54145 connected
+::ffff:61.219.11.153:63524 connected
+::ffff:216.218.206.68:9486 connected
+::ffff:146.88.240.40:35555 connected
+::ffff:51.91.212.79:37980 connected
+::ffff:71.6.232.7:53396 connected
+::ffff:176.58.124.134:36758 connected
+::ffff:196.52.43.66:60836 connected
+::ffff:171.67.70.80:55068 connected
+::ffff:172.245.208.234:54501 connected
+::ffff:172.245.208.234:54605 connected
+::ffff:172.245.208.234:57216 connected
+::ffff:172.245.208.234:59793 connected
+::ffff:172.245.208.234:62594 connected
+::ffff:172.245.208.234:62856 connected
+::ffff:172.245.208.234:63099 connected
+::ffff:185.173.35.25:40949 connected
+::ffff:218.211.168.178:50364 connected
+::ffff:198.108.66.96:12658 connected
+::ffff:212.83.148.180:53659 connected
+::ffff:212.83.148.180:59996 connected
+::ffff:212.83.148.180:50441 connected
+::ffff:212.83.148.180:64257 connected
+::ffff:212.83.148.180:59288 connected
+::ffff:212.83.148.180:56043 connected
+::ffff:212.83.148.180:59252 connected
+::ffff:61.219.11.153:61432 connected
+::ffff:169.197.108.38:37434 connected
+::ffff:193.106.29.210:10340 connected
+::ffff:128.14.133.50:49380 connected
+::ffff:128.14.209.250:60530 connected
+::ffff:159.203.201.45:34330 connected
+::ffff:176.58.124.134:60574 connected
+::ffff:184.105.247.196:17396 connected
+::ffff:169.197.108.22:48252 connected
+::ffff:167.99.187.122:33228 connected
+::ffff:183.129.160.229:5589 connected
+::ffff:198.108.67.16:8968 connected
+::ffff:198.108.66.176:20210 connected
+::ffff:41.216.186.89:106 connected
+::ffff:169.197.108.30:52458 connected
+::ffff:193.188.22.56:1794 connected
+::ffff:66.240.205.34:44696 connected
+::ffff:128.14.133.58:52002 connected
+::ffff:154.47.32.66:63816 connected
+::ffff:172.105.231.199:56254 connected
+::ffff:89.248.172.175:50946 connected
+::ffff:176.58.124.134:60390 connected
+::ffff:61.219.11.153:62457 connected
+::ffff:77.247.108.229:57158 connected
+::ffff:172.104.242.173:54775 connected
+::ffff:74.82.47.3:28556 connected
+::ffff:198.167.223.52:56834 connected
+::ffff:139.162.113.204:60458 connected
+::ffff:193.188.22.56:1466 connected
+::ffff:164.52.24.162:51864 connected
+::ffff:146.88.240.52:56024 connected
+::ffff:198.108.66.32:6712 connected
+::ffff:185.143.221.62:49900 connected
+::ffff:198.143.158.82:53114 connected
+::ffff:198.143.158.82:33589 connected
+::ffff:198.143.158.82:36614 connected
+::ffff:198.143.158.82:45592 connected
+::ffff:198.143.158.82:55980 connected
+::ffff:198.143.158.82:59198 connected
+::ffff:198.143.158.82:35864 connected
+::ffff:198.143.158.82:39643 connected
+::ffff:198.143.158.82:60049 connected
+::ffff:198.143.158.82:47908 connected
+::ffff:178.128.241.94:51866 connected
+::ffff:223.105.4.250:21917 connected
+::ffff:180.95.238.37:60204 connected
+::ffff:180.95.238.37:60842 connected
+::ffff:112.66.99.64:55400 connected
+::ffff:112.66.99.64:50066 connected
+::ffff:112.66.99.64:44614 connected
+::ffff:123.145.25.173:39302 connected
+::ffff:185.53.88.92:40356 connected
+::ffff:185.53.88.92:43618 connected
+::ffff:5.188.210.101:53020 connected
+::ffff:5.188.210.101:15257 connected
+::ffff:5.188.210.101:45006 connected
+::ffff:5.188.210.101:19370 connected
+::ffff:5.188.210.101:35957 connected
+::ffff:185.53.88.92:50326 connected
+::ffff:185.53.88.92:53750 connected
+::ffff:185.53.88.92:59356 connected
+::ffff:185.53.88.92:35068 connected
+::ffff:185.53.88.92:57298 connected
+::ffff:185.53.88.92:54330 connected
+::ffff:169.197.108.42:46728 connected
+::ffff:185.53.88.92:57752 connected
+::ffff:185.53.88.92:34020 connected
+::ffff:185.173.35.33:53136 connected
+::ffff:183.129.160.229:26312 connected
+::ffff:185.53.88.92:59814 connected
+::ffff:185.53.88.92:34830 connected
+::ffff:101.228.120.13:49406 connected
+::ffff:101.228.120.13:49506 connected
+::ffff:212.83.163.170:58242 connected
+::ffff:212.83.163.170:61054 connected
+::ffff:60.191.38.77:14743 connected
+::ffff:216.218.206.67:20076 connected
+::ffff:171.67.70.80:52256 connected
+::ffff:185.143.221.62:52204 connected
+::ffff:122.228.19.80:29083 connected
+::ffff:139.162.116.133:43776 connected
+::ffff:92.118.161.37:54412 connected
+::ffff:196.52.43.108:50783 connected
+::ffff:208.93.152.17:49912 connected
+::ffff:208.93.152.17:50036 connected
+::ffff:208.93.152.17:50160 connected
+::ffff:208.93.152.17:50300 connected
+::ffff:159.203.201.187:51908 connected
+::ffff:66.240.205.34:55174 connected
+::ffff:184.105.247.196:21044 connected
+::ffff:146.88.240.56:35727 connected
+::ffff:61.219.11.153:61956 connected
+::ffff:198.108.66.16:60518 connected
+::ffff:128.14.133.58:40824 connected
+::ffff:45.136.108.64:252 connected
+::ffff:137.226.113.9:43998 connected
+::ffff:171.67.70.80:45018 connected
+::ffff:68.183.7.196:60822 connected
+::ffff:185.143.221.62:50202 connected
+::ffff:180.170.192.143:39006 connected
+::ffff:180.170.192.143:41356 connected
+::ffff:185.153.199.10:247 connected
+::ffff:185.153.199.10:2463 connected
+::ffff:88.80.184.117:48178 connected
+::ffff:159.203.201.172:48124 connected
+::ffff:180.170.192.143:59858 connected
+::ffff:180.170.192.143:35496 connected
+::ffff:61.219.11.153:62894 connected
+::ffff:62.113.227.26:32854 connected
+::ffff:146.88.240.21:43707 connected
+::ffff:184.105.247.196:60236 connected
+::ffff:157.230.216.203:48024 connected
+::ffff:157.230.216.203:48608 connected
+::ffff:157.230.216.203:49106 connected
+::ffff:185.209.0.12:1487 connected
+::ffff:110.80.136.230:47846 connected
+::ffff:185.143.221.62:44765 connected
+::ffff:77.247.108.162:49802 connected
+::ffff:35.240.72.250:33752 connected
+::ffff:61.219.11.153:61195 connected
+::ffff:193.188.22.56:1337 connected
+::ffff:169.197.108.6:33154 connected
+::ffff:146.88.240.26:36427 connected
+::ffff:15.188.47.240:34077 connected
+::ffff:193.188.22.56:1824 connected
+::ffff:51.91.212.81:40730 connected
+::ffff:184.105.247.196:41216 connected
+::ffff:45.33.80.76:51366 connected
+::ffff:113.96.223.207:46512 connected
+::ffff:185.143.221.62:34304 connected
+::ffff:198.108.66.80:24638 connected
+::ffff:92.118.160.21:53568 connected
+::ffff:198.108.66.32:10046 connected
+::ffff:77.247.108.162:51444 connected
+::ffff:77.247.108.162:54322 connected
+::ffff:185.234.218.15:58162 connected
+::ffff:183.129.160.229:52819 connected
+::ffff:71.6.232.7:55892 connected
+::ffff:198.108.66.240:59254 connected
+::ffff:74.82.47.4:60120 connected
+::ffff:164.52.24.162:37448 connected
+::ffff:61.219.11.153:65127 connected
+::ffff:196.52.43.129:46297 connected
+::ffff:139.162.116.133:39914 connected
+::ffff:220.200.159.112:45048 connected
+::ffff:112.66.103.190:46898 connected
+::ffff:171.12.10.138:48632 connected
+::ffff:113.206.182.203:50440 connected
+::ffff:92.63.194.17:2020 connected
+::ffff:92.63.194.17:617 connected
+::ffff:93.113.125.89:44444 connected
+::ffff:74.82.47.5:62310 connected
+::ffff:198.108.66.80:56736 connected
+::ffff:213.32.122.82:24847 connected
+::ffff:213.32.122.82:9831 connected
+::ffff:128.14.133.58:52168 connected
+::ffff:171.67.70.80:45096 connected
+::ffff:40.76.46.185:54569 connected
+::ffff:66.240.205.34:46414 connected
+::ffff:185.143.221.62:41327 connected
+::ffff:198.108.66.64:54408 connected
+::ffff:159.203.201.11:38598 connected
+::ffff:198.108.66.112:23448 connected
+::ffff:61.219.11.153:61191 connected
+::ffff:146.88.240.32:55202 connected
+::ffff:74.82.47.5:14988 connected
+::ffff:104.152.52.27:49074 connected
+::ffff:196.52.43.118:55922 connected
+::ffff:172.105.231.199:51274 connected
+::ffff:172.105.4.200:55126 connected
+::ffff:128.14.209.234:59802 connected
+::ffff:92.63.194.30:2357 connected
+::ffff:92.63.194.30:527 connected
+::ffff:5.188.210.101:48922 connected
+::ffff:5.188.210.101:33400 connected
+::ffff:5.188.210.101:16840 connected
+::ffff:5.188.210.101:18472 connected
+::ffff:5.188.210.101:56839 connected
+::ffff:185.153.199.102:2462 connected
+::ffff:185.209.0.12:1373 connected
+::ffff:61.219.11.153:64782 connected
+::ffff:74.82.47.5:25894 connected
+::ffff:146.88.240.50:39460 connected
+::ffff:213.32.122.82:2861 connected
+::ffff:213.32.122.82:33045 connected
+::ffff:172.105.4.185:42072 connected
+::ffff:172.104.242.173:55586 connected
+::ffff:185.143.221.62:38168 connected
+::ffff:196.52.43.110:43647 connected
+::ffff:128.14.134.170:57154 connected
+::ffff:45.79.212.100:53142 connected
+::ffff:101.224.235.73:53430 connected
+::ffff:101.224.235.73:56714 connected
+::ffff:54.193.30.155:45552 connected
+::ffff:61.219.11.153:62786 connected
+::ffff:159.203.201.232:60910 connected
+::ffff:137.226.113.9:54137 connected
+::ffff:74.82.47.4:37792 connected
+::ffff:159.203.201.179:42896 connected
+::ffff:198.108.66.32:21560 connected
+::ffff:208.93.153.177:59178 connected
+::ffff:208.93.153.177:59436 connected
+::ffff:208.93.153.177:59668 connected
+::ffff:208.93.153.177:59972 connected
+::ffff:208.93.153.177:60338 connected
+::ffff:208.93.153.177:60654 connected
+::ffff:208.93.153.177:34210 connected
+::ffff:208.93.153.177:40082 connected
+::ffff:171.67.70.80:56978 connected
+::ffff:5.39.219.80:2041 connected
+::ffff:223.105.4.248:61580 connected
+::ffff:180.164.106.148:50402 connected
+::ffff:180.164.106.148:51258 connected
+::ffff:5.39.219.80:1173 connected
+::ffff:54.210.2.59:42656 connected
+::ffff:185.176.27.114:44204 connected
+::ffff:180.164.105.163:33802 connected
+::ffff:180.164.105.163:34818 connected
+::ffff:180.164.105.163:38032 connected
+::ffff:180.164.105.163:38582 connected
+::ffff:146.88.240.33:36835 connected
+::ffff:104.148.119.2:20124 connected
+::ffff:185.40.4.159:64931 connected
+::ffff:185.40.4.159:52365 connected
+::ffff:185.40.4.159:61679 connected
+::ffff:185.40.4.159:55365 connected
+::ffff:185.40.4.159:65506 connected
+::ffff:185.40.4.159:56452 connected
+::ffff:185.40.4.159:63111 connected
+::ffff:89.248.169.17:34420 connected
+::ffff:213.32.122.82:24755 connected
+::ffff:213.32.122.82:9435 connected
+::ffff:74.82.47.4:23570 connected
+::ffff:62.210.37.15:39986 connected
+::ffff:164.52.24.162:33527 connected
+::ffff:34.76.122.89:34120 connected
+::ffff:176.58.124.134:35798 connected
+::ffff:180.164.105.163:46694 connected
+::ffff:180.164.105.163:47826 connected
+::ffff:185.156.177.50:70 connected
+::ffff:5.39.219.80:1109 connected
+::ffff:159.203.193.38:55518 connected
+::ffff:88.226.50.69:56115 connected
+::ffff:169.197.108.6:37050 connected
+::ffff:93.113.125.89:44444 connected
+::ffff:45.33.80.76:46962 connected
+::ffff:188.166.47.174:46888 connected
+::ffff:169.197.108.38:51244 connected
+::ffff:54.184.31.42:42864 connected
+::ffff:196.52.43.112:53889 connected
+::ffff:80.82.70.118:60000 connected
+::ffff:5.8.10.202:34550 connected
+::ffff:5.8.10.202:28398 connected
+::ffff:5.8.10.202:44212 connected
+::ffff:5.8.10.202:5529 connected
+::ffff:5.8.10.202:56531 connected
+::ffff:5.8.10.202:48600 connected
+::ffff:5.8.10.202:33407 connected
+::ffff:5.8.10.202:17883 connected
+::ffff:5.8.10.202:10776 connected
+::ffff:5.8.10.202:16913 connected
+::ffff:198.108.67.112:54500 connected
+::ffff:133.34.149.5:50296 connected
+::ffff:129.78.110.128:48296 connected
+::ffff:200.19.156.22:40394 connected
+::ffff:171.67.70.128:36332 connected
+::ffff:171.67.70.144:46596 connected
+::ffff:139.19.117.1:53584 connected
+::ffff:185.153.197.5:42924 connected
+::ffff:146.88.240.21:47608 connected
+::ffff:171.67.70.80:51746 connected
+::ffff:198.108.66.32:31096 connected
+::ffff:185.143.221.62:56784 connected
+::ffff:195.154.92.15:2271 connected
+::ffff:185.173.35.13:60346 connected
+::ffff:198.108.66.240:45576 connected
+::ffff:78.157.209.34:62000 connected
+::ffff:195.154.92.15:1982 connected
+::ffff:138.246.253.5:57613 connected
+::ffff:61.219.11.153:62709 connected
+::ffff:137.226.113.20:58368 connected
+digest: undefined  |  false
+None
+[]
+no service worker, passing at /home.html
+Sending transcluded  /home.html
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+::ffff:128.14.134.170:60960 connected
+::ffff:74.82.47.5:35060 connected
+::ffff:66.175.220.5:58532 connected
+::ffff:208.93.153.177:51748 connected
+::ffff:208.93.153.177:54412 connected
+::ffff:208.93.153.177:54526 connected
+::ffff:208.93.153.177:54782 connected
+::ffff:208.93.153.177:54974 connected
+::ffff:208.93.153.177:55292 connected
+::ffff:208.93.153.177:55444 connected
+::ffff:208.93.153.177:55772 connected
+::ffff:198.108.66.176:43500 connected
+::ffff:185.153.197.5:34736 connected
+::ffff:195.154.92.15:2611 connected
+::ffff:146.88.240.54:47385 connected
+::ffff:178.128.214.187:58788 connected
+::ffff:171.67.70.80:46748 connected
+::ffff:34.94.129.156:27542 connected
+::ffff:128.14.209.234:41784 connected
+::ffff:66.240.205.34:41480 connected
+::ffff:169.197.108.38:54704 connected
+::ffff:92.63.194.15:1788 connected
+::ffff:137.226.113.20:52328 connected
+digest: undefined  |  false
+None
+[]
+no service worker, passing at /home.html
+Sending transcluded  /home.html
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+::ffff:172.105.23.36:50678 connected
+::ffff:176.58.124.134:59974 connected
+::ffff:60.191.0.242:38596 connected
+::ffff:115.238.44.234:39568 connected
+::ffff:146.88.240.19:53976 connected
+::ffff:27.150.109.28:20316 connected
+::ffff:77.127.7.74:65522 connected
+::ffff:77.127.7.74:49375 connected
+::ffff:184.105.247.252:36360 connected
+::ffff:198.108.66.176:32574 connected
+::ffff:192.81.135.222:34764 connected
+::ffff:185.143.221.62:45247 connected
+::ffff:198.108.66.32:36422 connected
+::ffff:193.188.22.187:2089 connected
+::ffff:139.162.116.133:35386 connected
+::ffff:196.28.247.26:42276 connected
+::ffff:185.209.0.12:2121 connected
+::ffff:45.227.255.100:621 connected
+::ffff:185.53.91.65:47624 connected
+::ffff:107.6.183.226:36676 connected
+::ffff:107.6.183.226:46452 connected
+::ffff:107.6.183.226:49160 connected
+::ffff:107.6.183.226:60342 connected
+::ffff:107.6.183.226:44432 connected
+::ffff:107.6.183.226:47950 connected
+::ffff:107.6.183.226:52508 connected
+::ffff:107.6.183.226:54842 connected
+::ffff:107.6.183.226:40738 connected
+::ffff:107.6.183.226:33374 connected
+::ffff:116.227.212.178:55678 connected
+::ffff:116.227.212.178:55992 connected
+::ffff:128.14.133.58:33744 connected
+::ffff:128.14.209.178:43796 connected
+::ffff:83.56.125.30:45952 connected
+::ffff:77.247.108.162:52348 connected
+::ffff:178.128.214.187:46836 connected
+::ffff:212.92.101.89:1362 connected
+::ffff:216.218.206.68:61890 connected
+::ffff:223.105.4.250:6811 connected
+::ffff:172.105.230.232:38178 connected
+::ffff:92.118.160.13:52026 connected
+::ffff:185.209.0.100:61133 connected
+::ffff:198.108.66.64:52708 connected
+::ffff:139.162.116.133:55214 connected
+::ffff:172.104.91.232:44946 connected
+::ffff:61.219.11.153:64178 connected
+::ffff:172.104.242.173:43774 connected
+::ffff:196.52.43.115:35058 connected
+::ffff:122.228.19.80:23760 connected
+::ffff:159.203.201.11:44164 connected
+::ffff:89.248.169.17:60394 connected
+::ffff:130.207.202.11:51086 connected
+::ffff:128.14.134.134:58182 connected
+::ffff:68.183.7.196:34194 connected
+::ffff:128.14.209.178:46000 connected
+::ffff:93.174.93.84:51312 connected
+::ffff:93.174.93.84:56784 connected
+::ffff:66.240.205.34:58940 connected
+::ffff:216.218.206.68:30648 connected
+::ffff:92.53.65.22:1553 connected
+::ffff:61.219.11.153:64924 connected
+::ffff:146.88.240.13:56707 connected
+::ffff:137.226.113.9:55782 connected
+::ffff:137.226.113.20:35760 connected
+digest: undefined  |  false
+None
+[]
+no service worker, passing at /home.html
+Sending transcluded  /home.html
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+::ffff:85.204.246.193:54884 connected
+::ffff:5.188.210.101:15384 connected
+::ffff:5.188.210.101:64862 connected
+::ffff:5.188.210.101:37271 connected
+::ffff:5.188.210.101:16215 connected
+::ffff:5.188.210.101:51288 connected
+::ffff:139.162.72.46:34582 connected
+::ffff:195.154.92.15:3867 connected
+::ffff:185.143.221.62:33420 connected
+::ffff:164.52.24.162:38625 connected
+::ffff:172.104.98.146:39232 connected
+::ffff:172.104.98.146:46152 connected
+::ffff:172.104.98.146:54662 connected
+::ffff:172.104.98.146:33040 connected
+::ffff:172.104.98.146:59732 connected
+::ffff:172.104.98.146:37114 connected
+::ffff:139.162.100.146:46388 connected
+::ffff:218.92.153.71:42970 connected
+::ffff:218.92.153.71:43012 connected
+::ffff:184.105.247.195:28728 connected
+::ffff:159.203.201.137:38470 connected
+::ffff:198.108.66.224:26880 connected
+::ffff:159.203.197.7:37404 connected
+::ffff:173.212.247.228:60418 connected
+::ffff:146.88.240.11:33058 connected
+::ffff:169.197.108.38:47206 connected
+::ffff:185.143.221.62:46706 connected
+::ffff:96.126.100.87:44960 connected
+::ffff:37.192.170.224:51674 connected
+::ffff:216.218.206.68:15684 connected
+::ffff:146.88.240.14:44550 connected
+::ffff:172.105.231.199:56354 connected
+::ffff:185.53.88.92:44930 connected
+::ffff:185.53.88.92:46064 connected
+::ffff:185.53.88.92:33366 connected
+::ffff:185.53.88.92:35414 connected
+::ffff:185.53.88.92:54460 connected
+::ffff:185.53.88.92:55700 connected
+::ffff:185.53.88.92:56038 connected
+::ffff:185.53.88.92:38654 connected
+::ffff:185.53.88.92:57786 connected
+::ffff:185.53.88.92:59020 connected
+::ffff:185.53.88.92:35630 connected
+::ffff:185.53.88.92:36996 connected
+::ffff:172.104.64.27:36096 connected
+::ffff:61.219.11.153:61541 connected
+::ffff:193.106.29.210:10314 connected
+::ffff:122.228.19.80:46677 connected
+::ffff:34.76.227.141:59910 connected
+::ffff:45.136.108.64:773 connected
+::ffff:93.113.125.89:44444 connected
+::ffff:45.33.80.76:48526 connected
+::ffff:60.242.116.123:56594 connected
+::ffff:60.242.116.123:56629 connected
+::ffff:60.242.116.123:57925 connected
+::ffff:60.242.116.123:59221 connected
+::ffff:60.242.116.123:60440 connected
+::ffff:60.242.116.123:60547 connected
+::ffff:60.242.116.123:60617 connected
+::ffff:198.108.67.16:32314 connected
+::ffff:128.14.134.134:50856 connected
+::ffff:125.64.94.221:36330 connected
+::ffff:62.173.140.193:59348 connected
+::ffff:62.173.140.193:60914 connected
+::ffff:146.88.240.27:53773 connected
+::ffff:198.108.66.224:60674 connected
+::ffff:74.82.47.5:4526 connected
+::ffff:45.136.108.67:705 connected
+::ffff:3.84.43.52:62857 connected
+::ffff:173.212.223.90:44341 connected
+::ffff:185.153.199.109:1847 connected
+::ffff:185.153.199.109:897 connected
+::ffff:223.105.4.249:59749 connected
+::ffff:185.143.221.62:45219 connected
+::ffff:172.104.242.173:59205 connected
+::ffff:193.169.254.40:58032 connected
+::ffff:196.52.43.56:40493 connected
+::ffff:61.219.11.153:63429 connected
+::ffff:175.184.164.35:32901 connected
+::ffff:175.184.164.35:64077 connected
+::ffff:58.249.101.193:50496 connected
+::ffff:58.249.101.193:35464 connected
+::ffff:58.249.101.193:16056 connected
+::ffff:58.249.101.193:28893 connected
+::ffff:71.6.232.7:50980 connected
+::ffff:192.162.103.84:1304 connected
+::ffff:128.14.209.250:58966 connected
+::ffff:195.154.92.15:60 connected
+::ffff:62.113.227.26:52572 connected
+::ffff:216.218.206.69:8620 connected
+::ffff:146.88.240.52:45423 connected
+::ffff:50.116.7.184:40866 connected
+::ffff:139.162.113.204:37942 connected
+::ffff:66.240.205.34:33668 connected
+::ffff:92.63.194.30:2473 connected
+::ffff:159.203.201.16:55218 connected
+::ffff:196.52.43.88:51890 connected
+::ffff:169.197.108.30:34790 connected
+::ffff:184.105.139.69:49296 connected
+::ffff:169.197.108.6:55502 connected
+::ffff:185.176.27.114:21080 connected
+::ffff:195.154.92.15:1518 connected
+::ffff:96.127.169.2:48236 connected
+::ffff:146.88.240.21:47867 connected
+::ffff:198.108.66.224:58620 connected
+::ffff:185.156.177.196:250 connected
+::ffff:198.108.67.16:45896 connected
+::ffff:5.102.205.5:48596 connected
+::ffff:185.143.221.62:41886 connected
+::ffff:139.162.116.133:33980 connected
+::ffff:45.143.220.19:45430 connected
+::ffff:180.170.193.190:51136 connected
+::ffff:180.170.193.190:52240 connected
+::ffff:216.218.206.68:26162 connected
+::ffff:122.228.19.80:23235 connected
+::ffff:146.88.240.16:44830 connected
+::ffff:93.113.125.89:44444 connected
+::ffff:92.63.194.30:92 connected
+::ffff:92.63.194.30:1042 connected
+::ffff:185.143.221.62:51754 connected
+::ffff:51.91.212.81:50072 connected
+::ffff:54.184.62.137:61551 connected
+::ffff:54.184.62.137:61875 connected
+::ffff:54.184.62.137:62903 connected
+::ffff:54.184.62.137:64688 connected
+::ffff:54.184.62.137:49894 connected
+::ffff:54.184.62.137:50024 connected
+::ffff:54.184.62.137:50146 connected
+::ffff:61.219.11.153:64159 connected
+::ffff:45.79.40.86:37502 connected
+::ffff:54.184.62.137:63583 connected
+::ffff:54.184.62.137:64059 connected
+::ffff:54.184.62.137:65104 connected
+::ffff:54.184.62.137:50154 connected
+::ffff:54.184.62.137:53242 connected
+::ffff:54.184.62.137:53723 connected
+::ffff:54.184.62.137:53897 connected
+::ffff:45.33.5.240:45596 connected
+::ffff:89.248.168.49:44218 connected
+::ffff:184.105.139.70:61566 connected
+::ffff:5.188.210.101:65356 connected
+::ffff:5.188.210.101:35782 connected
+::ffff:5.188.210.101:38355 connected
+::ffff:5.188.210.101:58678 connected
+::ffff:5.188.210.101:18639 connected
+::ffff:80.82.77.33:44368 connected
+::ffff:80.82.77.33:48066 connected
+::ffff:80.82.77.33:54406 connected
+::ffff:185.143.221.62:39053 connected
+::ffff:104.152.52.34:45461 connected
+::ffff:92.118.37.91:45814 connected
+::ffff:50.116.7.184:49532 connected
+::ffff:185.173.35.9:63810 connected
+::ffff:223.105.4.248:17622 connected
+::ffff:222.82.52.198:5639 connected
+::ffff:175.42.1.212:47618 connected
+::ffff:157.230.216.203:49130 connected
+::ffff:157.230.216.203:49818 connected
+::ffff:157.230.216.203:50564 connected
+::ffff:128.14.133.58:41568 connected
+::ffff:196.52.43.58:44752 connected
+::ffff:93.174.93.84:57473 connected
+::ffff:93.174.93.84:61463 connected
+::ffff:62.173.154.137:65143 connected
+::ffff:62.173.154.137:65378 connected
+::ffff:61.219.11.153:65104 connected
+::ffff:93.174.93.84:53169 connected
+::ffff:93.174.93.84:57041 connected
+::ffff:159.203.193.242:57156 connected
+::ffff:184.105.139.70:31864 connected
+::ffff:198.108.66.161:5422 connected
+::ffff:172.104.242.173:49696 connected
+::ffff:159.203.201.227:48600 connected
+::ffff:185.143.221.62:47803 connected
+::ffff:159.203.197.28:40372 connected
+::ffff:193.188.22.187:1343 connected
+::ffff:185.176.27.114:26296 connected
+::ffff:74.82.47.2:39950 connected
+::ffff:159.203.201.169:50590 connected
+::ffff:61.219.11.153:64896 connected
+::ffff:92.63.194.17:32 connected
+::ffff:92.63.194.17:306 connected
+::ffff:185.143.221.62:48813 connected
+::ffff:172.104.116.204:35852 connected
+::ffff:35.195.166.195:42794 connected
+::ffff:193.188.22.187:1150 connected
+::ffff:169.197.108.42:44584 connected
+::ffff:139.162.118.117:55632 connected
+::ffff:66.175.220.5:39292 connected
+::ffff:193.188.22.187:1271 connected
+::ffff:128.14.209.154:41692 connected
+::ffff:45.83.67.230:16872 connected
+::ffff:45.83.66.127:19788 connected
+::ffff:176.58.124.134:32854 connected
+::ffff:169.197.108.42:43334 connected
+::ffff:184.105.139.70:49992 connected
+::ffff:93.113.125.89:44444 connected
+::ffff:45.33.80.76:53998 connected
+::ffff:61.219.11.153:62281 connected
+::ffff:198.108.66.112:49266 connected
+::ffff:13.52.76.190:50946 connected
+::ffff:66.240.205.34:50712 connected
+::ffff:198.143.158.178:33002 connected
+::ffff:139.162.113.204:54124 connected
+::ffff:128.14.209.178:49530 connected
+::ffff:157.230.22.151:53532 connected
+::ffff:124.88.113.168:27333 connected
+::ffff:124.88.113.168:25635 connected
+::ffff:138.246.253.5:37086 connected
+::ffff:71.6.232.7:43686 connected
+::ffff:128.14.134.134:51072 connected
+::ffff:193.188.22.187:1081 connected
+::ffff:114.86.14.222:55294 connected
+::ffff:114.86.14.222:56440 connected
+::ffff:172.105.23.36:57306 connected
+::ffff:45.143.220.12:62917 connected
+::ffff:45.143.220.12:60797 connected
+::ffff:184.105.139.67:61972 connected
+::ffff:198.108.66.192:43710 connected
+::ffff:92.118.160.61:56564 connected
+::ffff:198.108.66.144:57078 connected
+::ffff:77.125.5.188:52462 connected
+::ffff:77.125.5.188:52794 connected
+::ffff:141.98.80.117:2269 connected
+::ffff:185.143.221.62:51076 connected
+::ffff:221.13.12.146:57968 connected
+::ffff:221.13.12.146:58640 connected
+::ffff:213.32.122.82:33237 connected
+::ffff:213.32.122.82:22387 connected
+::ffff:34.238.120.156:59292 connected
+::ffff:169.197.108.38:55980 connected
+::ffff:164.52.24.162:39225 connected
+::ffff:185.173.35.41:57416 connected
+::ffff:172.104.109.64:35228 connected
+::ffff:128.14.209.250:50794 connected
+::ffff:185.158.113.63:49998 connected
+::ffff:45.143.221.12:45980 connected
+::ffff:45.143.221.12:53520 connected
+::ffff:185.176.27.114:53418 connected
+::ffff:128.14.209.242:52256 connected
+::ffff:185.129.148.165:1131 connected
+::ffff:74.82.47.5:50280 connected
+::ffff:223.105.4.248:42720 connected
+::ffff:172.104.242.173:49598 connected
+::ffff:198.108.66.176:25674 connected
+::ffff:45.143.220.61:61998 connected
+::ffff:45.143.220.61:62078 connected
+::ffff:198.108.66.80:35178 connected
+[33m[nodemon] 1.18.9[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node App.js`[39m
+(node:690) ExperimentalWarning: The fs.promises API is experimental
+Server Started
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node App.js`[39m
+(node:1008) ExperimentalWarning: The fs.promises API is experimental
+Server Started
+::ffff:184.105.247.195:57288 connected
+::ffff:71.6.232.7:34976 connected
+[33m[nodemon] 1.18.9[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node App.js`[39m
+(node:684) ExperimentalWarning: The fs.promises API is experimental
+Server Started
+::ffff:110.100.213.62:34092 connected
+::ffff:110.100.213.62:34275 connected
+::ffff:159.203.201.69:51152 connected
+::ffff:61.219.11.153:61513 connected
+::ffff:169.197.108.38:35668 connected
+::ffff:198.143.158.178:35540 connected
+::ffff:74.82.47.5:17860 connected
+::ffff:146.88.240.11:40851 connected
+::ffff:198.108.66.224:53240 connected
+::ffff:146.88.240.25:57801 connected
+::ffff:62.173.147.6:64417 connected
+::ffff:62.173.147.6:52564 connected
+::ffff:198.108.66.192:37606 connected
+::ffff:45.79.48.151:56152 connected
+::ffff:169.197.108.38:46462 connected
+::ffff:146.88.240.32:57126 connected
+::ffff:198.108.66.161:23546 connected
+::ffff:185.153.199.7:63196 connected
+::ffff:185.153.199.7:63546 connected
+::ffff:196.52.43.54:59161 connected
+::ffff:51.91.212.81:57754 connected
+::ffff:51.91.212.81:49994 connected
+::ffff:74.82.47.5:18370 connected
+[33m[nodemon] 1.18.9[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node App.js`[39m
+(node:768) ExperimentalWarning: The fs.promises API is experimental
+Server Started
+::ffff:196.52.43.57:50891 connected
+::ffff:146.88.240.31:59354 connected
+::ffff:71.6.146.185:53129 connected
+::ffff:71.6.146.185:54082 connected
+::ffff:71.6.146.185:54924 connected
+::ffff:71.6.146.185:55735 connected
+::ffff:71.6.146.185:56577 connected
+::ffff:71.6.146.185:57408 connected
+::ffff:71.6.146.185:57661 connected
+::ffff:71.6.146.185:57832 connected
+::ffff:71.6.146.185:58110 connected
+::ffff:71.6.146.185:58267 connected
+::ffff:71.6.146.185:58523 connected
+::ffff:71.6.146.185:58769 connected
+::ffff:71.6.146.185:58864 connected
+::ffff:71.6.146.185:59050 connected
+::ffff:71.6.146.185:59354 connected
+::ffff:71.6.146.185:60769 connected
+::ffff:71.6.146.185:33454 connected
+::ffff:71.6.146.185:34107 connected
+::ffff:71.6.146.185:34760 connected
+::ffff:71.6.146.185:34895 connected
+::ffff:208.93.152.17:51764 connected
+::ffff:208.93.152.17:52194 connected
+::ffff:208.93.152.17:53016 connected
+::ffff:208.93.152.17:53412 connected
+::ffff:208.93.152.17:57306 connected
+::ffff:208.93.152.17:36146 connected
+::ffff:208.93.152.17:37740 connected
+::ffff:208.93.152.17:41106 connected
+::ffff:185.143.221.62:45322 connected
+::ffff:35.247.246.226:5876 connected
+::ffff:146.88.240.45:42912 connected
+::ffff:93.113.125.89:44444 connected
+::ffff:223.71.167.62:46861 connected
+::ffff:71.6.147.254:52761 connected
+::ffff:71.6.147.254:52980 connected
+::ffff:71.6.147.254:53247 connected
+::ffff:71.6.147.254:53489 connected
+::ffff:71.6.147.254:53769 connected
+::ffff:71.6.147.254:54110 connected
+::ffff:71.6.147.254:54242 connected
+::ffff:71.6.147.254:54331 connected
+::ffff:71.6.147.254:54366 connected
+::ffff:71.6.147.254:54398 connected
+::ffff:71.6.147.254:54443 connected
+::ffff:71.6.147.254:54591 connected
+::ffff:71.6.147.254:54684 connected
+::ffff:71.6.147.254:54745 connected
+::ffff:71.6.147.254:54785 connected
+::ffff:61.219.11.153:62113 connected
+::ffff:89.248.168.49:45726 connected
+::ffff:128.14.134.134:59110 connected
+::ffff:176.58.124.134:46336 connected
+::ffff:184.105.247.196:55116 connected
+::ffff:122.228.19.80:59541 connected
+::ffff:51.91.212.81:34564 connected
+::ffff:185.216.140.43:37880 connected
+::ffff:146.88.240.57:44736 connected
+::ffff:159.203.201.163:57476 connected
+::ffff:198.108.66.112:44196 connected
+::ffff:185.143.221.62:47103 connected
+::ffff:159.203.201.0:43678 connected
+::ffff:61.219.11.153:62725 connected
+::ffff:220.191.173.222:21745 connected
+::ffff:50.116.7.184:57138 connected
+::ffff:185.176.27.114:61444 connected
+::ffff:104.152.52.32:59168 connected
+::ffff:185.156.177.197:2002 connected
+::ffff:184.105.247.195:7396 connected
+::ffff:139.162.113.204:52548 connected
+::ffff:185.143.221.62:40530 connected
+::ffff:61.219.11.153:61512 connected
+::ffff:128.14.134.170:37132 connected
+::ffff:62.173.147.6:56625 connected
+::ffff:62.173.147.6:52296 connected
+::ffff:54.153.59.21:56472 connected
+::ffff:198.108.66.192:7118 connected
+::ffff:164.52.24.162:57415 connected
+::ffff:68.183.188.21:59300 connected
+::ffff:51.91.212.79:50146 connected
+::ffff:74.82.47.5:6596 connected
+::ffff:128.14.133.58:57050 connected
+::ffff:180.170.196.37:45568 connected
+::ffff:180.170.196.37:50044 connected
+::ffff:80.82.70.118:60000 connected
+::ffff:5.8.10.202:60676 connected
+::ffff:5.8.10.202:62226 connected
+::ffff:5.8.10.202:11280 connected
+::ffff:5.8.10.202:51292 connected
+::ffff:5.8.10.202:50577 connected
+::ffff:5.8.10.202:37817 connected
+::ffff:5.8.10.202:38220 connected
+::ffff:5.8.10.202:37903 connected
+::ffff:5.8.10.202:1738 connected
+::ffff:5.8.10.202:43681 connected
+::ffff:146.88.240.42:60241 connected
+::ffff:198.108.66.32:45556 connected
+::ffff:176.58.124.134:36056 connected
+::ffff:61.219.11.153:61513 connected
+::ffff:185.173.35.53:58536 connected
+::ffff:216.218.206.69:42778 connected
+::ffff:198.108.66.112:18198 connected
+::ffff:71.6.232.7:53920 connected
+::ffff:138.246.253.5:44502 connected
+::ffff:89.248.168.49:52350 connected
+::ffff:169.197.108.6:35084 connected
+::ffff:183.60.141.184:41386 connected
+::ffff:92.118.161.61:56608 connected
+::ffff:146.88.240.39:33954 connected
+::ffff:223.105.4.250:9406 connected
+::ffff:172.105.193.160:43670 connected
+::ffff:185.143.221.62:58998 connected
+::ffff:128.14.134.134:40782 connected
+::ffff:62.173.140.193:58078 connected
+::ffff:62.173.140.193:58555 connected
+::ffff:45.248.76.133:41858 connected
+::ffff:154.211.101.199:40928 connected
+::ffff:51.91.212.79:40564 connected
+::ffff:154.211.101.199:56516 connected
+::ffff:139.162.204.61:42264 connected
+::ffff:198.108.66.161:44376 connected
+::ffff:198.108.67.16:36920 connected
+::ffff:37.192.170.184:45754 connected
+::ffff:185.143.221.62:40334 connected
+::ffff:146.88.240.27:34399 connected
+::ffff:139.162.116.133:56380 connected
+::ffff:83.97.20.49:38656 connected
+::ffff:83.97.20.49:22100 connected
+::ffff:83.97.20.49:24026 connected
+::ffff:83.97.20.49:9358 connected
+::ffff:169.197.108.42:52840 connected
+::ffff:198.108.66.80:39472 connected
+::ffff:61.219.11.153:62605 connected
+::ffff:139.91.68.92:41418 connected
+::ffff:93.113.125.89:44444 connected
+::ffff:172.105.23.36:45612 connected
+::ffff:51.91.212.81:58714 connected
+::ffff:176.58.124.134:45434 connected
+::ffff:146.88.240.21:54101 connected
+::ffff:92.118.160.41:59419 connected
+::ffff:74.82.47.4:16792 connected
+::ffff:198.108.67.112:19180 connected
+::ffff:66.240.244.146:42582 connected
+::ffff:133.34.149.5:37978 connected
+::ffff:129.78.110.128:43556 connected
+::ffff:200.19.156.22:40162 connected
+::ffff:171.67.70.144:39856 connected
+::ffff:171.67.70.128:47632 connected
+::ffff:139.19.117.1:55978 connected
+::ffff:45.136.108.65:2197 connected
+::ffff:192.81.128.37:43474 connected
+::ffff:185.143.221.62:44664 connected
+::ffff:196.52.43.66:57555 connected
+::ffff:61.219.11.153:62775 connected
+::ffff:104.248.93.84:36704 connected
+::ffff:128.14.134.170:37092 connected
+::ffff:185.40.4.159:59044 connected
+::ffff:185.40.4.159:58790 connected
+::ffff:172.104.242.173:45475 connected
+::ffff:78.128.113.18:2739 connected
+::ffff:216.218.206.69:62594 connected
+::ffff:185.40.4.159:54519 connected
+::ffff:185.40.4.159:52126 connected
+::ffff:185.40.4.159:55672 connected
+::ffff:185.40.4.159:55778 connected
+::ffff:185.40.4.159:52657 connected
+::ffff:185.40.4.159:52382 connected
+::ffff:185.40.4.159:51939 connected
+::ffff:178.54.86.119:50583 connected
+::ffff:178.54.86.119:53152 connected
+::ffff:51.91.212.81:38910 connected
+::ffff:183.60.141.184:46036 connected
+::ffff:159.203.201.107:42854 connected
+::ffff:185.153.197.5:50016 connected
+::ffff:61.219.11.153:63671 connected
+::ffff:172.105.178.30:55250 connected
+::ffff:5.188.210.101:50538 connected
+::ffff:5.188.210.101:10215 connected
+::ffff:5.188.210.101:58267 connected
+::ffff:5.188.210.101:51985 connected
+::ffff:5.188.210.101:62367 connected
+::ffff:104.248.42.175:51812 connected
+::ffff:185.243.43.72:49475 connected
+::ffff:213.32.122.82:26745 connected
+::ffff:213.32.122.82:17269 connected
+::ffff:164.52.24.162:35130 connected
+::ffff:198.108.66.208:46918 connected
+::ffff:128.14.133.58:57828 connected
+::ffff:159.203.201.124:57962 connected
+::ffff:50.116.7.184:40980 connected
+::ffff:77.247.109.57:34486 connected
+::ffff:139.162.116.133:42670 connected
+::ffff:61.219.11.153:64818 connected
+::ffff:159.203.201.91:47044 connected
+::ffff:211.150.70.18:1807 connected
+::ffff:223.105.4.248:25114 connected
+::ffff:42.157.192.132:34226 connected
+::ffff:146.88.240.37:44573 connected
+::ffff:184.105.247.194:39186 connected
+::ffff:51.91.212.81:48668 connected
+::ffff:198.108.67.112:25910 connected
+::ffff:171.67.70.144:51168 connected
+::ffff:171.67.70.128:57594 connected
+::ffff:66.240.244.146:55664 connected
+::ffff:133.34.149.5:41234 connected
+::ffff:200.19.156.22:52610 connected
+::ffff:139.19.117.1:34218 connected
+::ffff:185.143.221.62:53175 connected
+::ffff:139.162.116.133:35172 connected
+::ffff:68.183.230.201:44978 connected
+::ffff:61.219.11.153:63960 connected
+::ffff:185.173.35.61:56515 connected
+::ffff:198.108.66.112:37324 connected
+::ffff:45.33.80.76:51138 connected
+::ffff:216.218.206.68:33978 connected
+::ffff:194.61.24.116:64227 connected
+::ffff:5.101.64.77:63248 connected
+::ffff:5.101.64.77:63929 connected
+::ffff:71.6.232.7:54360 connected
+::ffff:194.61.24.116:65077 connected
+::ffff:146.88.240.24:33248 connected
+::ffff:107.178.200.226:24019 connected
+::ffff:107.178.200.209:35735 connected
+::ffff:46.161.27.112:61438 connected
+::ffff:128.14.133.58:57140 connected
+::ffff:198.108.66.64:36844 connected
+::ffff:66.240.205.34:48380 connected
+::ffff:198.108.67.112:10488 connected
+::ffff:171.67.70.128:43708 connected
+::ffff:171.67.70.144:46672 connected
+::ffff:66.240.244.146:51262 connected
+::ffff:133.34.149.5:58616 connected
+::ffff:129.78.110.128:43140 connected
+::ffff:200.19.156.22:33396 connected
+::ffff:139.19.117.1:48052 connected
+::ffff:185.143.221.62:49147 connected
+::ffff:185.173.35.41:56914 connected
+::ffff:163.172.74.150:523 connected
+::ffff:104.248.93.84:37438 connected
+::ffff:5.101.64.77:64106 connected
+::ffff:5.101.64.77:63724 connected
+::ffff:185.153.199.137:64986 connected
+::ffff:193.188.22.187:1693 connected
+::ffff:66.175.220.5:36408 connected
+::ffff:35.236.12.40:42268 connected
+::ffff:66.240.205.34:50678 connected
+::ffff:146.88.240.21:60685 connected
+::ffff:5.8.10.202:51352 connected
+::ffff:185.216.140.43:35182 connected
+::ffff:51.91.212.79:53012 connected
+::ffff:184.105.247.196:14242 connected
+::ffff:198.108.66.208:2940 connected
+::ffff:154.47.32.66:63603 connected
+::ffff:93.113.125.89:44444 connected
+::ffff:181.215.95.127:43113 connected
+digest: undefined  |  false
+None
+[]
+no service worker, passing at /home.html
+Sending transcluded  /home.html
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+digest: script  |  true
+cached: NaN
+SW
+[]
+digest:   |  false
+None
+[]
+digest:   |  false
+None
+[]
+digest:   |  false
+None
+[]
+digest:   |  false
+None
+[]
+digest:   |  false
+None
+[]
+digest: NjM=  |  true
+cached: 63
+SW
+[ '/index.html' ]
+digest: NjM=  |  true
+cached: 63
+SW
+[ '/index.html' ]
+digest: NjM=  |  true
+cached: 63
+SW
+[ '/index.html' ]
+::ffff:5.101.64.77:64496 connected
+::ffff:5.101.64.77:64075 connected
+::ffff:185.143.223.97:2402 connected
+::ffff:50.116.3.158:42476 connected
+::ffff:169.197.108.38:47806 connected
+::ffff:162.62.26.56:35532 connected
+::ffff:45.56.78.64:49196 connected
+::ffff:146.88.240.14:50793 connected
+::ffff:198.108.66.80:29092 connected
+::ffff:71.6.158.166:45401 connected
+::ffff:71.6.158.166:46062 connected
+::ffff:71.6.158.166:46637 connected
+::ffff:71.6.158.166:47309 connected
+::ffff:71.6.158.166:47982 connected
+::ffff:71.6.158.166:48750 connected
+::ffff:71.6.158.166:48876 connected
+::ffff:71.6.158.166:49090 connected
+::ffff:71.6.158.166:49268 connected
+::ffff:71.6.158.166:49352 connected
+::ffff:71.6.158.166:49570 connected
+::ffff:71.6.158.166:49686 connected
+::ffff:71.6.158.166:49845 connected
+::ffff:71.6.158.166:50024 connected
+::ffff:71.6.158.166:50159 connected
+::ffff:71.6.158.166:50992 connected
+::ffff:71.6.158.166:51622 connected
+::ffff:71.6.158.166:52062 connected
+::ffff:71.6.158.166:52468 connected
+::ffff:71.6.158.166:52598 connected
+::ffff:45.136.108.68:874 connected
+::ffff:198.108.66.64:51736 connected
+::ffff:198.108.66.96:37676 connected
+::ffff:185.143.221.62:57031 connected
+::ffff:128.14.133.58:47440 connected
+::ffff:139.162.113.204:52200 connected
+::ffff:94.23.12.33:50758 connected
+::ffff:61.219.11.153:64889 connected
+::ffff:60.191.38.77:24182 connected
+::ffff:68.183.188.21:51878 connected
+::ffff:68.183.188.21:52874 connected
+::ffff:68.183.188.21:53502 connected
+::ffff:68.183.188.21:54110 connected
+::ffff:176.58.124.134:49006 connected
+::ffff:184.105.247.196:32208 connected
+::ffff:195.154.150.210:617 connected
+::ffff:45.56.78.64:36942 connected
+::ffff:66.240.205.34:42478 connected
+::ffff:182.16.111.162:53860 connected
+::ffff:164.52.24.162:53672 connected
+::ffff:208.93.153.177:36020 connected
+::ffff:208.93.153.177:36966 connected
+::ffff:208.93.153.177:37218 connected
+::ffff:208.93.153.177:37488 connected
+::ffff:208.93.153.177:38042 connected
+::ffff:208.93.153.177:38774 connected
+::ffff:208.93.153.177:39486 connected
+::ffff:208.93.153.177:41508 connected
+::ffff:92.118.160.61:41295 connected
+::ffff:92.118.161.5:52457 connected
+::ffff:54.36.53.233:48484 connected
+::ffff:223.71.167.61:59680 connected
+::ffff:185.143.221.62:59103 connected
+::ffff:183.60.141.184:36572 connected
+::ffff:45.83.64.71:39292 connected
+::ffff:128.14.134.134:42476 connected
+::ffff:159.203.201.6:46246 connected
+::ffff:130.149.152.144:45714 connected
+::ffff:61.219.11.153:63338 connected
+::ffff:146.88.240.27:38386 connected
+::ffff:184.105.247.194:40834 connected
+::ffff:141.98.10.33:22630 connected
+::ffff:60.190.248.13:5071 connected
+::ffff:122.224.129.237:36481 connected
+::ffff:193.188.22.187:1536 connected
+::ffff:208.93.153.177:59576 connected
+::ffff:208.93.153.177:33002 connected
+::ffff:208.93.153.177:33610 connected
+::ffff:208.93.153.177:34278 connected
+::ffff:208.93.153.177:35030 connected
+::ffff:208.93.153.177:35742 connected
+::ffff:208.93.153.177:36172 connected
+::ffff:208.93.153.177:36538 connected
+::ffff:5.188.210.101:18631 connected
+::ffff:5.188.210.101:50413 connected
+::ffff:5.188.210.101:19994 connected
+::ffff:5.188.210.101:22768 connected
+::ffff:5.188.210.101:22269 connected
+::ffff:169.197.108.6:37868 connected
+::ffff:94.23.220.192:37856 connected
+::ffff:61.219.11.153:61933 connected
+::ffff:77.247.110.76:53000 connected
+::ffff:77.247.110.76:53045 connected
+::ffff:77.247.110.76:53796 connected
+::ffff:77.247.110.76:54601 connected
+::ffff:77.247.110.76:55335 connected
+::ffff:77.247.110.76:55367 connected
+::ffff:77.247.110.76:55383 connected
+::ffff:142.11.239.69:42480 connected
+::ffff:142.93.128.238:33306 connected
+::ffff:184.105.247.196:40136 connected
+::ffff:185.53.88.5:34804 connected
+::ffff:51.91.212.81:35168 connected
+::ffff:51.91.212.81:38950 connected
+::ffff:146.88.240.12:33697 connected
+::ffff:52.5.149.249:40366 connected
+::ffff:159.203.201.114:57572 connected
+::ffff:198.108.66.224:43178 connected
+::ffff:185.143.221.62:55270 connected
+::ffff:93.113.125.89:44444 connected
+::ffff:223.71.167.62:15342 connected
+::ffff:184.105.139.70:40490 connected
+::ffff:159.203.193.252:57186 connected
+::ffff:146.88.240.55:49353 connected
+::ffff:144.91.75.55:53228 connected
+::ffff:66.175.220.5:37468 connected
+::ffff:128.14.134.134:55454 connected
+::ffff:141.98.10.127:64829 connected
+::ffff:139.162.113.204:39266 connected
+::ffff:141.98.10.127:54182 connected
+::ffff:118.8.71.191:52752 connected
+::ffff:34.215.104.220:45192 connected
+::ffff:71.6.232.7:39882 connected
+::ffff:45.136.108.65:1918 connected
+::ffff:185.156.177.234:1834 connected
+::ffff:61.219.11.153:61659 connected
+::ffff:122.228.19.80:57835 connected
+::ffff:184.105.247.252:6016 connected
+::ffff:146.88.240.25:36162 connected
+::ffff:198.108.66.161:18076 connected
+::ffff:23.95.84.74:59684 connected
+::ffff:128.14.134.170:41652 connected
+::ffff:213.32.122.82:19363 connected
+::ffff:213.32.122.82:31485 connected
+::ffff:141.98.80.117:2437 connected
+::ffff:196.52.43.65:53558 connected
+::ffff:23.95.84.74:59741 connected
+::ffff:173.255.200.214:53184 connected
+::ffff:61.219.11.153:65195 connected
+::ffff:104.152.52.29:59115 connected
+::ffff:169.197.108.42:54982 connected
+::ffff:193.188.22.187:1469 connected
+::ffff:117.50.6.201:43272 connected
+::ffff:117.50.6.201:44526 connected
+::ffff:117.50.6.201:44744 connected
+::ffff:117.50.6.201:44894 connected
+::ffff:117.50.6.201:44924 connected
+::ffff:117.50.6.201:45562 connected
+::ffff:159.203.197.15:42968 connected
+::ffff:180.56.222.249:48546 connected
+::ffff:185.156.177.197:2209 connected
+::ffff:138.246.253.5:54102 connected
+::ffff:198.108.67.16:12814 connected
+::ffff:218.211.168.178:38238 connected
+::ffff:182.16.111.162:50562 connected
+::ffff:141.98.10.127:54552 connected
+::ffff:74.82.47.5:58074 connected
+::ffff:141.98.81.254:1706 connected
+::ffff:146.88.240.32:54381 connected
+::ffff:45.9.148.123:51024 connected
+::ffff:167.172.237.60:42822 connected
+::ffff:192.81.135.222:35366 connected
+::ffff:208.93.153.177:44716 connected
+::ffff:208.93.153.177:46224 connected
+::ffff:208.93.153.177:46546 connected
+::ffff:208.93.153.177:46872 connected
+::ffff:208.93.153.177:47308 connected
+::ffff:208.93.153.177:47960 connected
+::ffff:208.93.153.177:48764 connected
+::ffff:208.93.153.177:49206 connected
+::ffff:157.245.125.161:36130 connected
+::ffff:157.245.125.161:43916 connected
+::ffff:157.245.125.161:43944 connected
+::ffff:198.108.66.112:50490 connected
+::ffff:185.143.221.62:55811 connected
+::ffff:54.72.39.203:37082 connected
+::ffff:141.98.10.127:58558 connected
+::ffff:196.52.43.62:54055 connected
+::ffff:212.129.23.154:60630 connected
+::ffff:212.129.23.154:60682 connected
+::ffff:212.129.23.154:61735 connected
+::ffff:212.129.23.154:62787 connected
+::ffff:212.129.23.154:63845 connected
+::ffff:212.129.23.154:63947 connected
+::ffff:212.129.23.154:64059 connected
+::ffff:128.14.133.58:53544 connected
+::ffff:77.247.110.76:51464 connected
+::ffff:77.247.110.76:63275 connected
+::ffff:77.247.110.76:64570 connected
+::ffff:77.247.110.76:55028 connected
+::ffff:77.247.110.76:60060 connected
+::ffff:77.247.110.76:60576 connected
+::ffff:77.247.110.76:64210 connected
+::ffff:171.67.70.112:43398 connected
+::ffff:96.127.169.2:46426 connected
+::ffff:13.211.154.95:55538 connected
+::ffff:13.211.154.95:55543 connected
+::ffff:13.211.154.95:57421 connected
+::ffff:13.211.154.95:59460 connected
+::ffff:13.211.154.95:60395 connected
+::ffff:13.211.154.95:60401 connected
+::ffff:13.211.154.95:60448 connected
+::ffff:74.82.47.5:31644 connected
+::ffff:198.108.66.112:35876 connected
+::ffff:51.91.212.81:49944 connected
+::ffff:51.91.212.81:48982 connected
+::ffff:13.211.154.95:54321 connected
+::ffff:13.211.154.95:54338 connected
+::ffff:13.211.154.95:55437 connected
+::ffff:13.211.154.95:58014 connected
+::ffff:13.211.154.95:59529 connected
+::ffff:13.211.154.95:59549 connected
+::ffff:13.211.154.95:59579 connected
+::ffff:198.108.66.16:30064 connected
+::ffff:80.82.70.118:60000 connected
+::ffff:184.154.74.66:35403 connected
+::ffff:184.154.74.66:43604 connected
+::ffff:184.154.74.66:47562 connected
+::ffff:184.154.74.66:57280 connected
+::ffff:184.154.74.66:40530 connected
+::ffff:184.154.74.66:45180 connected
+::ffff:184.154.74.66:48658 connected
+::ffff:184.154.74.66:53628 connected
+::ffff:184.154.74.66:60274 connected
+::ffff:180.56.221.22:59596 connected
+::ffff:185.143.221.62:46554 connected
+::ffff:198.108.66.80:27770 connected
+::ffff:185.234.217.183:36504 connected
+::ffff:5.8.10.202:28871 connected
+::ffff:5.8.10.202:50315 connected
+::ffff:5.8.10.202:5912 connected
+::ffff:5.8.10.202:61945 connected
+::ffff:5.8.10.202:51908 connected
+::ffff:5.8.10.202:47498 connected
+::ffff:5.8.10.202:47889 connected
+::ffff:5.8.10.202:60460 connected
+::ffff:5.8.10.202:40008 connected
+::ffff:5.8.10.202:22497 connected
+::ffff:35.237.197.240:49170 connected
+::ffff:85.93.20.70:1420 connected
+::ffff:193.188.22.136:65532 connected
+::ffff:173.255.200.214:40514 connected
+::ffff:128.14.133.58:58454 connected
+::ffff:173.255.217.203:38956 connected
+::ffff:185.153.199.102:849 connected
+::ffff:185.153.199.102:1796 connected
+::ffff:216.218.206.68:46460 connected
+::ffff:176.58.124.134:57752 connected
+::ffff:62.173.140.193:57361 connected
+::ffff:62.173.140.193:57688 connected
+::ffff:51.77.90.198:61824 connected
+::ffff:51.77.90.198:54329 connected
+::ffff:139.162.116.133:32840 connected
+::ffff:196.52.43.95:63609 connected
+::ffff:61.219.11.153:64040 connected
+::ffff:93.113.125.89:44444 connected
+::ffff:146.88.240.11:50870 connected
+::ffff:45.148.10.15:39266 connected
+::ffff:182.138.163.147:16227 connected
+::ffff:182.138.163.147:29048 connected
+::ffff:122.24.189.199:52412 connected
+::ffff:142.93.128.238:54748 connected
+::ffff:68.183.188.21:37926 connected
+::ffff:68.183.188.21:38174 connected
+::ffff:68.183.188.21:38628 connected
+::ffff:128.14.134.170:59740 connected
+::ffff:68.183.188.21:50924 connected
+::ffff:68.183.188.21:51162 connected
+::ffff:68.183.188.21:51506 connected
+::ffff:61.219.11.153:63220 connected
+::ffff:216.218.206.67:32156 connected
+::ffff:5.188.210.101:50002 connected
+::ffff:5.188.210.101:28240 connected
+::ffff:5.188.210.101:22378 connected
+::ffff:5.188.210.101:10987 connected
+::ffff:5.188.210.101:28892 connected
+::ffff:51.158.98.255:41876 connected
+::ffff:51.158.98.255:59270 connected
+::ffff:146.88.240.28:36223 connected
+::ffff:45.136.108.65:1637 connected
+::ffff:141.98.10.127:56463 connected
+::ffff:164.52.24.162:59983 connected
+::ffff:139.162.113.204:33954 connected
+::ffff:45.56.78.64:50774 connected
+::ffff:141.98.10.127:59018 connected
+::ffff:185.173.35.13:44103 connected
+::ffff:185.143.221.62:39183 connected
+::ffff:45.79.114.128:39504 connected
+::ffff:193.188.22.187:1960 connected
+::ffff:185.156.177.235:2567 connected
+::ffff:169.197.108.38:50040 connected
+::ffff:223.105.4.250:56176 connected
+::ffff:37.192.170.184:54128 connected
+::ffff:173.212.250.236:51026 connected
+::ffff:173.212.250.236:34126 connected
+::ffff:173.212.250.236:38292 connected
+::ffff:173.212.250.236:40700 connected
+::ffff:216.218.206.68:22530 connected
+::ffff:146.88.240.55:54363 connected
+::ffff:45.33.80.76:38976 connected
+::ffff:61.219.11.153:63343 connected
+::ffff:208.93.152.17:56410 connected
+::ffff:208.93.152.17:56492 connected
+::ffff:208.93.152.17:56698 connected
+::ffff:208.93.152.17:59506 connected
+::ffff:208.93.152.17:60870 connected
+::ffff:208.93.152.17:36276 connected
+::ffff:208.93.152.17:38660 connected
+::ffff:208.93.152.17:41916 connected
+::ffff:213.32.122.82:31565 connected
+::ffff:213.32.122.82:5677 connected
+::ffff:198.108.66.144:61196 connected
+::ffff:167.71.119.44:44508 connected
+::ffff:185.143.221.62:54128 connected
+::ffff:92.63.194.17:1939 connected
+::ffff:92.63.194.17:2444 connected
+::ffff:5.101.64.77:64580 connected
+::ffff:213.231.2.188:58324 connected
+::ffff:5.101.64.77:64869 connected
+::ffff:184.105.139.67:63498 connected
+::ffff:159.203.197.17:55618 connected
+::ffff:146.88.240.10:60909 connected
+::ffff:66.240.205.34:55020 connected
+::ffff:198.108.66.80:59908 connected
+::ffff:185.156.177.50:227 connected
+::ffff:172.105.231.199:38444 connected
+::ffff:185.143.221.62:48715 connected
+::ffff:62.219.50.252:53148 connected
+::ffff:198.143.158.178:38146 connected
+::ffff:61.219.11.153:65262 connected
+::ffff:71.6.232.7:50268 connected
+::ffff:159.203.193.43:55792 connected
+::ffff:139.162.116.133:35868 connected
+::ffff:61.219.11.153:65262 connected
+::ffff:128.14.134.170:51470 connected
+::ffff:93.113.125.89:44444 connected
+::ffff:146.88.240.36:57987 connected
+::ffff:184.105.247.194:27826 connected
+::ffff:185.143.221.62:54924 connected
+::ffff:198.108.66.64:6346 connected
+::ffff:176.58.124.134:35760 connected
+::ffff:101.249.56.208:14292 connected
+::ffff:101.249.56.208:14956 connected
+::ffff:71.6.232.7:43752 connected
+::ffff:61.219.11.153:61437 connected
+::ffff:185.53.88.5:52728 connected
+::ffff:216.218.206.68:44324 connected
+::ffff:62.173.147.118:53304 connected
+::ffff:146.88.240.52:54488 connected
+::ffff:51.91.212.81:43182 connected
+::ffff:51.91.212.81:48242 connected
+::ffff:196.52.43.84:42441 connected
+::ffff:45.136.108.65:745 connected
+::ffff:5.188.210.101:52689 connected
+::ffff:5.188.210.101:49515 connected
+::ffff:5.188.210.101:22383 connected
+::ffff:5.188.210.101:24641 connected
+::ffff:5.188.210.101:27079 connected
+::ffff:198.108.66.112:11116 connected
+::ffff:185.234.218.52:57520 connected
+::ffff:185.143.221.62:51053 connected
+::ffff:139.162.116.133:46642 connected
+::ffff:47.92.172.245:44772 connected
+::ffff:45.227.253.82:56066 connected
+::ffff:47.92.172.245:45414 connected
+::ffff:45.227.253.82:38736 connected
+::ffff:45.227.253.82:49740 connected
+::ffff:45.227.253.82:60788 connected
+::ffff:47.92.172.245:47536 connected
+::ffff:45.227.253.82:43874 connected
+::ffff:47.92.172.245:48142 connected
+::ffff:45.227.253.82:55020 connected
+::ffff:47.92.172.245:48928 connected
+::ffff:45.227.253.82:37634 connected
+::ffff:47.92.172.245:49224 connected
+::ffff:45.227.253.82:48566 connected
+::ffff:47.92.172.245:49806 connected
+::ffff:47.92.172.245:50100 connected
+::ffff:47.92.172.245:50334 connected
+::ffff:45.227.253.82:59428 connected
+::ffff:47.92.172.245:50524 connected
+::ffff:47.92.172.245:50764 connected
+::ffff:47.92.172.245:50942 connected
+::ffff:45.227.253.82:42472 connected
+::ffff:47.92.172.245:51286 connected
+::ffff:47.92.172.245:51492 connected
+::ffff:45.227.253.82:53596 connected
+::ffff:47.92.172.245:51882 connected
+::ffff:47.92.172.245:52058 connected
+::ffff:45.227.253.82:36724 connected
+::ffff:47.92.172.245:52668 connected
+::ffff:47.92.172.245:52948 connected
+::ffff:45.227.253.82:47658 connected
+::ffff:47.92.172.245:53094 connected
+::ffff:47.92.172.245:53324 connected
+::ffff:47.92.172.245:53452 connected
+::ffff:45.227.253.82:58686 connected
+::ffff:47.92.172.245:53704 connected
+::ffff:45.227.253.82:41540 connected
+::ffff:47.92.172.245:54252 connected
+::ffff:45.227.253.82:52570 connected
+::ffff:47.92.172.245:55006 connected
+::ffff:47.92.172.245:55314 connected
+::ffff:47.92.172.245:55492 connected
+::ffff:45.227.253.82:35342 connected
+::ffff:47.92.172.245:55768 connected
+::ffff:47.92.172.245:55962 connected
+::ffff:45.227.253.82:46214 connected
+::ffff:47.92.172.245:56420 connected
+::ffff:45.227.253.82:57298 connected
+::ffff:47.92.172.245:56642 connected
+::ffff:45.227.253.82:40304 connected
+::ffff:45.227.253.82:51468 connected
+::ffff:47.92.172.245:58000 connected
+::ffff:47.92.172.245:58004 connected
+::ffff:47.92.172.245:58002 connected
+::ffff:47.92.172.245:58008 connected
+::ffff:47.92.172.245:58068 connected
+::ffff:47.92.172.245:58072 connected
+::ffff:47.92.172.245:58074 connected
+::ffff:47.92.172.245:58006 connected
+::ffff:45.227.253.82:34024 connected
+::ffff:47.92.172.245:58274 connected
+::ffff:47.92.172.245:58278 connected
+::ffff:47.92.172.245:58400 connected
+::ffff:47.92.172.245:58406 connected
+::ffff:47.92.172.245:58506 connected
+::ffff:45.227.253.82:45048 connected
+::ffff:47.92.172.245:59406 connected
+::ffff:45.227.253.82:56332 connected
+::ffff:45.227.253.82:39120 connected
+::ffff:47.92.172.245:60942 connected
+::ffff:128.14.134.134:48250 connected
+::ffff:37.187.30.83:56844 connected
+::ffff:196.52.43.63:56081 connected
+::ffff:61.219.11.153:62664 connected
+::ffff:198.108.66.16:6092 connected
+::ffff:216.218.206.67:21320 connected
+::ffff:198.211.125.39:58868 connected
+::ffff:198.108.67.16:30442 connected
+::ffff:185.143.221.62:37198 connected
+::ffff:66.240.205.34:37226 connected
+::ffff:198.108.66.208:53826 connected
+::ffff:128.14.134.134:38316 connected
+::ffff:121.57.225.111:52158 connected
+::ffff:121.57.225.111:52364 connected
+::ffff:201.87.16.202:62592 connected
+::ffff:196.52.43.91:57775 connected
+::ffff:183.221.242.38:54377 connected
+::ffff:201.16.237.122:44733 connected
+::ffff:184.105.247.194:7884 connected
+::ffff:139.162.113.204:49604 connected
+::ffff:173.230.152.228:35038 connected
+::ffff:92.118.37.64:61000 connected
+::ffff:178.238.236.128:54794 connected
+::ffff:198.108.67.112:59166 connected
+::ffff:66.240.244.146:51602 connected
+::ffff:133.34.149.5:43296 connected
+::ffff:200.19.156.22:41166 connected
+::ffff:129.78.110.128:59060 connected
+::ffff:171.67.70.128:34722 connected
+::ffff:171.67.70.144:48744 connected
+::ffff:139.19.117.1:57476 connected
+::ffff:128.14.209.226:59530 connected
+::ffff:37.49.230.91:39402 connected
+::ffff:128.14.209.226:55562 connected
+::ffff:94.102.52.28:60000 connected
+::ffff:5.8.10.202:4525 connected
+::ffff:5.8.10.202:55701 connected
+::ffff:5.8.10.202:44174 connected
+::ffff:5.8.10.202:30680 connected
+::ffff:5.8.10.202:59863 connected
+::ffff:5.8.10.202:57329 connected
+::ffff:5.8.10.202:37213 connected
+::ffff:5.8.10.202:42928 connected
+::ffff:5.8.10.202:30848 connected
+::ffff:5.8.10.202:26955 connected
+::ffff:66.240.205.34:51254 connected
+::ffff:45.56.78.64:48718 connected
+::ffff:169.197.108.6:37306 connected
+::ffff:184.105.139.67:34248 connected
+::ffff:193.188.22.187:1583 connected
+::ffff:128.199.41.60:47650 connected
+::ffff:173.244.36.44:50577 connected
+::ffff:173.244.36.44:60043 connected
+::ffff:173.244.36.44:45048 connected
+::ffff:173.244.36.44:54458 connected
+::ffff:173.244.36.44:39341 connected
+::ffff:173.244.36.44:48549 connected
+::ffff:173.244.36.44:33040 connected
+::ffff:173.244.36.44:42083 connected
+::ffff:173.244.36.44:60105 connected
+::ffff:173.244.36.44:41142 connected
+::ffff:173.244.36.44:53778 connected
+::ffff:173.244.36.44:35032 connected
+::ffff:173.244.36.44:47847 connected
+::ffff:173.244.36.44:57320 connected
+::ffff:173.244.36.44:42166 connected
+::ffff:173.244.36.44:51712 connected
+::ffff:173.244.36.44:36178 connected
+::ffff:173.244.36.44:45193 connected
+::ffff:173.244.36.44:34380 connected
+::ffff:173.244.36.44:37641 connected
+::ffff:173.244.36.44:49713 connected
+::ffff:173.244.36.44:58724 connected
+::ffff:173.244.36.44:42834 connected
+::ffff:173.244.36.44:52069 connected
+::ffff:173.244.36.44:36666 connected
+::ffff:173.244.36.44:46235 connected
+::ffff:173.244.36.44:59106 connected
+::ffff:173.244.36.44:40294 connected
+::ffff:173.244.36.44:53280 connected
+::ffff:173.244.36.44:34582 connected
+::ffff:165.22.73.94:49740 connected
+::ffff:146.88.240.44:41940 connected
+::ffff:62.173.147.6:60798 connected
+::ffff:62.173.147.6:59407 connected
+::ffff:137.226.113.9:32791 connected
+::ffff:137.226.113.20:52512 connected
+digest: undefined  |  false
+None
+[]
+no service worker, passing at /home.html
+Sending transcluded  /home.html
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+::ffff:63.247.65.162:57196 connected
+::ffff:37.192.170.184:46168 connected
+::ffff:157.230.123.108:48528 connected
+::ffff:188.166.55.116:40614 connected
+::ffff:134.209.81.110:41570 connected
+::ffff:185.143.221.62:39889 connected
+::ffff:167.172.102.81:42362 connected
+::ffff:185.153.199.3:1208 connected
+::ffff:167.172.191.63:57820 connected
+::ffff:167.172.98.133:42716 connected
+::ffff:128.14.134.170:48880 connected
+::ffff:188.166.29.182:50478 connected
+::ffff:134.209.197.41:38064 connected
+::ffff:165.22.88.121:42754 connected
+::ffff:60.191.38.77:19904 connected
+::ffff:193.188.22.187:1420 connected
+::ffff:92.118.160.1:56516 connected
+::ffff:62.173.147.164:64913 connected
+::ffff:62.173.147.164:56703 connected
+::ffff:184.105.139.69:48496 connected
+::ffff:62.173.147.164:55636 connected
+::ffff:146.88.240.33:36828 connected
+::ffff:198.108.66.161:33150 connected
+::ffff:45.136.108.65:1408 connected
+::ffff:149.202.251.78:36884 connected
+::ffff:149.202.251.78:37044 connected
+::ffff:149.202.251.78:37116 connected
+::ffff:149.202.251.78:37262 connected
+::ffff:185.222.202.89:44960 connected
+::ffff:173.230.152.228:43918 connected
+::ffff:185.143.221.62:32937 connected
+::ffff:151.80.47.126:60152 connected
+::ffff:208.97.139.112:38298 connected
+::ffff:208.97.139.112:38379 connected
+::ffff:159.203.201.231:40446 connected
+::ffff:45.56.78.64:33374 connected
+::ffff:74.82.47.2:22710 connected
+::ffff:146.88.240.53:44240 connected
+::ffff:54.219.134.190:36308 connected
+::ffff:185.143.221.62:53192 connected
+::ffff:169.197.108.38:43754 connected
+::ffff:172.104.242.173:54974 connected
+::ffff:139.162.113.204:60654 connected
+::ffff:93.113.125.89:44444 connected
+::ffff:94.102.52.28:60000 connected
+::ffff:5.8.10.202:9821 connected
+::ffff:5.8.10.202:47336 connected
+::ffff:5.8.10.202:20854 connected
+::ffff:5.8.10.202:13864 connected
+::ffff:5.8.10.202:21794 connected
+::ffff:5.8.10.202:30673 connected
+::ffff:5.8.10.202:49297 connected
+::ffff:5.8.10.202:59669 connected
+::ffff:5.8.10.202:4723 connected
+::ffff:5.8.10.202:36943 connected
+::ffff:144.91.75.55:44336 connected
+::ffff:144.91.75.55:39294 connected
+::ffff:144.91.75.55:39492 connected
+::ffff:144.91.75.55:45354 connected
+::ffff:144.91.75.55:46116 connected
+::ffff:144.91.75.55:48842 connected
+::ffff:178.238.227.83:53256 connected
+::ffff:178.238.227.83:54506 connected
+::ffff:178.238.227.83:54794 connected
+::ffff:178.238.227.83:55808 connected
+::ffff:178.238.227.83:55772 connected
+::ffff:178.238.227.83:57770 connected
+::ffff:178.238.227.83:59018 connected
+::ffff:178.238.227.83:59946 connected
+::ffff:169.197.108.38:40198 connected
+::ffff:216.218.206.69:32840 connected
+::ffff:144.91.75.55:36174 connected
+::ffff:144.91.75.55:34862 connected
+::ffff:51.91.212.81:44456 connected
+::ffff:92.118.160.57:45803 connected
+::ffff:208.93.152.17:49434 connected
+::ffff:208.93.152.17:49550 connected
+::ffff:208.93.152.17:50644 connected
+::ffff:208.93.152.17:51720 connected
+::ffff:208.93.152.17:51872 connected
+::ffff:208.93.152.17:52094 connected
+::ffff:208.93.152.17:52242 connected
+::ffff:208.93.152.17:52336 connected
+::ffff:198.108.66.176:29072 connected
+::ffff:128.14.209.242:41016 connected
+::ffff:185.143.221.62:35596 connected
+::ffff:172.105.89.161:60160 connected
+::ffff:128.14.209.154:46392 connected
+::ffff:173.255.217.203:58300 connected
+::ffff:159.203.201.140:46814 connected
+::ffff:128.14.134.134:52304 connected
+::ffff:165.22.88.121:60728 connected
+::ffff:176.58.124.134:60558 connected
+::ffff:62.173.147.164:63191 connected
+::ffff:62.173.147.164:65523 connected
+::ffff:62.173.147.164:49644 connected
+::ffff:138.246.253.5:43915 connected
+::ffff:198.108.66.112:35078 connected
+::ffff:83.97.20.136:44246 connected
+::ffff:122.228.19.80:41856 connected
+::ffff:62.173.147.164:62955 connected
+::ffff:62.173.147.164:62904 connected
+::ffff:62.173.147.164:63061 connected
+::ffff:159.203.201.136:52788 connected
+::ffff:184.105.247.194:14310 connected
+::ffff:218.211.168.178:52124 connected
+::ffff:71.6.232.7:35306 connected
+::ffff:198.108.66.96:14446 connected
+::ffff:192.81.220.234:54656 connected
+::ffff:193.188.22.187:1358 connected
+::ffff:185.143.221.62:39193 connected
+::ffff:164.52.24.162:57439 connected
+::ffff:169.197.108.38:33852 connected
+::ffff:62.173.147.118:64424 connected
+::ffff:107.6.171.130:47116 connected
+::ffff:107.6.171.130:54028 connected
+::ffff:107.6.171.130:55492 connected
+::ffff:107.6.171.130:36084 connected
+::ffff:107.6.171.130:46346 connected
+::ffff:107.6.171.130:49693 connected
+::ffff:107.6.171.130:54190 connected
+::ffff:107.6.171.130:58608 connected
+::ffff:107.6.171.130:36770 connected
+::ffff:196.52.43.92:53481 connected
+::ffff:92.118.37.64:61000 connected
+::ffff:62.210.77.54:43022 connected
+::ffff:62.210.77.54:52938 connected
+::ffff:184.105.247.195:46728 connected
+::ffff:185.176.27.114:42930 connected
+::ffff:104.152.52.24:58238 connected
+::ffff:146.88.240.32:33518 connected
+::ffff:51.91.212.81:54898 connected
+::ffff:51.91.212.81:44202 connected
+::ffff:62.4.14.206:57645 connected
+::ffff:198.108.66.96:33284 connected
+::ffff:198.108.66.208:7842 connected
+::ffff:193.188.22.76:1518 connected
+::ffff:172.105.89.161:33658 connected
+::ffff:198.108.66.16:45702 connected
+::ffff:169.197.108.38:41102 connected
+::ffff:176.58.124.134:34366 connected
+::ffff:92.118.37.64:61000 connected
+::ffff:139.162.113.204:57566 connected
+::ffff:196.52.43.116:42752 connected
+::ffff:172.104.242.173:50338 connected
+::ffff:93.113.125.89:44444 connected
+::ffff:184.105.139.68:34450 connected
+::ffff:193.188.22.187:1666 connected
+::ffff:192.241.245.108:36148 connected
+::ffff:146.88.240.46:47853 connected
+::ffff:185.143.221.62:48599 connected
+::ffff:63.247.65.162:45428 connected
+::ffff:83.97.20.228:43358 connected
+::ffff:35.189.72.27:12980 connected
+::ffff:172.105.89.161:36776 connected
+::ffff:138.99.216.147:61000 connected
+::ffff:45.56.78.64:43660 connected
+::ffff:173.255.243.28:43654 connected
+::ffff:5.188.210.101:30047 connected
+::ffff:5.188.210.101:44966 connected
+::ffff:5.188.210.101:23896 connected
+::ffff:5.188.210.101:22296 connected
+::ffff:5.188.210.101:47311 connected
+::ffff:137.226.113.9:39759 connected
+::ffff:137.226.113.20:56126 connected
+digest: undefined  |  false
+None
+[]
+no service worker, passing at /home.html
+Sending transcluded  /home.html
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+::ffff:184.105.139.69:39826 connected
+::ffff:5.101.64.77:65427 connected
+::ffff:5.101.64.77:65108 connected
+::ffff:92.118.160.33:62829 connected
+::ffff:223.105.4.250:9909 connected
+::ffff:34.253.197.39:19481 connected
+::ffff:80.82.68.114:60900 connected
+::ffff:80.82.68.114:58716 connected
+::ffff:61.219.11.153:64853 connected
+::ffff:66.240.205.34:58792 connected
+::ffff:185.143.221.62:57214 connected
+::ffff:176.58.124.134:34510 connected
+::ffff:107.6.91.26:34044 connected
+::ffff:190.2.147.100:64234 connected
+::ffff:190.2.147.100:65528 connected
+::ffff:172.105.89.161:40334 connected
+::ffff:190.2.147.100:64851 connected
+::ffff:184.105.139.68:22812 connected
+::ffff:146.88.240.45:38897 connected
+::ffff:192.81.135.222:32836 connected
+::ffff:198.108.66.96:57876 connected
+::ffff:61.219.11.153:61700 connected
+::ffff:138.68.218.135:44120 connected
+::ffff:128.14.133.58:53496 connected
+::ffff:71.6.167.142:56866 connected
+::ffff:71.6.167.142:57528 connected
+::ffff:71.6.167.142:58446 connected
+::ffff:45.136.108.65:2142 connected
+::ffff:45.56.78.64:43024 connected
+::ffff:185.143.221.62:57333 connected
+::ffff:139.162.113.204:57684 connected
+::ffff:112.64.199.58:11054 connected
+::ffff:112.64.199.58:13370 connected
+::ffff:172.105.149.207:48282 connected
+::ffff:172.104.242.173:41612 connected
+::ffff:185.176.27.114:34314 connected
+::ffff:128.14.133.58:59852 connected
+::ffff:216.218.206.67:10956 connected
+::ffff:146.88.240.56:34712 connected
+::ffff:45.136.108.65:2223 connected
+::ffff:62.113.227.26:52864 connected
+::ffff:37.192.170.184:41162 connected
+::ffff:193.188.22.187:1318 connected
+::ffff:190.2.147.100:64161 connected
+::ffff:190.2.147.100:63703 connected
+::ffff:37.192.170.184:36318 connected
+::ffff:190.2.147.100:64921 connected
+::ffff:164.52.24.162:39571 connected
+::ffff:34.244.16.91:54315 connected
+::ffff:83.97.20.228:43128 connected
+::ffff:5.101.64.77:65360 connected
+::ffff:5.101.64.77:63112 connected
+::ffff:184.105.247.195:38034 connected
+::ffff:5.101.64.77:64134 connected
+::ffff:5.101.64.77:64508 connected
+::ffff:96.126.100.87:43314 connected
+::ffff:198.108.66.161:19034 connected
+::ffff:169.197.108.38:46038 connected
+::ffff:61.219.11.153:61700 connected
+::ffff:185.143.221.62:44812 connected
+::ffff:198.108.66.96:28870 connected
+::ffff:92.118.161.41:61882 connected
+::ffff:71.6.232.7:58246 connected
+::ffff:159.203.201.114:52130 connected
+::ffff:52.224.105.75:57246 connected
+::ffff:139.162.113.204:40930 connected
+::ffff:159.203.201.108:44360 connected
+::ffff:216.218.206.69:16254 connected
+::ffff:198.108.66.192:18088 connected
+::ffff:77.247.109.86:60436 connected
+::ffff:92.118.160.9:44791 connected
+::ffff:61.219.11.153:64426 connected
+::ffff:37.49.231.103:41048 connected
+::ffff:37.49.231.103:57980 connected
+::ffff:51.91.247.125:44048 connected
+::ffff:128.14.134.134:44910 connected
+::ffff:193.188.22.187:1875 connected
+::ffff:83.97.20.219:44976 connected
+::ffff:89.248.162.171:39788 connected
+::ffff:146.88.240.56:40489 connected
+::ffff:169.197.108.38:34174 connected
+::ffff:74.82.47.2:44548 connected
+::ffff:198.108.66.96:24898 connected
+::ffff:198.108.66.192:22608 connected
+::ffff:51.91.212.81:33378 connected
+::ffff:45.136.108.68:669 connected
+::ffff:198.108.66.144:27440 connected
+::ffff:78.31.71.113:65294 connected
+::ffff:128.14.134.134:44762 connected
+[33m[nodemon] 1.18.9[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node App.js`[39m
+Server Started
+::ffff:192.81.135.222:46928 connected
+[33m[nodemon] 1.18.9[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node App.js`[39m
+Server Started
+::ffff:128.14.209.250:34488 connected
+::ffff:5.101.64.77:63184 connected
+::ffff:5.101.64.77:65199 connected
+::ffff:146.88.240.16:56278 connected
+::ffff:66.240.205.34:50872 connected
+::ffff:213.32.122.82:15425 connected
+::ffff:213.32.122.82:19897 connected
+::ffff:5.101.64.77:64754 connected
+::ffff:5.101.64.77:65084 connected
+::ffff:216.218.206.68:31246 connected
+::ffff:78.31.71.113:61767 connected
+::ffff:159.203.201.63:33050 connected
+::ffff:85.93.20.70:3134 connected
+::ffff:142.93.128.238:39964 connected
+::ffff:185.143.221.85:41301 connected
+::ffff:51.159.23.43:29836 connected
+::ffff:218.211.168.178:50368 connected
+::ffff:185.246.128.162:64942 connected
+::ffff:151.217.176.75:47138 connected
+::ffff:35.178.180.15:8653 connected
+::ffff:92.118.160.13:60119 connected
+::ffff:185.173.35.37:49471 connected
+::ffff:193.188.22.229:63184 connected
+::ffff:138.99.216.171:61000 connected
+::ffff:176.58.124.134:42328 connected
+::ffff:58.212.14.32:41432 connected
+::ffff:58.212.14.32:41792 connected
+::ffff:74.82.47.3:61914 connected
+::ffff:208.93.152.17:52780 connected
+::ffff:208.93.152.17:52858 connected
+::ffff:208.93.152.17:52980 connected
+::ffff:208.93.152.17:53122 connected
+::ffff:208.93.152.17:53280 connected
+::ffff:208.93.152.17:53316 connected
+::ffff:208.93.152.17:53446 connected
+::ffff:208.93.152.17:56148 connected
+::ffff:66.240.205.34:53724 connected
+::ffff:146.88.240.51:54838 connected
+::ffff:169.197.108.6:32906 connected
+::ffff:139.162.113.204:46148 connected
+::ffff:128.14.133.58:42764 connected
+::ffff:193.188.22.229:64412 connected
+::ffff:51.159.23.43:41780 connected
+::ffff:137.226.113.9:50457 connected
+::ffff:137.226.113.20:39524 connected
+digest: undefined  |  false
+None
+[]
+no service worker, passing at /home.html
+Sending transcluded  /home.html
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+::ffff:149.210.179.118:46022 connected
+::ffff:45.83.65.120:21238 connected
+::ffff:201.16.237.125:41547 connected
+::ffff:164.52.24.162:52935 connected
+::ffff:5.188.210.101:21061 connected
+::ffff:5.188.210.101:50943 connected
+::ffff:5.188.210.101:50129 connected
+::ffff:5.188.210.101:18222 connected
+::ffff:5.188.210.101:53125 connected
+::ffff:144.91.103.224:51792 connected
+::ffff:144.91.103.224:51903 connected
+::ffff:144.91.103.224:52503 connected
+::ffff:144.91.103.224:53169 connected
+::ffff:144.91.103.224:53813 connected
+::ffff:144.91.103.224:53913 connected
+::ffff:144.91.103.224:53976 connected
+::ffff:92.118.37.64:61000 connected
+::ffff:196.52.43.116:51272 connected
+::ffff:146.88.240.26:59901 connected
+::ffff:107.6.91.26:50612 connected
+::ffff:198.108.66.208:39910 connected
+::ffff:169.197.108.6:33940 connected
+::ffff:93.113.125.89:44444 connected
+::ffff:45.33.80.76:33456 connected
+::ffff:94.102.49.190:40415 connected
+::ffff:94.102.49.190:40937 connected
+::ffff:94.102.49.190:41954 connected
+::ffff:94.102.49.190:42879 connected
+::ffff:94.102.49.190:44378 connected
+::ffff:94.102.49.190:45314 connected
+::ffff:94.102.49.190:45701 connected
+::ffff:94.102.49.190:45844 connected
+::ffff:94.102.49.190:46037 connected
+::ffff:94.102.49.190:46324 connected
+::ffff:94.102.49.190:46533 connected
+::ffff:94.102.49.190:46778 connected
+::ffff:94.102.49.190:47027 connected
+::ffff:94.102.49.190:47278 connected
+::ffff:94.102.49.190:47506 connected
+::ffff:193.188.22.229:64403 connected
+::ffff:208.93.153.177:51812 connected
+::ffff:208.93.153.177:52036 connected
+::ffff:208.93.153.177:52822 connected
+::ffff:208.93.153.177:55242 connected
+::ffff:208.93.153.177:55836 connected
+::ffff:208.93.153.177:56738 connected
+::ffff:208.93.153.177:58286 connected
+::ffff:208.93.153.177:58710 connected
+::ffff:185.143.221.85:45298 connected
+::ffff:51.159.23.43:48446 connected
+::ffff:61.219.11.153:61275 connected
+::ffff:45.33.1.223:54774 connected
+::ffff:192.64.86.92:32828 connected
+::ffff:163.172.84.202:60000 connected
+::ffff:5.8.10.202:55577 connected
+::ffff:5.8.10.202:57705 connected
+::ffff:151.217.178.118:54890 connected
+::ffff:47.244.164.95:52724 connected
+::ffff:193.188.22.187:1559 connected
+::ffff:185.176.27.114:61944 connected
+::ffff:159.203.201.185:58592 connected
+::ffff:74.82.47.4:12716 connected
+::ffff:128.14.133.58:46590 connected
+::ffff:83.97.20.228:56036 connected
+::ffff:65.19.174.198:33786 connected
+::ffff:52.89.177.92:34356 connected
+::ffff:5.101.64.77:64561 connected
+::ffff:5.101.64.77:64995 connected
+::ffff:185.143.221.85:44744 connected
+::ffff:198.108.66.32:19626 connected
+::ffff:51.159.23.43:9252 connected
+::ffff:193.106.29.210:59536 connected
+::ffff:71.6.232.7:43420 connected
+::ffff:222.186.19.221:51606 connected
+::ffff:83.97.20.46:20666 connected
+::ffff:83.97.20.46:57116 connected
+::ffff:83.97.20.46:28880 connected
+::ffff:83.97.20.46:61924 connected
+::ffff:218.75.38.213:32844 connected
+::ffff:122.224.129.237:45571 connected
+::ffff:169.197.108.42:50960 connected
+::ffff:198.108.66.192:38276 connected
+::ffff:146.88.240.50:48865 connected
+::ffff:184.105.247.195:2128 connected
+::ffff:51.91.212.81:52264 connected
+::ffff:51.91.212.81:49690 connected
+::ffff:193.188.22.136:64570 connected
+::ffff:62.173.145.188:50326 connected
+::ffff:193.188.22.136:62182 connected
+::ffff:185.143.221.85:41930 connected
+::ffff:218.211.168.178:33114 connected
+::ffff:51.159.23.43:7390 connected
+::ffff:144.91.80.125:40282 connected
+[33m[nodemon] 1.18.9[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node App.js`[39m
+Server Started
+::ffff:159.203.197.16:46906 connected
+undefined:undefined connected
+::ffff:185.153.196.47:42076 connected
+::ffff:185.153.196.47:43136 connected
+::ffff:85.114.101.142:60147 connected
+digest: undefined  |  false
+None
+[]
+File: /Graphics/Tropical/styles.css requested, and was not found.
+File: /404 requested, and was not found.
+::ffff:85.114.101.142:13506 connected
+digest: undefined  |  false
+None
+[]
+File: /login.esp?r=system_info.esp/ requested, and was not found.
+File: /404 requested, and was not found.
+::ffff:85.114.101.142:32801 connected
+digest: undefined  |  false
+None
+[]
+no service worker, passing at /home.html
+Sending transcluded  /home.html
+::ffff:138.246.253.5:36554 connected
+::ffff:172.105.89.161:41962 connected
+::ffff:45.143.220.97:52396 connected
+::ffff:45.143.220.97:57929 connected
+::ffff:45.143.220.97:52225 connected
+::ffff:45.143.220.97:54442 connected
+::ffff:45.143.220.97:56029 connected
+::ffff:45.143.220.97:54728 connected
+::ffff:45.143.220.97:61167 connected
+::ffff:61.219.11.153:63207 connected
+::ffff:137.117.166.242:41488 connected
+::ffff:51.89.173.198:55358 connected
+::ffff:139.162.113.204:47024 connected
+::ffff:159.203.201.184:39416 connected
+::ffff:198.108.66.96:1984 connected
+::ffff:74.82.47.4:4612 connected
+::ffff:128.14.134.134:34556 connected
+::ffff:45.136.108.65:2933 connected
+::ffff:185.143.221.85:46386 connected
+::ffff:45.9.148.123:51498 connected
+::ffff:92.222.141.74:36916 connected
+::ffff:196.52.43.91:56190 connected
+::ffff:45.141.86.122:39032 connected
+::ffff:193.188.22.187:1780 connected
+::ffff:196.52.43.51:52761 connected
+::ffff:61.219.11.153:65514 connected
+::ffff:213.32.122.82:16969 connected
+::ffff:213.32.122.82:25109 connected
+::ffff:213.32.122.82:6519 connected
+::ffff:216.218.206.69:54304 connected
+::ffff:54.197.211.167:16090 connected
+::ffff:45.56.78.64:48480 connected
+::ffff:208.93.152.17:36780 connected
+::ffff:208.93.152.17:37038 connected
+::ffff:208.93.152.17:38516 connected
+::ffff:208.93.152.17:38704 connected
+::ffff:208.93.152.17:38838 connected
+::ffff:208.93.152.17:39002 connected
+::ffff:208.93.152.17:39170 connected
+::ffff:208.93.152.17:39268 connected
+::ffff:198.108.66.96:40176 connected
+::ffff:185.143.221.85:33177 connected
+::ffff:198.108.66.32:23772 connected
+::ffff:139.162.113.204:60930 connected
+::ffff:78.128.112.14:64373 connected
+::ffff:164.52.24.162:55599 connected
+::ffff:121.248.48.3:62322 connected
+::ffff:146.88.240.18:56570 connected
+::ffff:198.108.66.144:20702 connected
+::ffff:184.105.139.70:14218 connected
+::ffff:178.238.236.128:55458 connected
+::ffff:223.105.4.249:45089 connected
+::ffff:185.143.221.85:47366 connected
+::ffff:144.91.80.99:45929 connected
+::ffff:159.203.193.245:57578 connected
+::ffff:107.161.22.138:49818 connected
+::ffff:185.173.35.61:56886 connected
+::ffff:62.173.145.188:56364 connected
+::ffff:62.173.145.188:57644 connected
+::ffff:62.173.145.188:53828 connected
+::ffff:62.173.145.188:62712 connected
+::ffff:62.173.145.188:62876 connected
+::ffff:62.173.145.188:65242 connected
+::ffff:62.173.145.188:51291 connected
+::ffff:62.173.145.188:53643 connected
+::ffff:62.173.145.188:53975 connected
+::ffff:62.173.145.188:54255 connected
+::ffff:137.226.113.9:56909 connected
+::ffff:216.218.206.68:38768 connected
+::ffff:146.88.240.45:33305 connected
+::ffff:66.175.220.5:41734 connected
+::ffff:45.136.108.65:1482 connected
+::ffff:92.118.160.9:52144 connected
+::ffff:12.151.243.170:49636 connected
+::ffff:12.151.243.170:49638 connected
+::ffff:12.151.243.170:50002 connected
+::ffff:12.151.243.170:50558 connected
+::ffff:12.151.243.170:51364 connected
+::ffff:12.151.243.170:51810 connected
+::ffff:12.151.243.170:51830 connected
+::ffff:12.151.243.170:51975 connected
+::ffff:12.151.243.170:52386 connected
+::ffff:12.151.243.170:52581 connected
+::ffff:12.151.243.170:52606 connected
+::ffff:12.151.243.170:52685 connected
+::ffff:12.151.243.170:52704 connected
+::ffff:12.151.243.170:52721 connected
+::ffff:12.151.243.170:52733 connected
+::ffff:12.151.243.170:52754 connected
+::ffff:12.151.243.170:52778 connected
+::ffff:12.151.243.170:52799 connected
+::ffff:12.151.243.170:52815 connected
+::ffff:12.151.243.170:52839 connected
+::ffff:12.151.243.170:52856 connected
+::ffff:12.151.243.170:52870 connected
+::ffff:12.151.243.170:52893 connected
+::ffff:12.151.243.170:52920 connected
+::ffff:12.151.243.170:52943 connected
+::ffff:12.151.243.170:52956 connected
+::ffff:12.151.243.170:52973 connected
+::ffff:12.151.243.170:52989 connected
+::ffff:12.151.243.170:53011 connected
+::ffff:12.151.243.170:53035 connected
+::ffff:12.151.243.170:53057 connected
+::ffff:12.151.243.170:53070 connected
+::ffff:12.151.243.170:53085 connected
+::ffff:12.151.243.170:53109 connected
+::ffff:12.151.243.170:53126 connected
+::ffff:12.151.243.170:53149 connected
+::ffff:12.151.243.170:53171 connected
+::ffff:12.151.243.170:53191 connected
+::ffff:12.151.243.170:53212 connected
+::ffff:12.151.243.170:53232 connected
+::ffff:12.151.243.170:53253 connected
+::ffff:12.151.243.170:53270 connected
+::ffff:12.151.243.170:53289 connected
+::ffff:12.151.243.170:53311 connected
+::ffff:12.151.243.170:53329 connected
+::ffff:12.151.243.170:53345 connected
+::ffff:12.151.243.170:53359 connected
+::ffff:12.151.243.170:53384 connected
+::ffff:12.151.243.170:53397 connected
+::ffff:12.151.243.170:53420 connected
+::ffff:12.151.243.170:53451 connected
+::ffff:12.151.243.170:53471 connected
+::ffff:12.151.243.170:53494 connected
+::ffff:12.151.243.170:53511 connected
+::ffff:12.151.243.170:53533 connected
+::ffff:12.151.243.170:53560 connected
+::ffff:12.151.243.170:53586 connected
+::ffff:12.151.243.170:53608 connected
+::ffff:185.153.199.3:775 connected
+::ffff:12.151.243.170:53627 connected
+::ffff:12.151.243.170:53769 connected
+::ffff:12.151.243.170:53892 connected
+::ffff:12.151.243.170:53988 connected
+::ffff:12.151.243.170:54058 connected
+::ffff:12.151.243.170:54168 connected
+::ffff:12.151.243.170:54231 connected
+::ffff:12.151.243.170:54249 connected
+::ffff:12.151.243.170:54268 connected
+::ffff:12.151.243.170:54279 connected
+::ffff:12.151.243.170:54324 connected
+::ffff:12.151.243.170:54465 connected
+::ffff:12.151.243.170:54696 connected
+::ffff:12.151.243.170:54965 connected
+::ffff:12.151.243.170:55083 connected
+::ffff:12.151.243.170:55495 connected
+::ffff:12.151.243.170:55912 connected
+::ffff:12.151.243.170:56123 connected
+::ffff:12.151.243.170:56288 connected
+::ffff:12.151.243.170:56317 connected
+::ffff:12.151.243.170:56332 connected
+::ffff:12.151.243.170:56348 connected
+::ffff:12.151.243.170:56372 connected
+::ffff:12.151.243.170:56423 connected
+::ffff:12.151.243.170:56883 connected
+::ffff:12.151.243.170:57131 connected
+::ffff:12.151.243.170:57149 connected
+::ffff:12.151.243.170:57191 connected
+::ffff:12.151.243.170:57639 connected
+::ffff:12.151.243.170:57900 connected
+::ffff:12.151.243.170:57918 connected
+::ffff:12.151.243.170:57951 connected
+::ffff:12.151.243.170:57973 connected
+::ffff:68.183.188.21:58438 connected
+::ffff:68.183.188.21:58602 connected
+::ffff:68.183.188.21:58800 connected
+::ffff:68.183.188.21:59114 connected
+::ffff:12.151.243.170:57994 connected
+::ffff:12.151.243.170:58007 connected
+::ffff:12.151.243.170:58025 connected
+::ffff:12.151.243.170:58047 connected
+::ffff:12.151.243.170:58074 connected
+::ffff:12.151.243.170:58092 connected
+::ffff:12.151.243.170:58115 connected
+::ffff:12.151.243.170:58133 connected
+::ffff:12.151.243.170:58162 connected
+::ffff:12.151.243.170:58176 connected
+::ffff:12.151.243.170:58191 connected
+::ffff:12.151.243.170:58205 connected
+::ffff:12.151.243.170:58220 connected
+::ffff:12.151.243.170:58244 connected
+::ffff:12.151.243.170:58263 connected
+::ffff:12.151.243.170:58276 connected
+::ffff:12.151.243.170:58292 connected
+::ffff:12.151.243.170:58315 connected
+::ffff:12.151.243.170:58344 connected
+::ffff:12.151.243.170:58368 connected
+::ffff:12.151.243.170:58389 connected
+::ffff:12.151.243.170:58516 connected
+::ffff:12.151.243.170:58588 connected
+::ffff:12.151.243.170:58787 connected
+::ffff:12.151.243.170:58992 connected
+::ffff:12.151.243.170:59025 connected
+::ffff:12.151.243.170:59074 connected
+::ffff:12.151.243.170:59188 connected
+::ffff:12.151.243.170:59203 connected
+::ffff:12.151.243.170:59223 connected
+::ffff:12.151.243.170:59565 connected
+::ffff:12.151.243.170:59586 connected
+::ffff:12.151.243.170:59607 connected
+::ffff:12.151.243.170:59811 connected
+::ffff:12.151.243.170:59826 connected
+::ffff:12.151.243.170:59843 connected
+::ffff:12.151.243.170:59876 connected
+::ffff:12.151.243.170:59893 connected
+::ffff:12.151.243.170:59908 connected
+::ffff:12.151.243.170:59929 connected
+::ffff:12.151.243.170:59948 connected
+::ffff:12.151.243.170:59965 connected
+::ffff:12.151.243.170:59980 connected
+::ffff:12.151.243.170:60005 connected
+::ffff:12.151.243.170:60021 connected
+::ffff:12.151.243.170:60035 connected
+::ffff:12.151.243.170:60100 connected
+::ffff:12.151.243.170:60126 connected
+::ffff:12.151.243.170:60178 connected
+::ffff:12.151.243.170:60197 connected
+::ffff:222.186.19.221:56796 connected
+::ffff:12.151.243.170:60228 connected
+::ffff:12.151.243.170:60234 connected
+::ffff:12.151.243.170:60377 connected
+::ffff:12.151.243.170:60467 connected
+::ffff:12.151.243.170:60680 connected
+::ffff:12.151.243.170:61564 connected
+::ffff:12.151.243.170:62655 connected
+::ffff:12.151.243.170:62965 connected
+::ffff:12.151.243.170:63178 connected
+::ffff:12.151.243.170:63270 connected
+::ffff:5.188.210.101:60576 connected
+::ffff:5.188.210.101:22339 connected
+::ffff:5.188.210.101:49042 connected
+::ffff:5.188.210.101:26795 connected
+::ffff:12.151.243.170:63294 connected
+::ffff:5.188.210.101:27696 connected
+::ffff:12.151.243.170:63309 connected
+::ffff:62.173.145.188:49618 connected
+::ffff:62.173.145.188:49992 connected
+::ffff:62.173.145.188:50162 connected
+::ffff:12.151.243.170:63560 connected
+::ffff:12.151.243.170:63572 connected
+::ffff:62.173.145.188:59774 connected
+::ffff:62.173.145.188:59914 connected
+::ffff:62.173.145.188:62449 connected
+::ffff:62.173.145.188:64969 connected
+::ffff:62.173.145.188:51005 connected
+::ffff:62.173.145.188:51316 connected
+::ffff:62.173.145.188:51620 connected
+::ffff:12.151.243.170:63588 connected
+::ffff:12.151.243.170:63598 connected
+::ffff:12.151.243.170:63610 connected
+::ffff:12.151.243.170:63625 connected
+::ffff:12.151.243.170:63636 connected
+::ffff:12.151.243.170:63807 connected
+::ffff:12.151.243.170:64228 connected
+::ffff:12.151.243.170:64363 connected
+::ffff:12.151.243.170:64378 connected
+::ffff:12.151.243.170:64517 connected
+::ffff:12.151.243.170:65010 connected
+::ffff:12.151.243.170:65297 connected
+::ffff:12.151.243.170:65303 connected
+::ffff:12.151.243.170:65354 connected
+::ffff:12.151.243.170:65373 connected
+::ffff:12.151.243.170:65387 connected
+::ffff:12.151.243.170:65404 connected
+::ffff:12.151.243.170:65412 connected
+::ffff:12.151.243.170:65420 connected
+::ffff:12.151.243.170:65432 connected
+::ffff:12.151.243.170:65444 connected
+::ffff:12.151.243.170:65464 connected
+::ffff:12.151.243.170:65486 connected
+::ffff:12.151.243.170:65494 connected
+::ffff:12.151.243.170:65505 connected
+::ffff:12.151.243.170:65518 connected
+::ffff:5.101.64.77:64536 connected
+::ffff:5.101.64.77:65499 connected
+::ffff:184.105.247.195:49306 connected
+::ffff:61.219.11.153:63849 connected
+::ffff:51.91.212.81:52972 connected
+::ffff:139.162.113.204:42494 connected
+::ffff:164.52.24.162:37340 connected
+::ffff:185.143.221.85:58818 connected
+::ffff:222.186.19.221:46520 connected
+::ffff:198.108.66.192:15398 connected
+::ffff:128.14.134.134:41490 connected
+::ffff:144.91.75.37:45102 connected
+::ffff:159.203.10.6:40152 connected
+::ffff:184.105.139.67:12642 connected
+::ffff:128.14.133.58:49972 connected
+::ffff:61.219.11.153:61473 connected
+::ffff:222.186.19.221:37432 connected
+::ffff:107.6.183.226:40092 connected
+::ffff:107.6.183.226:49442 connected
+::ffff:107.6.183.226:53550 connected
+::ffff:107.6.183.226:34910 connected
+::ffff:107.6.183.226:47196 connected
+::ffff:107.6.183.226:50978 connected
+::ffff:107.6.183.226:53964 connected
+::ffff:107.6.183.226:58146 connected
+::ffff:107.6.183.226:47184 connected
+::ffff:107.6.183.226:36534 connected
+::ffff:66.240.205.34:38458 connected
+::ffff:172.104.242.173:50235 connected
+::ffff:5.101.0.209:54914 connected
+::ffff:45.79.112.116:59616 connected
+::ffff:185.173.35.5:32778 connected
+::ffff:184.105.247.196:24368 connected
+::ffff:198.108.66.192:55798 connected
+::ffff:164.68.104.216:59828 connected
+::ffff:164.68.104.216:59975 connected
+::ffff:164.68.104.216:61858 connected
+::ffff:164.68.104.216:63819 connected
+::ffff:164.68.104.216:49264 connected
+::ffff:164.68.104.216:49511 connected
+::ffff:164.68.104.216:49682 connected
+::ffff:3.87.67.141:20486 connected
+::ffff:146.88.240.34:57207 connected
+::ffff:51.91.212.79:55570 connected
+::ffff:198.108.66.64:3310 connected
+::ffff:5.101.0.209:56508 connected
+::ffff:222.186.19.221:37596 connected
+::ffff:220.184.97.120:55806 connected
+::ffff:60.176.230.150:56348 connected
+::ffff:169.197.108.38:44284 connected
+::ffff:172.105.89.161:33624 connected
+::ffff:61.219.11.153:62671 connected
+::ffff:185.143.221.85:46775 connected
+::ffff:193.188.22.187:1493 connected
+::ffff:5.101.0.209:42480 connected
+::ffff:128.14.209.178:39620 connected
+::ffff:71.6.232.7:47546 connected
+::ffff:172.105.90.222:44552 connected
+::ffff:98.228.37.67:64350 connected
+::ffff:216.218.206.68:2796 connected
+::ffff:62.173.147.118:65506 connected
+::ffff:77.247.110.15:44986 connected
+::ffff:167.172.43.231:53378 connected
+::ffff:128.14.133.58:33150 connected
+::ffff:198.108.66.96:24516 connected
+::ffff:141.98.9.4:57762 connected
+::ffff:141.98.9.4:60106 connected
+::ffff:170.106.84.83:37406 connected
+::ffff:187.191.44.202:53428 connected
+::ffff:187.191.44.202:53531 connected
+::ffff:187.191.44.202:53658 connected
+::ffff:187.191.44.202:53795 connected
+::ffff:139.162.113.204:59806 connected
+::ffff:172.104.242.173:52061 connected
+::ffff:196.52.43.63:57284 connected
+::ffff:5.101.0.209:44852 connected
+::ffff:169.197.108.22:38628 connected
+::ffff:185.153.199.201:1069 connected
+::ffff:185.153.199.201:2114 connected
+::ffff:185.153.199.201:2393 connected
+::ffff:222.186.19.221:37398 connected
+::ffff:169.197.108.38:54910 connected
+::ffff:51.158.121.128:41104 connected
+::ffff:159.203.201.235:37758 connected
+::ffff:185.176.27.114:50236 connected
+::ffff:83.97.20.221:54136 connected
+::ffff:51.89.173.198:53002 connected
+::ffff:216.218.206.68:46734 connected
+::ffff:36.32.3.137:33071 connected
+::ffff:36.32.3.137:56764 connected
+::ffff:159.203.201.154:46652 connected
+::ffff:5.101.64.77:64932 connected
+::ffff:5.101.64.77:64379 connected
+::ffff:50.116.7.184:46250 connected
+::ffff:5.101.64.77:65113 connected
+::ffff:5.101.64.77:64256 connected
+::ffff:172.105.11.111:48264 connected
+::ffff:172.105.11.111:20092 connected
+::ffff:172.105.11.111:58556 connected
+::ffff:172.105.11.111:25834 connected
+::ffff:172.105.11.111:44584 connected
+::ffff:172.105.11.111:47360 connected
+::ffff:172.105.11.111:50736 connected
+::ffff:172.105.11.111:14444 connected
+::ffff:172.105.11.111:18406 connected
+::ffff:172.105.11.111:22274 connected
+::ffff:172.105.11.111:26042 connected
+::ffff:172.105.11.111:30430 connected
+::ffff:172.105.11.111:35020 connected
+::ffff:172.105.11.111:38692 connected
+::ffff:172.105.11.111:42208 connected
+::ffff:172.105.11.111:45796 connected
+::ffff:172.105.11.111:48870 connected
+::ffff:172.105.11.111:52378 connected
+::ffff:172.105.11.111:55430 connected
+::ffff:172.105.11.111:58134 connected
+::ffff:172.105.11.111:60680 connected
+::ffff:172.105.11.111:9272 connected
+::ffff:172.105.11.111:12298 connected
+::ffff:172.105.11.111:14942 connected
+::ffff:172.105.11.111:17650 connected
+::ffff:172.105.11.111:20490 connected
+::ffff:172.105.11.111:24024 connected
+::ffff:172.105.11.111:28208 connected
+::ffff:172.105.11.111:31950 connected
+::ffff:198.108.66.192:36642 connected
+::ffff:172.105.11.111:30806 connected
+::ffff:172.105.11.111:44334 connected
+::ffff:172.105.11.111:27300 connected
+::ffff:172.105.11.111:427 connected
+::ffff:61.219.11.153:61199 connected
+::ffff:128.14.133.58:60638 connected
+::ffff:208.93.153.177:37552 connected
+::ffff:208.93.153.177:37776 connected
+::ffff:208.93.153.177:37954 connected
+::ffff:208.93.153.177:38136 connected
+::ffff:208.93.153.177:38294 connected
+::ffff:208.93.153.177:39768 connected
+::ffff:208.93.153.177:42146 connected
+::ffff:208.93.153.177:43650 connected
+::ffff:222.186.19.221:42650 connected
+::ffff:45.141.87.2:65161 connected
+::ffff:194.61.26.193:1475 connected
+::ffff:130.207.202.11:53268 connected
+::ffff:92.118.37.64:61000 connected
+::ffff:5.101.0.209:46378 connected
+::ffff:198.108.66.161:33296 connected
+::ffff:167.71.15.186:55720 connected
+::ffff:216.218.206.67:62048 connected
+::ffff:164.52.24.162:53645 connected
+::ffff:37.192.170.184:56578 connected
+::ffff:62.4.14.198:39071 connected
+::ffff:45.79.129.215:33792 connected
+::ffff:37.192.170.184:34548 connected
+::ffff:185.143.221.85:40895 connected
+::ffff:172.105.89.161:44054 connected
+::ffff:222.186.19.221:53552 connected
+::ffff:115.192.210.162:54794 connected
+::ffff:115.192.210.162:56526 connected
+::ffff:71.6.135.131:43362 connected
+::ffff:71.6.135.131:44154 connected
+::ffff:71.6.135.131:45280 connected
+::ffff:71.6.135.131:46244 connected
+::ffff:71.6.135.131:47210 connected
+::ffff:71.6.135.131:48392 connected
+::ffff:71.6.135.131:48592 connected
+::ffff:71.6.135.131:48701 connected
+::ffff:71.6.135.131:49296 connected
+::ffff:71.6.135.131:49620 connected
+::ffff:71.6.135.131:49768 connected
+::ffff:71.6.135.131:50058 connected
+::ffff:71.6.135.131:50306 connected
+::ffff:71.6.135.131:50774 connected
+::ffff:71.6.135.131:50968 connected
+::ffff:71.6.135.131:52626 connected
+::ffff:71.6.135.131:53898 connected
+::ffff:71.6.135.131:54982 connected
+::ffff:71.6.135.131:56456 connected
+::ffff:71.6.135.131:56600 connected
+::ffff:78.128.113.46:61000 connected
+::ffff:80.82.68.17:59360 connected
+::ffff:80.82.68.17:45452 connected
+::ffff:5.101.0.209:33304 connected
+::ffff:185.173.35.13:53295 connected
+::ffff:137.226.113.9:56598 connected
+::ffff:137.226.113.20:48500 connected
+digest: undefined  |  false
+None
+[]
+no service worker, passing at /home.html
+Sending transcluded  /home.html
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+::ffff:184.105.139.68:7094 connected
+::ffff:51.91.212.80:50932 connected
+::ffff:51.91.212.80:40972 connected
+::ffff:169.197.108.38:43944 connected
+::ffff:178.62.224.137:46606 connected
+::ffff:146.88.240.39:43658 connected
+::ffff:178.128.250.55:56878 connected
+::ffff:45.79.129.215:52658 connected
+::ffff:61.219.11.153:63044 connected
+::ffff:185.209.0.76:1207 connected
+::ffff:5.188.210.101:16433 connected
+::ffff:5.188.210.101:43272 connected
+::ffff:5.188.210.101:44127 connected
+::ffff:5.188.210.101:23961 connected
+::ffff:5.188.210.101:14104 connected
+::ffff:185.143.221.85:37960 connected
+::ffff:169.197.108.6:54428 connected
+::ffff:222.186.19.221:41684 connected
+undefined:undefined connected
+::ffff:185.156.177.175:39727 connected
+::ffff:185.156.177.175:43316 connected
+::ffff:51.158.121.128:58654 connected
+::ffff:51.158.121.128:44354 connected
+::ffff:106.75.84.197:52396 connected
+::ffff:106.75.84.197:52896 connected
+::ffff:106.75.84.197:53052 connected
+::ffff:106.75.84.197:53066 connected
+::ffff:106.75.84.197:53106 connected
+::ffff:106.75.84.197:53482 connected
+::ffff:196.52.43.93:46749 connected
+::ffff:66.175.220.5:53326 connected
+::ffff:159.203.197.16:36288 connected
+::ffff:45.83.65.49:61176 connected
+::ffff:138.99.216.112:61000 connected
+::ffff:139.162.189.189:40406 connected
+::ffff:185.156.177.234:1464 connected
+::ffff:184.105.247.195:32758 connected
+::ffff:172.105.64.188:60128 connected
+::ffff:169.197.108.6:34550 connected
+::ffff:80.82.68.68:58748 connected
+::ffff:80.82.68.68:34684 connected
+::ffff:223.105.4.248:16898 connected
+::ffff:139.162.113.204:37950 connected
+::ffff:5.101.0.209:33634 connected
+::ffff:167.71.7.64:52228 connected
+::ffff:198.108.66.192:44342 connected
+::ffff:5.101.0.209:49268 connected
+::ffff:193.188.22.187:2095 connected
+::ffff:185.143.221.85:59463 connected
+::ffff:61.219.11.153:65299 connected
+::ffff:5.101.0.209:59516 connected
+::ffff:195.154.92.15:64002 connected
+::ffff:195.154.92.15:64332 connected
+::ffff:5.101.0.209:38006 connected
+::ffff:5.101.0.209:45096 connected
+::ffff:195.154.59.204:54019 connected
+::ffff:195.154.59.204:54068 connected
+::ffff:195.154.59.204:55142 connected
+::ffff:195.154.59.204:56136 connected
+::ffff:195.154.59.204:57195 connected
+::ffff:195.154.59.204:57298 connected
+::ffff:195.154.59.204:57388 connected
+::ffff:45.143.220.97:62317 connected
+::ffff:45.143.220.97:56668 connected
+::ffff:45.143.220.97:53377 connected
+::ffff:45.143.220.97:59808 connected
+::ffff:45.143.220.97:60084 connected
+::ffff:45.143.220.97:57092 connected
+::ffff:45.143.220.97:57186 connected
+::ffff:51.91.212.79:51908 connected
+::ffff:45.56.78.64:49882 connected
+::ffff:184.105.247.194:41300 connected
+::ffff:66.240.205.34:57974 connected
+::ffff:222.186.19.221:44842 connected
+::ffff:128.14.134.134:53446 connected
+::ffff:123.179.14.11:20715 connected
+::ffff:1.202.114.131:26943 connected
+::ffff:195.154.92.15:63431 connected
+::ffff:195.154.92.15:65419 connected
+::ffff:213.32.122.82:8665 connected
+::ffff:213.32.122.82:6183 connected
+::ffff:185.143.221.85:38109 connected
+::ffff:66.240.205.34:47012 connected
+::ffff:92.63.194.57:1925 connected
+::ffff:172.105.89.161:50922 connected
+::ffff:183.60.141.171:50340 connected
+::ffff:13.57.208.110:46606 connected
+::ffff:74.63.192.130:61000 connected
+::ffff:104.248.89.98:45010 connected
+::ffff:198.108.66.161:44858 connected
+::ffff:169.197.108.22:38566 connected
+::ffff:172.104.242.173:50005 connected
+::ffff:94.23.4.197:57018 connected
+::ffff:45.33.80.76:35102 connected
+::ffff:164.68.112.178:40312 connected
+::ffff:74.82.47.3:42004 connected
+::ffff:5.101.0.209:53210 connected
+::ffff:78.128.113.46:61000 connected
+::ffff:5.101.0.209:60216 connected
+::ffff:198.143.158.178:46386 connected
+::ffff:128.14.134.170:42102 connected
+::ffff:192.81.135.222:38532 connected
+::ffff:45.227.255.224:59442 connected
+::ffff:45.227.255.224:45572 connected
+::ffff:222.186.19.221:52312 connected
+::ffff:198.108.66.192:41848 connected
+::ffff:45.83.66.12:17346 connected
+::ffff:139.162.113.204:55810 connected
+::ffff:146.88.240.33:36951 connected
+::ffff:64.225.76.222:38102 connected
+::ffff:92.118.160.57:51203 connected
+::ffff:71.6.232.7:53746 connected
+::ffff:172.105.89.161:52166 connected
+::ffff:138.246.253.5:49566 connected
+::ffff:172.104.242.173:52826 connected
+::ffff:172.104.242.173:43905 connected
+::ffff:222.186.19.221:36620 connected
+::ffff:220.200.161.29:54326 connected
+::ffff:58.249.98.36:55086 connected
+::ffff:216.218.206.68:36376 connected
+::ffff:51.89.173.198:52808 connected
+::ffff:5.101.0.209:33184 connected
+::ffff:5.101.0.209:44482 connected
+[33m[nodemon] 1.18.9[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node App.js`[39m
+Server Started
+::ffff:172.105.150.60:56954 connected
+::ffff:169.197.108.42:56306 connected
+::ffff:198.108.66.208:35148 connected
+::ffff:185.143.221.85:36950 connected
+::ffff:164.52.24.162:35412 connected
+::ffff:62.210.169.121:18284 connected
+::ffff:139.162.113.204:59304 connected
+::ffff:222.186.19.221:37934 connected
+::ffff:92.118.160.57:46339 connected
+::ffff:198.108.66.208:18132 connected
+::ffff:159.203.201.140:52408 connected
+::ffff:50.116.3.158:38740 connected
+::ffff:198.108.66.192:60794 connected
+::ffff:185.143.221.85:41879 connected
+::ffff:42.157.192.132:48630 connected
+::ffff:176.58.124.134:33614 connected
+::ffff:222.186.19.221:42264 connected
+::ffff:223.105.4.250:60400 connected
+::ffff:116.54.98.160:55780 connected
+::ffff:119.39.46.252:56572 connected
+::ffff:198.108.66.224:38562 connected
+::ffff:222.137.30.111:8288 connected
+::ffff:222.137.30.111:8670 connected
+::ffff:159.203.201.16:42582 connected
+::ffff:185.156.177.234:1308 connected
+::ffff:45.56.78.64:51342 connected
+::ffff:71.6.202.253:33676 connected
+::ffff:213.32.122.82:26431 connected
+::ffff:213.32.122.82:13971 connected
+::ffff:51.91.212.81:59866 connected
+::ffff:74.82.47.5:50376 connected
+::ffff:208.93.152.17:40586 connected
+::ffff:208.93.152.17:41076 connected
+::ffff:208.93.152.17:41484 connected
+::ffff:208.93.152.17:41892 connected
+::ffff:208.93.152.17:43682 connected
+::ffff:208.93.152.17:43746 connected
+::ffff:208.93.152.17:43998 connected
+::ffff:208.93.152.17:44104 connected
+::ffff:146.88.240.17:48509 connected
+::ffff:34.74.125.193:1204 connected
+::ffff:178.79.149.102:53486 connected
+::ffff:5.101.0.209:45856 connected
+::ffff:5.101.0.209:56718 connected
+::ffff:178.79.172.231:44116 connected
+::ffff:172.104.242.173:56138 connected
+::ffff:5.101.0.209:49578 connected
+::ffff:45.83.66.150:57218 connected
+::ffff:94.102.49.190:45628 connected
+::ffff:94.102.49.190:46115 connected
+::ffff:94.102.49.190:46588 connected
+::ffff:94.102.49.190:46978 connected
+::ffff:94.102.49.190:47425 connected
+::ffff:94.102.49.190:47857 connected
+::ffff:94.102.49.190:48037 connected
+::ffff:94.102.49.190:48176 connected
+::ffff:94.102.49.190:48305 connected
+::ffff:94.102.49.190:48427 connected
+::ffff:94.102.49.190:48599 connected
+::ffff:185.40.4.11:58493 connected
+::ffff:92.118.160.25:55913 connected
+::ffff:185.40.4.11:57999 connected
+::ffff:185.40.4.11:58692 connected
+::ffff:185.40.4.11:53724 connected
+::ffff:185.40.4.11:64737 connected
+::ffff:185.40.4.11:59681 connected
+::ffff:185.40.4.11:60904 connected
+::ffff:185.40.4.11:62130 connected
+::ffff:92.118.160.5:64340 connected
+::ffff:96.126.100.87:47008 connected
+::ffff:45.143.221.27:43542 connected
+::ffff:5.188.206.50:63875 connected
+::ffff:83.97.20.204:61000 connected
+::ffff:111.59.171.8:34273 connected
+::ffff:213.246.62.242:43539 connected
+::ffff:176.58.124.134:49990 connected
+::ffff:146.88.240.50:49876 connected
+::ffff:222.186.19.221:32774 connected
+::ffff:185.143.221.85:47698 connected
+undefined:undefined connected
+::ffff:78.128.112.26:14752 connected
+::ffff:78.128.112.26:25648 connected
+::ffff:74.63.246.42:60340 connected
+::ffff:139.162.113.204:51748 connected
+::ffff:193.188.22.187:1703 connected
+::ffff:72.14.186.84:45046 connected
+::ffff:72.14.186.84:45250 connected
+::ffff:104.248.175.47:36474 connected
+::ffff:104.248.175.47:37242 connected
+::ffff:104.248.175.47:37584 connected
+::ffff:104.248.175.47:37900 connected
+::ffff:104.248.175.47:38176 connected
+::ffff:104.248.175.47:38394 connected
+::ffff:104.248.175.47:38652 connected
+::ffff:104.248.175.47:39440 connected
+::ffff:104.248.175.47:40104 connected
+::ffff:104.248.175.47:40748 connected
+::ffff:104.248.175.47:41390 connected
+::ffff:104.248.175.47:41720 connected
+::ffff:104.248.175.47:42134 connected
+::ffff:104.248.175.47:42564 connected
+::ffff:104.248.175.47:42860 connected
+::ffff:104.248.175.47:43158 connected
+::ffff:104.248.175.47:43480 connected
+::ffff:104.248.175.47:43760 connected
+::ffff:104.248.175.47:44048 connected
+::ffff:104.248.175.47:44516 connected
+::ffff:104.248.175.47:44814 connected
+::ffff:104.248.175.47:45172 connected
+::ffff:104.248.175.47:45422 connected
+::ffff:104.248.175.47:45754 connected
+::ffff:104.248.175.47:46708 connected
+::ffff:104.248.175.47:47104 connected
+::ffff:104.248.175.47:47482 connected
+::ffff:104.248.175.47:47798 connected
+::ffff:104.248.175.47:48128 connected
+::ffff:104.248.175.47:48374 connected
+::ffff:104.248.175.47:48688 connected
+::ffff:104.248.175.47:48934 connected
+::ffff:104.248.175.47:49610 connected
+::ffff:104.248.175.47:50204 connected
+::ffff:104.248.175.47:50670 connected
+::ffff:104.248.175.47:50938 connected
+::ffff:104.248.175.47:51264 connected
+::ffff:104.248.175.47:51698 connected
+::ffff:104.248.175.47:51988 connected
+::ffff:104.248.175.47:52230 connected
+::ffff:104.248.175.47:52444 connected
+::ffff:104.248.175.47:52968 connected
+::ffff:104.248.175.47:53484 connected
+::ffff:104.248.175.47:54060 connected
+::ffff:104.248.175.47:54312 connected
+::ffff:104.248.175.47:54448 connected
+::ffff:104.248.175.47:54626 connected
+::ffff:223.71.167.164:52945 connected
+::ffff:137.226.113.9:50719 connected
+::ffff:137.226.113.20:59370 connected
+digest: undefined  |  false
+None
+[]
+no service worker, passing at /home.html
+Sending transcluded  /home.html
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+::ffff:5.188.210.101:20374 connected
+::ffff:5.188.210.101:49646 connected
+::ffff:5.188.210.101:64985 connected
+::ffff:5.188.210.101:22228 connected
+::ffff:5.188.210.101:41755 connected
+::ffff:45.136.108.68:2161 connected
+::ffff:74.82.47.5:45354 connected
+::ffff:111.59.171.8:41265 connected
+::ffff:198.108.66.208:11978 connected
+::ffff:51.89.173.198:38236 connected
+::ffff:51.89.173.198:54686 connected
+::ffff:222.186.19.221:37094 connected
+::ffff:104.152.52.33:44199 connected
+::ffff:185.143.221.85:43897 connected
+::ffff:69.162.92.86:61862 connected
+::ffff:69.162.92.86:49204 connected
+::ffff:169.197.108.38:53260 connected
+::ffff:77.247.109.92:52106 connected
+::ffff:77.247.109.92:52138 connected
+::ffff:77.247.109.92:52170 connected
+::ffff:77.247.109.92:52174 connected
+::ffff:77.247.109.92:52190 connected
+::ffff:77.247.109.92:52194 connected
+::ffff:5.101.0.209:56824 connected
+::ffff:5.101.0.209:57154 connected
+::ffff:5.101.0.209:56750 connected
+::ffff:5.101.0.209:53694 connected
+::ffff:83.97.20.35:34859 connected
+::ffff:83.97.20.35:49581 connected
+::ffff:83.97.20.35:35486 connected
+::ffff:83.97.20.35:9098 connected
+undefined:undefined connected
+::ffff:69.162.92.86:52854 connected
+::ffff:193.188.22.187:1593 connected
+::ffff:184.105.139.69:41148 connected
+::ffff:172.104.40.160:34742 connected
+digest: undefined  |  false
+None
+[]
+File: /logon/fonts/citrix-fonts.css requested, and was not found.
+File: /404 requested, and was not found.
+::ffff:222.186.19.221:55982 connected
+::ffff:169.197.108.6:37002 connected
+::ffff:185.143.221.85:59215 connected
+::ffff:128.14.209.226:47566 connected
+::ffff:108.87.89.9:49518 connected
+::ffff:108.87.89.9:49521 connected
+::ffff:108.87.89.9:49872 connected
+::ffff:108.87.89.9:50440 connected
+::ffff:108.87.89.9:51188 connected
+::ffff:108.87.89.9:51410 connected
+::ffff:108.87.89.9:51429 connected
+::ffff:108.87.89.9:51498 connected
+::ffff:108.87.89.9:51521 connected
+::ffff:108.87.89.9:51588 connected
+::ffff:108.87.89.9:51612 connected
+::ffff:108.87.89.9:51661 connected
+::ffff:108.87.89.9:51681 connected
+::ffff:108.87.89.9:51738 connected
+::ffff:108.87.89.9:51752 connected
+::ffff:108.87.89.9:51794 connected
+::ffff:108.87.89.9:51848 connected
+::ffff:108.87.89.9:51886 connected
+::ffff:108.87.89.9:51903 connected
+::ffff:108.87.89.9:51919 connected
+::ffff:108.87.89.9:51933 connected
+::ffff:108.87.89.9:51947 connected
+::ffff:108.87.89.9:51962 connected
+::ffff:108.87.89.9:51983 connected
+::ffff:108.87.89.9:52006 connected
+::ffff:108.87.89.9:52019 connected
+::ffff:108.87.89.9:52034 connected
+::ffff:108.87.89.9:52053 connected
+::ffff:108.87.89.9:52067 connected
+::ffff:108.87.89.9:52114 connected
+::ffff:164.52.24.162:45812 connected
+::ffff:108.87.89.9:58648 connected
+::ffff:108.87.89.9:58715 connected
+::ffff:108.87.89.9:58735 connected
+::ffff:108.87.89.9:58948 connected
+::ffff:108.87.89.9:59355 connected
+::ffff:108.87.89.9:59382 connected
+::ffff:108.87.89.9:59402 connected
+::ffff:108.87.89.9:59428 connected
+::ffff:108.87.89.9:59443 connected
+::ffff:108.87.89.9:59457 connected
+::ffff:108.87.89.9:59472 connected
+::ffff:108.87.89.9:59489 connected
+::ffff:198.108.66.208:58388 connected
+::ffff:108.87.89.9:59502 connected
+::ffff:108.87.89.9:59520 connected
+::ffff:108.87.89.9:59544 connected
+::ffff:108.87.89.9:59564 connected
+::ffff:108.87.89.9:59580 connected
+::ffff:108.87.89.9:59596 connected
+::ffff:108.87.89.9:59612 connected
+::ffff:108.87.89.9:59626 connected
+::ffff:108.87.89.9:59646 connected
+::ffff:108.87.89.9:59668 connected
+::ffff:108.87.89.9:59684 connected
+::ffff:108.87.89.9:59697 connected
+::ffff:108.87.89.9:59712 connected
+::ffff:108.87.89.9:59732 connected
+::ffff:108.87.89.9:59751 connected
+::ffff:108.87.89.9:59771 connected
+::ffff:108.87.89.9:59789 connected
+::ffff:108.87.89.9:59807 connected
+::ffff:108.87.89.9:59821 connected
+::ffff:108.87.89.9:59835 connected
+::ffff:108.87.89.9:59850 connected
+::ffff:108.87.89.9:59872 connected
+::ffff:108.87.89.9:59894 connected
+::ffff:108.87.89.9:59910 connected
+::ffff:108.87.89.9:59927 connected
+::ffff:108.87.89.9:59946 connected
+::ffff:108.87.89.9:59960 connected
+::ffff:108.87.89.9:59975 connected
+::ffff:108.87.89.9:59995 connected
+::ffff:108.87.89.9:60016 connected
+::ffff:108.87.89.9:60031 connected
+::ffff:108.87.89.9:60049 connected
+::ffff:108.87.89.9:60067 connected
+::ffff:108.87.89.9:60080 connected
+::ffff:108.87.89.9:60090 connected
+::ffff:108.87.89.9:60104 connected
+::ffff:108.87.89.9:60113 connected
+::ffff:108.87.89.9:60119 connected
+::ffff:108.87.89.9:60122 connected
+::ffff:108.87.89.9:60128 connected
+::ffff:108.87.89.9:60133 connected
+::ffff:108.87.89.9:60141 connected
+::ffff:108.87.89.9:60153 connected
+::ffff:108.87.89.9:60156 connected
+::ffff:108.87.89.9:60161 connected
+::ffff:108.87.89.9:60165 connected
+::ffff:108.87.89.9:60168 connected
+::ffff:108.87.89.9:60171 connected
+::ffff:108.87.89.9:60181 connected
+::ffff:108.87.89.9:60196 connected
+::ffff:108.87.89.9:60202 connected
+::ffff:108.87.89.9:60206 connected
+::ffff:108.87.89.9:60209 connected
+::ffff:108.87.89.9:60213 connected
+::ffff:71.6.232.7:39944 connected
+::ffff:198.20.103.178:44472 connected
+::ffff:198.143.155.138:44126 connected
+::ffff:198.143.155.138:53494 connected
+::ffff:198.143.155.138:56334 connected
+::ffff:198.143.155.138:38474 connected
+::ffff:198.143.155.138:48550 connected
+::ffff:198.143.155.138:51815 connected
+::ffff:198.143.155.138:56164 connected
+::ffff:198.143.155.138:59368 connected
+::ffff:198.143.155.138:37638 connected
+::ffff:170.106.38.155:52716 connected
+::ffff:92.118.160.1:51462 connected
+::ffff:222.186.19.221:55100 connected
+::ffff:169.197.108.38:48858 connected
+::ffff:51.91.212.80:41330 connected
+::ffff:74.82.47.2:18904 connected
+::ffff:192.241.166.24:35436 connected
+::ffff:198.108.66.64:56762 connected
+::ffff:183.134.104.149:40567 connected
+::ffff:60.191.20.213:54092 connected
+::ffff:45.56.78.64:48122 connected
+::ffff:96.126.100.87:40888 connected
+::ffff:185.143.221.85:46650 connected
+::ffff:172.105.89.161:56872 connected
+::ffff:172.104.242.173:40749 connected
+::ffff:193.188.22.136:62451 connected
+::ffff:208.93.153.177:45734 connected
+::ffff:208.93.153.177:46004 connected
+::ffff:208.93.153.177:47926 connected
+::ffff:208.93.153.177:52522 connected
+::ffff:208.93.153.177:54380 connected
+::ffff:208.93.153.177:54784 connected
+::ffff:208.93.153.177:56142 connected
+::ffff:208.93.153.177:56716 connected
+::ffff:83.97.20.35:11933 connected
+::ffff:83.97.20.35:20817 connected
+::ffff:83.97.20.35:46020 connected
+::ffff:83.97.20.35:26458 connected
+::ffff:222.186.19.221:36096 connected
+::ffff:45.56.78.64:60620 connected
+::ffff:184.105.139.69:55980 connected
+::ffff:196.52.43.102:34207 connected
+::ffff:184.105.247.196:10348 connected
+::ffff:169.197.108.38:57556 connected
+::ffff:42.119.216.176:39974 connected
+::ffff:198.108.66.96:44862 connected
+::ffff:92.118.161.45:45601 connected
+::ffff:185.143.221.85:39758 connected
+::ffff:5.101.0.209:49974 connected
+::ffff:5.101.0.209:53428 connected
+::ffff:128.14.209.154:49692 connected
+::ffff:66.240.205.34:45510 connected
+::ffff:5.101.0.209:53372 connected
+::ffff:45.56.78.64:33536 connected
+::ffff:196.52.43.66:49195 connected
+::ffff:51.91.212.80:41958 connected
+::ffff:192.81.135.222:42692 connected
+::ffff:184.105.139.68:5288 connected
+::ffff:198.108.66.96:27748 connected
+::ffff:198.108.66.80:57752 connected
+::ffff:198.108.66.32:4834 connected
+::ffff:128.14.134.134:35252 connected
+::ffff:51.91.212.80:34392 connected
+::ffff:128.14.134.170:33882 connected
+::ffff:185.143.221.85:46764 connected
+::ffff:164.52.24.162:39658 connected
+::ffff:222.186.19.221:56530 connected
+::ffff:5.101.0.209:50428 connected
+::ffff:45.56.78.64:38596 connected
+::ffff:93.174.95.106:37714 connected
+::ffff:93.174.95.106:41026 connected
+::ffff:93.174.95.106:43624 connected
+::ffff:93.174.95.106:46562 connected
+::ffff:93.174.95.106:49272 connected
+::ffff:93.174.95.106:52104 connected
+::ffff:93.174.95.106:53194 connected
+::ffff:93.174.95.106:54026 connected
+::ffff:93.174.95.106:55242 connected
+::ffff:93.174.95.106:55986 connected
+::ffff:93.174.95.106:56944 connected
+::ffff:93.174.95.106:57942 connected
+::ffff:93.174.95.106:58688 connected
+::ffff:93.174.95.106:60040 connected
+::ffff:93.174.95.106:60832 connected
+::ffff:93.174.95.106:35972 connected
+::ffff:93.174.95.106:38692 connected
+::ffff:93.174.95.106:41320 connected
+::ffff:93.174.95.106:44070 connected
+::ffff:93.174.95.106:44684 connected
+::ffff:213.155.116.179:48381 connected
+::ffff:213.155.116.179:49994 connected
+::ffff:169.197.108.42:56226 connected
+::ffff:184.105.247.252:24892 connected
+::ffff:139.162.113.204:48076 connected
+::ffff:196.52.43.95:63729 connected
+::ffff:208.93.153.177:59530 connected
+::ffff:208.93.153.177:59730 connected
+::ffff:208.93.153.177:60736 connected
+::ffff:208.93.153.177:33624 connected
+::ffff:208.93.153.177:34466 connected
+::ffff:208.93.153.177:35292 connected
+::ffff:208.93.153.177:36968 connected
+::ffff:208.93.153.177:37456 connected
+::ffff:37.192.170.184:41614 connected
+::ffff:185.173.35.5:32868 connected
+::ffff:223.71.167.166:39830 connected
+::ffff:223.71.167.166:23842 connected
+::ffff:66.249.69.127:50769 connected
+::ffff:185.143.221.85:43966 connected
+::ffff:83.97.20.35:37155 connected
+::ffff:83.97.20.35:15435 connected
+::ffff:83.97.20.35:39276 connected
+::ffff:83.97.20.35:23217 connected
+::ffff:222.186.19.221:50254 connected
+::ffff:37.192.170.184:51856 connected
+::ffff:223.166.75.113:53430 connected
+::ffff:220.250.63.5:53894 connected
+::ffff:185.153.198.163:24607 connected
+::ffff:185.153.198.163:25184 connected
+::ffff:185.153.198.163:26437 connected
+::ffff:193.188.22.187:2008 connected
+::ffff:137.226.113.9:39641 connected
+::ffff:128.14.209.250:39424 connected
+::ffff:184.105.247.196:14814 connected
+::ffff:128.14.134.170:41212 connected
+::ffff:173.230.152.228:47782 connected
+::ffff:51.89.173.198:43922 connected
+::ffff:51.89.173.198:43726 connected
+::ffff:222.186.19.221:38906 connected
+::ffff:213.32.122.82:31105 connected
+::ffff:213.32.122.82:11535 connected
+::ffff:223.105.4.250:62238 connected
+::ffff:169.197.108.6:45044 connected
+::ffff:77.247.108.240:34000 connected
+::ffff:35.203.252.122:28550 connected
+::ffff:179.43.169.182:54644 connected
+digest: undefined  |  false
+None
+[]
+no service worker, passing at /home.html
+Sending transcluded  /home.html
+digest: undefined  |  false
+None
+[]
+no service worker, passing at /home.html
+Sending transcluded  /home.html
+digest: undefined  |  false
+None
+[]
+no service worker, passing at /home.html
+Sending transcluded  /home.html
+::ffff:35.203.245.218:48560 connected
+::ffff:38.131.158.96:35400 connected
+::ffff:139.162.113.204:45414 connected
+::ffff:74.82.47.3:26652 connected
+::ffff:23.224.244.76:80 connected
+::ffff:220.244.41.31:64742 connected
+::ffff:220.244.41.31:64747 connected
+::ffff:220.244.41.31:64750 connected
+::ffff:220.244.41.31:64751 connected
+::ffff:220.244.41.31:64752 connected
+::ffff:220.244.41.31:64753 connected
+::ffff:220.244.41.31:64754 connected
+::ffff:220.244.41.31:64757 connected
+::ffff:220.244.41.31:64759 connected
+::ffff:220.244.41.31:64761 connected
+::ffff:220.244.41.31:64762 connected
+::ffff:220.244.41.31:64764 connected
+::ffff:220.244.41.31:64765 connected
+::ffff:220.244.41.31:64792 connected
+::ffff:220.244.41.31:64793 connected
+::ffff:220.244.41.31:64794 connected
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node App.js`[39m
+internal/fs/utils.js:220
+    throw err;
+    ^
+
+Error: ENOENT: no such file or directory, open '/etc/letsencrypt/live/lkao.hopto.science/fullchain.pem'
+    at Object.openSync (fs.js:440:3)
+    at Object.readFileSync (fs.js:342:35)
+    at Object.<anonymous> (/home/pi/bin/Website/App.js:12:11)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1047:10)
+    at internal/main/run_main_module.js:17:11 {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/etc/letsencrypt/live/lkao.hopto.science/fullchain.pem'
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node App.js`[39m
+Server Started
+::ffff:220.244.41.31:64947 connected
+digest: undefined  |  false
+None
+[]
+no service worker, passing at /home.html
+Sending transcluded  /home.html
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+digest: script  |  true
+cached: NaN
+SW
+[]
+digest:   |  false
+None
+[]
+digest:   |  false
+None
+[]
+digest:   |  false
+None
+[]
+digest:   |  false
+None
+[]
+digest:   |  false
+None
+[]
+digest:   |  false
+None
+[]
+digest:   |  false
+None
+[]
+digest:   |  false
+None
+[]
+digest:   |  false
+None
+[]
+digest:   |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+::ffff:220.244.41.31:64949 connected
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+no service worker, passing at /WebGL2.html
+Sending transcluded  /WebGL2.html
+digest: NjMsNjYsNjEsNjQsNjU=  |  true
+cached: 63,66,61,64,65
+SW
+[
+  '/index.css',
+  '/index.html',
+  '/index.js',
+  '/offline.css',
+  '/offline.html'
+]
+digest: NjMsNjYsNjEsNjQsNjU=  |  true
+cached: 63,66,61,64,65
+SW
+[
+  '/index.css',
+  '/index.html',
+  '/index.js',
+  '/offline.css',
+  '/offline.html'
+]
+digest: NjMsNjYsNjEsNjQsNjU=  |  true
+cached: 63,66,61,64,65
+SW
+[
+  '/index.css',
+  '/index.html',
+  '/index.js',
+  '/offline.css',
+  '/offline.html'
+]
+digest: NjMsNjYsNjEsNjQsNjU=  |  true
+cached: 63,66,61,64,65
+SW
+[
+  '/index.css',
+  '/index.html',
+  '/index.js',
+  '/offline.css',
+  '/offline.html'
+]
+digest: NjMsNjYsNjEsNjQsNjU=  |  true
+cached: 63,66,61,64,65
+SW
+[
+  '/index.css',
+  '/index.html',
+  '/index.js',
+  '/offline.css',
+  '/offline.html'
+]
+digest: NjMsNjYsNjEsNjQsNjU=  |  true
+cached: 63,66,61,64,65
+SW
+[
+  '/index.css',
+  '/index.html',
+  '/index.js',
+  '/offline.css',
+  '/offline.html'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDk=  |  true
+cached: 63,66,61,64,65,49
+SW
+[
+  '/WebGL2.html',
+  '/index.css',
+  '/index.html',
+  '/index.js',
+  '/offline.css',
+  '/offline.html'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDk=  |  true
+cached: 63,66,61,64,65,49
+SW
+[
+  '/WebGL2.html',
+  '/index.css',
+  '/index.html',
+  '/index.js',
+  '/offline.css',
+  '/offline.html'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MQ==  |  true
+cached: 63,66,61,64,65,49,8,51
+SW
+[
+  '/WebGL2.html',
+  '/WebGL2.css',
+  '/index.css',
+  '/index.html',
+  '/index.js',
+  '/offline.css',
+  '/offline.html',
+  '/WebGL2.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Mg==  |  true
+cached: 63,66,61,64,65,49,8,51,45,62
+SW
+[
+  '/CNNworker.js',
+  '/WebGL2.html',
+  '/WebGL2.css',
+  '/index.css',
+  '/index.html',
+  '/index.js',
+  '/manifest.json',
+  '/offline.css',
+  '/offline.html',
+  '/WebGL2.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NA==  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54
+SW
+[
+  '/CNNworker.js',
+  '/WebGL2.html',
+  '/WebGL2.css',
+  '/blas.js',
+  '/index.css',
+  '/index.html',
+  '/index.js',
+  '/manifest.json',
+  '/offline.css',
+  '/offline.html',
+  '/WebGL2.js'
+]
+digest: script  |  true
+cached: NaN
+SW
+[]
+digest: undefined  |  false
+None
+[]
+no service worker, passing at /WebGL.html
+Sending transcluded  /WebGL.html
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOA==  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18
+SW
+[
+  '/CNNworker.js',
+  '/WebGL2.html',
+  '/WebGL2.css',
+  '/blas.js',
+  '/icon192.png',
+  '/index.css',
+  '/index.html',
+  '/index.js',
+  '/manifest.json',
+  '/offline.css',
+  '/offline.html',
+  '/WebGL2.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOA==  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18
+SW
+[
+  '/CNNworker.js',
+  '/WebGL2.html',
+  '/WebGL2.css',
+  '/blas.js',
+  '/icon192.png',
+  '/index.css',
+  '/index.html',
+  '/index.js',
+  '/manifest.json',
+  '/offline.css',
+  '/offline.html',
+  '/WebGL2.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOQ==  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19
+SW
+[
+  '/CNNworker.js', '/WebGL2.html',
+  '/WebGL2.css',   '/blas.js',
+  '/icon192.png',  '/icon512.png',
+  '/index.css',    '/index.html',
+  '/index.js',     '/manifest.json',
+  '/offline.css',  '/offline.html',
+  '/WebGL2.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOQ==  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19
+SW
+[
+  '/CNNworker.js', '/WebGL2.html',
+  '/WebGL2.css',   '/blas.js',
+  '/icon192.png',  '/icon512.png',
+  '/index.css',    '/index.html',
+  '/index.js',     '/manifest.json',
+  '/offline.css',  '/offline.html',
+  '/WebGL2.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOQ==  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19
+SW
+[
+  '/CNNworker.js', '/WebGL2.html',
+  '/WebGL2.css',   '/blas.js',
+  '/icon192.png',  '/icon512.png',
+  '/index.css',    '/index.html',
+  '/index.js',     '/manifest.json',
+  '/offline.css',  '/offline.html',
+  '/WebGL2.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOQ==  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19
+SW
+[
+  '/CNNworker.js', '/WebGL2.html',
+  '/WebGL2.css',   '/blas.js',
+  '/icon192.png',  '/icon512.png',
+  '/index.css',    '/index.html',
+  '/index.js',     '/manifest.json',
+  '/offline.css',  '/offline.html',
+  '/WebGL2.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOQ==  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19
+SW
+[
+  '/CNNworker.js', '/WebGL2.html',
+  '/WebGL2.css',   '/blas.js',
+  '/icon192.png',  '/icon512.png',
+  '/index.css',    '/index.html',
+  '/index.js',     '/manifest.json',
+  '/offline.css',  '/offline.html',
+  '/WebGL2.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOSw1MCwz  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19,50,3
+SW
+[
+  '/WebGL.css',   '/CNNworker.js',
+  '/WebGL.html',  '/WebGL2.html',
+  '/WebGL2.css',  '/blas.js',
+  '/icon192.png', '/icon512.png',
+  '/index.css',   '/index.html',
+  '/index.js',    '/manifest.json',
+  '/offline.css', '/offline.html',
+  '/WebGL2.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOSw1MCwz  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19,50,3
+SW
+[
+  '/WebGL.css',   '/CNNworker.js',
+  '/WebGL.html',  '/WebGL2.html',
+  '/WebGL2.css',  '/blas.js',
+  '/icon192.png', '/icon512.png',
+  '/index.css',   '/index.html',
+  '/index.js',    '/manifest.json',
+  '/offline.css', '/offline.html',
+  '/WebGL2.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOSw1MCwz  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19,50,3
+SW
+[
+  '/WebGL.css',   '/CNNworker.js',
+  '/WebGL.html',  '/WebGL2.html',
+  '/WebGL2.css',  '/blas.js',
+  '/icon192.png', '/icon512.png',
+  '/index.css',   '/index.html',
+  '/index.js',    '/manifest.json',
+  '/offline.css', '/offline.html',
+  '/WebGL2.js'
+]
+digest: script  |  true
+cached: NaN
+SW
+[]
+digest: undefined  |  false
+None
+[]
+no service worker, passing at /Resume.html
+Sending transcluded  /Resume.html
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOSw1MCwz  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19,50,3
+SW
+[
+  '/WebGL.css',   '/CNNworker.js',
+  '/WebGL.html',  '/WebGL2.html',
+  '/WebGL2.css',  '/blas.js',
+  '/icon192.png', '/icon512.png',
+  '/index.css',   '/index.html',
+  '/index.js',    '/manifest.json',
+  '/offline.css', '/offline.html',
+  '/WebGL2.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOSw1MCwz  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19,50,3
+SW
+[
+  '/WebGL.css',   '/CNNworker.js',
+  '/WebGL.html',  '/WebGL2.html',
+  '/WebGL2.css',  '/blas.js',
+  '/icon192.png', '/icon512.png',
+  '/index.css',   '/index.html',
+  '/index.js',    '/manifest.json',
+  '/offline.css', '/offline.html',
+  '/WebGL2.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOSw1MCwzLDQ2LDU1LDQ4  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19,50,3,46,55,48
+SW
+[
+  '/WebGL.css',    '/Resume.html',
+  '/CNNworker.js', '/WebGL.html',
+  '/WebGL2.html',  '/WebGL2.css',
+  '/WebGL.js',     '/blas.js',
+  '/icon192.png',  '/icon512.png',
+  '/index.css',    '/index.html',
+  '/index.js',     '/manifest.json',
+  '/offline.css',  '/offline.html',
+  '/WebGL2.js',    '/gl-matrix.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOSw1MCwzLDQ2LDU1LDQ4  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19,50,3,46,55,48
+SW
+[
+  '/WebGL.css',    '/Resume.html',
+  '/CNNworker.js', '/WebGL.html',
+  '/WebGL2.html',  '/WebGL2.css',
+  '/WebGL.js',     '/blas.js',
+  '/icon192.png',  '/icon512.png',
+  '/index.css',    '/index.html',
+  '/index.js',     '/manifest.json',
+  '/offline.css',  '/offline.html',
+  '/WebGL2.js',    '/gl-matrix.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOSw1MCwzLDQ2LDU1LDQ4  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19,50,3,46,55,48
+SW
+[
+  '/WebGL.css',    '/Resume.html',
+  '/CNNworker.js', '/WebGL.html',
+  '/WebGL2.html',  '/WebGL2.css',
+  '/WebGL.js',     '/blas.js',
+  '/icon192.png',  '/icon512.png',
+  '/index.css',    '/index.html',
+  '/index.js',     '/manifest.json',
+  '/offline.css',  '/offline.html',
+  '/WebGL2.js',    '/gl-matrix.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOSw1MCwzLDQ2LDU1LDQ4  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19,50,3,46,55,48
+SW
+[
+  '/WebGL.css',    '/Resume.html',
+  '/CNNworker.js', '/WebGL.html',
+  '/WebGL2.html',  '/WebGL2.css',
+  '/WebGL.js',     '/blas.js',
+  '/icon192.png',  '/icon512.png',
+  '/index.css',    '/index.html',
+  '/index.js',     '/manifest.json',
+  '/offline.css',  '/offline.html',
+  '/WebGL2.js',    '/gl-matrix.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOSw1MCwzLDQ2LDU1LDQ4LDEsMg==  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19,50,3,46,55,48,1,2
+SW
+[
+  '/Resume.css',   '/Blackhat.png',
+  '/WebGL.css',    '/Resume.html',
+  '/CNNworker.js', '/WebGL.html',
+  '/WebGL2.html',  '/WebGL2.css',
+  '/WebGL.js',     '/blas.js',
+  '/icon192.png',  '/icon512.png',
+  '/index.css',    '/index.html',
+  '/index.js',     '/manifest.json',
+  '/offline.css',  '/offline.html',
+  '/WebGL2.js',    '/gl-matrix.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOSw1MCwzLDQ2LDU1LDQ4LDEsMg==  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19,50,3,46,55,48,1,2
+SW
+[
+  '/Resume.css',   '/Blackhat.png',
+  '/WebGL.css',    '/Resume.html',
+  '/CNNworker.js', '/WebGL.html',
+  '/WebGL2.html',  '/WebGL2.css',
+  '/WebGL.js',     '/blas.js',
+  '/icon192.png',  '/icon512.png',
+  '/index.css',    '/index.html',
+  '/index.js',     '/manifest.json',
+  '/offline.css',  '/offline.html',
+  '/WebGL2.js',    '/gl-matrix.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOSw1MCwzLDQ2LDU1LDQ4LDEsMg==  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19,50,3,46,55,48,1,2
+SW
+[
+  '/Resume.css',   '/Blackhat.png',
+  '/WebGL.css',    '/Resume.html',
+  '/CNNworker.js', '/WebGL.html',
+  '/WebGL2.html',  '/WebGL2.css',
+  '/WebGL.js',     '/blas.js',
+  '/icon192.png',  '/icon512.png',
+  '/index.css',    '/index.html',
+  '/index.js',     '/manifest.json',
+  '/offline.css',  '/offline.html',
+  '/WebGL2.js',    '/gl-matrix.js'
+]
+digest: script  |  true
+cached: NaN
+SW
+[]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOSw1MCwzLDQ2LDU1LDQ4LDEsMg==  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19,50,3,46,55,48,1,2
+SW
+[
+  '/Resume.css',   '/Blackhat.png',
+  '/WebGL.css',    '/Resume.html',
+  '/CNNworker.js', '/WebGL.html',
+  '/WebGL2.html',  '/WebGL2.css',
+  '/WebGL.js',     '/blas.js',
+  '/icon192.png',  '/icon512.png',
+  '/index.css',    '/index.html',
+  '/index.js',     '/manifest.json',
+  '/offline.css',  '/offline.html',
+  '/WebGL2.js',    '/gl-matrix.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOSw1MCwzLDQ2LDU1LDQ4LDEsMg==  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19,50,3,46,55,48,1,2
+SW
+[
+  '/Resume.css',   '/Blackhat.png',
+  '/WebGL.css',    '/Resume.html',
+  '/CNNworker.js', '/WebGL.html',
+  '/WebGL2.html',  '/WebGL2.css',
+  '/WebGL.js',     '/blas.js',
+  '/icon192.png',  '/icon512.png',
+  '/index.css',    '/index.html',
+  '/index.js',     '/manifest.json',
+  '/offline.css',  '/offline.html',
+  '/WebGL2.js',    '/gl-matrix.js'
+]
+digest: undefined  |  false
+None
+[]
+no service worker, passing at /chat.html
+Sending transcluded  /chat.html
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOSw1MCwzLDQ2LDU1LDQ4LDEsMiw1Mw==  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19,50,3,46,55,48,1,2,53
+SW
+[
+  '/Resume.css',    '/Blackhat.png',
+  '/WebGL.css',     '/Resume.html',
+  '/CNNworker.js',  '/WebGL.html',
+  '/WebGL2.html',   '/WebGL2.css',
+  '/WebGL.js',      '/blas.js',
+  '/chat.html',     '/icon192.png',
+  '/icon512.png',   '/index.css',
+  '/index.html',    '/index.js',
+  '/manifest.json', '/offline.css',
+  '/offline.html',  '/WebGL2.js',
+  '/gl-matrix.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOSw1MCwzLDQ2LDU1LDQ4LDEsMiw1Mw==  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19,50,3,46,55,48,1,2,53
+SW
+[
+  '/Resume.css',    '/Blackhat.png',
+  '/WebGL.css',     '/Resume.html',
+  '/CNNworker.js',  '/WebGL.html',
+  '/WebGL2.html',   '/WebGL2.css',
+  '/WebGL.js',      '/blas.js',
+  '/chat.html',     '/icon192.png',
+  '/icon512.png',   '/index.css',
+  '/index.html',    '/index.js',
+  '/manifest.json', '/offline.css',
+  '/offline.html',  '/WebGL2.js',
+  '/gl-matrix.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOSw1MCwzLDQ2LDU1LDQ4LDEsMiw1Mw==  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19,50,3,46,55,48,1,2,53
+SW
+[
+  '/Resume.css',    '/Blackhat.png',
+  '/WebGL.css',     '/Resume.html',
+  '/CNNworker.js',  '/WebGL.html',
+  '/WebGL2.html',   '/WebGL2.css',
+  '/WebGL.js',      '/blas.js',
+  '/chat.html',     '/icon192.png',
+  '/icon512.png',   '/index.css',
+  '/index.html',    '/index.js',
+  '/manifest.json', '/offline.css',
+  '/offline.html',  '/WebGL2.js',
+  '/gl-matrix.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOSw1MCwzLDQ2LDU1LDQ4LDEsMiw1Mw==  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19,50,3,46,55,48,1,2,53
+SW
+[
+  '/Resume.css',    '/Blackhat.png',
+  '/WebGL.css',     '/Resume.html',
+  '/CNNworker.js',  '/WebGL.html',
+  '/WebGL2.html',   '/WebGL2.css',
+  '/WebGL.js',      '/blas.js',
+  '/chat.html',     '/icon192.png',
+  '/icon512.png',   '/index.css',
+  '/index.html',    '/index.js',
+  '/manifest.json', '/offline.css',
+  '/offline.html',  '/WebGL2.js',
+  '/gl-matrix.js'
+]
+::ffff:220.244.41.31:64950 connected
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOSw1MCwzLDQ2LDU1LDQ4LDEsMiw1Mw==  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19,50,3,46,55,48,1,2,53
+SW
+[
+  '/Resume.css',    '/Blackhat.png',
+  '/WebGL.css',     '/Resume.html',
+  '/CNNworker.js',  '/WebGL.html',
+  '/WebGL2.html',   '/WebGL2.css',
+  '/WebGL.js',      '/blas.js',
+  '/chat.html',     '/icon192.png',
+  '/icon512.png',   '/index.css',
+  '/index.html',    '/index.js',
+  '/manifest.json', '/offline.css',
+  '/offline.html',  '/WebGL2.js',
+  '/gl-matrix.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOSw1MCwzLDQ2LDU1LDQ4LDEsMiw1Mw==  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19,50,3,46,55,48,1,2,53
+SW
+[
+  '/Resume.css',    '/Blackhat.png',
+  '/WebGL.css',     '/Resume.html',
+  '/CNNworker.js',  '/WebGL.html',
+  '/WebGL2.html',   '/WebGL2.css',
+  '/WebGL.js',      '/blas.js',
+  '/chat.html',     '/icon192.png',
+  '/icon512.png',   '/index.css',
+  '/index.html',    '/index.js',
+  '/manifest.json', '/offline.css',
+  '/offline.html',  '/WebGL2.js',
+  '/gl-matrix.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOSw1MCwzLDQ2LDU1LDQ4LDEsMiw1Mw==  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19,50,3,46,55,48,1,2,53
+SW
+[
+  '/Resume.css',    '/Blackhat.png',
+  '/WebGL.css',     '/Resume.html',
+  '/CNNworker.js',  '/WebGL.html',
+  '/WebGL2.html',   '/WebGL2.css',
+  '/WebGL.js',      '/blas.js',
+  '/chat.html',     '/icon192.png',
+  '/icon512.png',   '/index.css',
+  '/index.html',    '/index.js',
+  '/manifest.json', '/offline.css',
+  '/offline.html',  '/WebGL2.js',
+  '/gl-matrix.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOSw1MCwzLDQ2LDU1LDQ4LDEsMiw1Mw==  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19,50,3,46,55,48,1,2,53
+SW
+[
+  '/Resume.css',    '/Blackhat.png',
+  '/WebGL.css',     '/Resume.html',
+  '/CNNworker.js',  '/WebGL.html',
+  '/WebGL2.html',   '/WebGL2.css',
+  '/WebGL.js',      '/blas.js',
+  '/chat.html',     '/icon192.png',
+  '/icon512.png',   '/index.css',
+  '/index.html',    '/index.js',
+  '/manifest.json', '/offline.css',
+  '/offline.html',  '/WebGL2.js',
+  '/gl-matrix.js'
+]
+digest: undefined  |  false
+None
+[]
+no service worker, passing at /Resume.html
+Sending transcluded  /Resume.html
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOSw1MCwzLDQ2LDU1LDQ4LDEsMiw1Mw==  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19,50,3,46,55,48,1,2,53
+SW
+[
+  '/Resume.css',    '/Blackhat.png',
+  '/WebGL.css',     '/Resume.html',
+  '/CNNworker.js',  '/WebGL.html',
+  '/WebGL2.html',   '/WebGL2.css',
+  '/WebGL.js',      '/blas.js',
+  '/chat.html',     '/icon192.png',
+  '/icon512.png',   '/index.css',
+  '/index.html',    '/index.js',
+  '/manifest.json', '/offline.css',
+  '/offline.html',  '/WebGL2.js',
+  '/gl-matrix.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOSw1MCwzLDQ2LDU1LDQ4LDEsMiw1Mw==  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19,50,3,46,55,48,1,2,53
+SW
+[
+  '/Resume.css',    '/Blackhat.png',
+  '/WebGL.css',     '/Resume.html',
+  '/CNNworker.js',  '/WebGL.html',
+  '/WebGL2.html',   '/WebGL2.css',
+  '/WebGL.js',      '/blas.js',
+  '/chat.html',     '/icon192.png',
+  '/icon512.png',   '/index.css',
+  '/index.html',    '/index.js',
+  '/manifest.json', '/offline.css',
+  '/offline.html',  '/WebGL2.js',
+  '/gl-matrix.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOSw1MCwzLDQ2LDU1LDQ4LDEsMiw1Mw==  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19,50,3,46,55,48,1,2,53
+SW
+[
+  '/Resume.css',    '/Blackhat.png',
+  '/WebGL.css',     '/Resume.html',
+  '/CNNworker.js',  '/WebGL.html',
+  '/WebGL2.html',   '/WebGL2.css',
+  '/WebGL.js',      '/blas.js',
+  '/chat.html',     '/icon192.png',
+  '/icon512.png',   '/index.css',
+  '/index.html',    '/index.js',
+  '/manifest.json', '/offline.css',
+  '/offline.html',  '/WebGL2.js',
+  '/gl-matrix.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOSw1MCwzLDQ2LDU1LDQ4LDEsMiw1Mw==  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19,50,3,46,55,48,1,2,53
+SW
+[
+  '/Resume.css',    '/Blackhat.png',
+  '/WebGL.css',     '/Resume.html',
+  '/CNNworker.js',  '/WebGL.html',
+  '/WebGL2.html',   '/WebGL2.css',
+  '/WebGL.js',      '/blas.js',
+  '/chat.html',     '/icon192.png',
+  '/icon512.png',   '/index.css',
+  '/index.html',    '/index.js',
+  '/manifest.json', '/offline.css',
+  '/offline.html',  '/WebGL2.js',
+  '/gl-matrix.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOSw1MCwzLDQ2LDU1LDQ4LDEsMiw1Mw==  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19,50,3,46,55,48,1,2,53
+SW
+[
+  '/Resume.css',    '/Blackhat.png',
+  '/WebGL.css',     '/Resume.html',
+  '/CNNworker.js',  '/WebGL.html',
+  '/WebGL2.html',   '/WebGL2.css',
+  '/WebGL.js',      '/blas.js',
+  '/chat.html',     '/icon192.png',
+  '/icon512.png',   '/index.css',
+  '/index.html',    '/index.js',
+  '/manifest.json', '/offline.css',
+  '/offline.html',  '/WebGL2.js',
+  '/gl-matrix.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOSw1MCwzLDQ2LDU1LDQ4LDEsMiw1Mw==  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19,50,3,46,55,48,1,2,53
+SW
+[
+  '/Resume.css',    '/Blackhat.png',
+  '/WebGL.css',     '/Resume.html',
+  '/CNNworker.js',  '/WebGL.html',
+  '/WebGL2.html',   '/WebGL2.css',
+  '/WebGL.js',      '/blas.js',
+  '/chat.html',     '/icon192.png',
+  '/icon512.png',   '/index.css',
+  '/index.html',    '/index.js',
+  '/manifest.json', '/offline.css',
+  '/offline.html',  '/WebGL2.js',
+  '/gl-matrix.js'
+]
+digest: NjMsNjYsNjEsNjQsNjUsNDksOCw1MSw0NSw2Miw1NCwxOCwxOSw1MCwzLDQ2LDU1LDQ4LDEsMiw1Mw==  |  true
+cached: 63,66,61,64,65,49,8,51,45,62,54,18,19,50,3,46,55,48,1,2,53
+SW
+[
+  '/Resume.css',    '/Blackhat.png',
+  '/WebGL.css',     '/Resume.html',
+  '/CNNworker.js',  '/WebGL.html',
+  '/WebGL2.html',   '/WebGL2.css',
+  '/WebGL.js',      '/blas.js',
+  '/chat.html',     '/icon192.png',
+  '/icon512.png',   '/index.css',
+  '/index.html',    '/index.js',
+  '/manifest.json', '/offline.css',
+  '/offline.html',  '/WebGL2.js',
+  '/gl-matrix.js'
+]
+digest: script  |  true
+cached: NaN
+SW
+[]
+digest: script  |  true
+cached: NaN
+SW
+[]
+[33m[nodemon] 1.18.9[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node App.js`[39m
+Server Started
+::ffff:220.244.41.31:65256 connected
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+Downloading Chromium r624492...
+ERROR: Failed to download Chromium r624492!
+Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/.local-data'
+  -- ASYNC --
+    at BrowserFetcher.<anonymous> (/usr/local/lib/node_modules/ndb/node_modules/puppeteer-core/lib/helper.js:108:27)
+    at downloadChromium (/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/find_chrome.js:194:50)
+    at findChrome (/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/find_chrome.js:241:32)
+    at Object.launch (/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/carlo.js:594:42)
+    at launch (/usr/local/lib/node_modules/ndb/lib/launcher.js:23:23)
+    at Object.<anonymous> (/usr/local/lib/node_modules/ndb/ndb.js:35:1)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'mkdir',
+  path: '/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/.local-data'
+}
+unhandledRejection TypeError: Cannot read property 'executablePath' of null
+    at findChrome (/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/find_chrome.js:242:43)
+    at async Object.launch (/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/carlo.js:594:36)
+    at async launch (/usr/local/lib/node_modules/ndb/lib/launcher.js:23:11)
+Downloading Chromium r624492...
+ERROR: Failed to download Chromium r624492!
+Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/.local-data'
+  -- ASYNC --
+    at BrowserFetcher.<anonymous> (/usr/local/lib/node_modules/ndb/node_modules/puppeteer-core/lib/helper.js:108:27)
+    at downloadChromium (/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/find_chrome.js:194:50)
+    at findChrome (/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/find_chrome.js:241:32)
+    at Object.launch (/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/carlo.js:594:42)
+    at launch (/usr/local/lib/node_modules/ndb/lib/launcher.js:23:23)
+    at Object.<anonymous> (/usr/local/lib/node_modules/ndb/ndb.js:35:1)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'mkdir',
+  path: '/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/.local-data'
+}
+unhandledRejection TypeError: Cannot read property 'executablePath' of null
+    at findChrome (/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/find_chrome.js:242:43)
+    at async Object.launch (/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/carlo.js:594:36)
+    at async launch (/usr/local/lib/node_modules/ndb/lib/launcher.js:23:11)
+Downloading Chromium r624492...
+ERROR: Failed to download Chromium r624492!
+Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/.local-data'
+  -- ASYNC --
+    at BrowserFetcher.<anonymous> (/usr/local/lib/node_modules/ndb/node_modules/puppeteer-core/lib/helper.js:108:27)
+    at downloadChromium (/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/find_chrome.js:194:50)
+    at findChrome (/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/find_chrome.js:241:32)
+    at Object.launch (/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/carlo.js:594:42)
+    at launch (/usr/local/lib/node_modules/ndb/lib/launcher.js:23:23)
+    at Object.<anonymous> (/usr/local/lib/node_modules/ndb/ndb.js:35:1)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'mkdir',
+  path: '/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/.local-data'
+}
+unhandledRejection TypeError: Cannot read property 'executablePath' of null
+    at findChrome (/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/find_chrome.js:242:43)
+    at async Object.launch (/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/carlo.js:594:36)
+    at async launch (/usr/local/lib/node_modules/ndb/lib/launcher.js:23:11)
+Downloading Chromium r624492...
+ERROR: Failed to download Chromium r624492!
+Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/.local-data'
+  -- ASYNC --
+    at BrowserFetcher.<anonymous> (/usr/local/lib/node_modules/ndb/node_modules/puppeteer-core/lib/helper.js:108:27)
+    at downloadChromium (/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/find_chrome.js:194:50)
+    at findChrome (/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/find_chrome.js:241:32)
+    at Object.launch (/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/carlo.js:594:42)
+    at launch (/usr/local/lib/node_modules/ndb/lib/launcher.js:23:23)
+    at Object.<anonymous> (/usr/local/lib/node_modules/ndb/ndb.js:35:1)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'mkdir',
+  path: '/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/.local-data'
+}
+unhandledRejection TypeError: Cannot read property 'executablePath' of null
+    at findChrome (/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/find_chrome.js:242:43)
+    at async Object.launch (/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/carlo.js:594:36)
+    at async launch (/usr/local/lib/node_modules/ndb/lib/launcher.js:23:11)
+Downloading Chromium r624492...
+ERROR: Failed to download Chromium r624492!
+Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/.local-data'
+  -- ASYNC --
+    at BrowserFetcher.<anonymous> (/usr/local/lib/node_modules/ndb/node_modules/puppeteer-core/lib/helper.js:108:27)
+    at downloadChromium (/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/find_chrome.js:194:50)
+    at findChrome (/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/find_chrome.js:241:32)
+    at Object.launch (/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/carlo.js:594:42)
+    at launch (/usr/local/lib/node_modules/ndb/lib/launcher.js:23:23)
+    at Object.<anonymous> (/usr/local/lib/node_modules/ndb/ndb.js:35:1)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'mkdir',
+  path: '/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/.local-data'
+}
+unhandledRejection TypeError: Cannot read property 'executablePath' of null
+    at findChrome (/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/find_chrome.js:242:43)
+    at async Object.launch (/usr/local/lib/node_modules/ndb/node_modules/carlo/lib/carlo.js:594:36)
+    at async launch (/usr/local/lib/node_modules/ndb/lib/launcher.js:23:11)
+node: bad option: --inpsect=192.168.1.106:9222
+node: bad option: --inpsect=192.168.1.106:9222
+node: bad option: --inpsect=0.0.0.0:9222
+Debugger listening on ws://0.0.0.0:9222/6593c8d4-7398-4448-8bf5-0e4ea1141ced
+For help, see: https://nodejs.org/en/docs/inspector
+Server Started
+Debugger listening on ws://192.168.1.106:9222/297f514f-6e9a-46bc-926f-0c2fb9f594b3
+For help, see: https://nodejs.org/en/docs/inspector
+Server Started
+::ffff:220.244.41.31:49843 connected
+digest: undefined  |  false
+None
+[]
+Debugger attached.
+(node:27483) [INSPECTOR_ASYNC_STACK_TRACES_NOT_AVAILABLE] Warning: Warning: Async stack traces in debugger are not available on 32bit platforms. The feature is disabled.
+Debugger attached.
+::ffff:220.244.41.31:50201 connected
+digest: undefined  |  false
+None
+[]
+digest: undefined  |  false
+None
+[]
+Debugger attached.

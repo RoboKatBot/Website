@@ -29,3 +29,7 @@
 #upload-button:active,#upload-button:focus,#upload-button:hover {
 	background-color: #FA8900;
 }
+
+.super {
+    bottom:0px;
+}

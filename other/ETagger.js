@@ -64,10 +64,8 @@ class ETagger {
 	}
 
 	checkCached(digest) {
-		console.log(`digest: ${digest}  |  ${Boolean(digest)}`)
-		if(!digest) return [];
+		if(!digest || digest === 'script') return [];
 		var cached = new Buffer.from(digest,'base64').toString().split(',').map(k=>parseInt(k));
-		console.log(`cached: ${cached}`)
 		return Object.entries(state).filter(k=>cached.includes(k[1][1])).map(k=>k[0]);
 	}
 

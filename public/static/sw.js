@@ -1,4 +1,4 @@
-"use strict";
+/*"use strict";
 
 const CACHE_NAME = 'my-site-cache-v1';
 var cacheDigest = digest();
@@ -134,4 +134,4 @@ async function digest() {
 		registration.navigationPreload.setHeaderValue(d)
 	).catch(console.error);
 	return digest;
-}
+}*/

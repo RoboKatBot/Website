@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>WebGL Demo</title>
+		<link rel="stylesheet" href="particles.css" type="text/css">
+		<script src="/gl-matrix.js"></script>
+		<script type="module" src="particles.js"></script>
+	</head>
+	<body>
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" display="none">
+			<defs>
+				<g id="downArrow">
+					<path fill="#fff" d="M 0 1 L 1 0 L 6 4 L 11 0 L 12 1 L 6 6 Z"></path>
+				</g>
+			</defs>
+		</svg>
+		<div class="super">
+			<canvas class="ParticleCanvas"></canvas>
+			<script type="module" src="HTML-Custom-Controls/CustomControlElements.mjs"></script>
+			<control-set>
+				<link slot="style" rel="stylesheet" href="HTML-Custom-Controls/CustomControlElements.css" type="text/css"> <!-- Optional styling for custom elements. Any style or stylesheet will (by default) propagate to children controls. Slot="style" is required.-->
+				<button-control name="kill" displayName="Reset all particles"></button-control>
+				<collapsible-set name="Generation">
+						<collapsible-set name="Position">
+							<radio-set selected="Radial">
+								<control-set name="Cartesian">
+									<!-- Controls.MaxMinSlidername="x" min=-1 max=1 value=-0.5 0.5 step=0.1 split=1 	tickInterval=0.1  -->
+									<!-- Controls.MaxMinSlidername="y" min=-1 max=1 value=-0.5 0.5 step=0.1 split=1 	tickInterval=0.1 -->
+								</control-set>
+								<control-set name="Radial">
+									<slider-control name="radiusMean" 	displayName="Radius Mean"	 min=0 	max=1.5 value=1.5 	step=0.2 	title="Average distance between newly spawned particle and the origin."></slider-control>
+									<slider-control name="radiusRange" displayName="Radius Range"	 min=0 	max=1 	value=0 	step=0.1></slider-control>
+									<slider-control name="thetaMean" 	displayName="θ Mean"		 min=0 	max=180 value=84.6 	step=30 	title="Average angle between each newly spawned particle in degrees."></slider-control>
+									<!-- checkbox-control="thetaDir"  displayName="direction"  value=true  -->
+									<slider-control name="thetaRange" 	displayName="θ Range"		 min=0 	max=90 	value=0 	step=15></slider-control>
+								</control-set>
+								</radio-set>
+						</collapsible-set>
+						<collapsible-set name="Lifespan">
+							<slider-control name="lifespanMean" 	displayName="Lifespan frames" min=0 	max=1000 	value=1000 	step=100 	title="Average number of frames the particles will live for."></slider-control>
+							<slider-control name="lifespanRange" 	displayName="Lifespan Range"	 min=0 	max=100 	value=0 	step=10></slider-control>
+						</collapsible-set>
+						<slider-control name="spawnRate" 		displayName="Genesis Rate"	 min=0 	max=5 	value=4 	step=1 	title="Rate at which particles are initaly generated.\nChanges have no affect once all particles are spawned in."></slider-control>
+				</collapsible-set>
+				<collapsible-set name="Dynamics">
+					<slider-control name="friction" 		displayName="Friction"	 min=0 	max=10 	value=1 	step=1 	title="Percentage of current velocity lost each frame"></slider-control>
+				</collapsible-set>
+					<collapsible-set name="Appearence">
+						
+						<collapsible-set name="Colours"> <!-- Make a Pallet preview -->
+							<slider-control name="transparency" 	displayName="Transparency" min=0 	max=1 	value=0.2 	step=0.2></slider-control>
+							<colour-control name="base"  		displayName="Base Colour"  value="#A01060" title="The average colour of the particles.\nNote  the particles are never actually this colour."></colour-control>
+						</collapsible-set>
+						<collapsible-set name="Size">
+							<slider-control name="startSize" 	displayName="Starting Size" min=0 	max=2 	value=1 	step=0.4></slider-control>
+							<slider-control name="endSize" 	displayName="Ending Size" 	min=0 	max=2 	value=0.3 	step=0.4 ></slider-control>
+						</collapsible-set>
+				</collapsible-set>
+			</control-set>
+		</div>
+	</body>
+</html>

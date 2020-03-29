@@ -10,21 +10,29 @@
 </head>
 
 <body>
+	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0" height="0">
+		<defs>
+			<g id="downArrow">
+				<path fill="#fff" d="M 0 1 L 1 0 L 6 4 L 11 0 L 12 1 L 6 6 Z"></path>
+			</g>
+		</defs>
+	</svg>
 	<div class="menu-bar">
 		<nav class="nav-menu" role="navigation"><a class="nav-menu-link" href="/"> <b id="nav-menu-bar-title">LKAO<br></b><b id="nav-menu-bar-subtitle">science</b></a>
 			<!-- <section class="nav-menu-dropdown">
 				<div class="nav-menu-dropdown-toggle -hidden">
 					<div class="nav-menu-item-header">Neural Network</div>
-					<svg class="nav-menu-downArrow">
-						<path fill="#fff" d="M 0 1 L 1 0 L 6 4 L 11 0 L 12 1 L 6 6 Z"></path>
+					<svg class="downArrow">
+						<use href="#downArrow"/>
 					</svg>
 				</div>
 				<nav class="nav-menu-dropdown-list"><a class="nav-menu-link" href="/neural%20network/home.html">Home</a><a class="nav-menu-link" href="/neural network/ManageNN.html">Manage NN</a><a class="nav-menu-link" href="/neural network/ManageData.html">Manage Data</a></nav>
 			</section> -->
 			<section class="nav-menu-dropdown">
 				<div class="nav-menu-dropdown-toggle -hidden">
-					<div class="nav-menu-item-header">file sharing</div><svg class="nav-menu-downArrow">
-						<path fill="#fff" d="M 0 1 L 1 0 L 6 4 L 11 0 L 12 1 L 6 6 Z"></path>
+					<div class="nav-menu-item-header">file sharing</div>
+					<svg class="downArrow">
+						<use href="#downArrow"/>
 					</svg>
 				</div>
 				<nav class="nav-menu-dropdown-list"><a class="nav-menu-link" href="/upload.html">Upload</a><a class="nav-menu-link" href="/uploaded.html">Uploaded</a></nav>
@@ -35,11 +43,11 @@
 			<section class="nav-menu-item">
 				<nav class="nav-menu-single-link"><a class="nav-menu-link" href="/WebGL.html">WebGL Playground</a></nav>
 			</section>
-			<section class="nav-menu-item">
+			<!-- <section class="nav-menu-item">
 				<nav class="nav-menu-single-link"><a class="nav-menu-link" href="/WebGL2.html">WebGL2 Playground</a></nav>
-			</section>
+			</section> -->
 			<section class="nav-menu-item">
-				<nav class="nav-menu-single-link"><a class="nav-menu-link" href="/Resume.html">About Me</a></nav>
+				<nav class="nav-menu-single-link"><a class="nav-menu-link" href="/particles.html">Custom Particle Engine</a></nav>
 			</section>
 			<section class="A2HS-button">
 				<a>Add webpage to home screen</a>

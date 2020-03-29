@@ -56,7 +56,7 @@
 	top: -18px;
 }
 
-.nav-menu-downArrow {
+.downArrow {
 	width: 12px;
 	height: 6px;
 	right: 15px;
@@ -71,7 +71,7 @@
 	position: absolute;
 	right: 0px;
 	top: var(--banner-top);
-	bottom: 0px;
+	/* bottom: 0px; */
 	width: calc(100% - var(--menu-bar-width));
 	transition: top 0.4s;
 }

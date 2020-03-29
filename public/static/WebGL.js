@@ -6,17 +6,16 @@ texture;
 
 function main() {
 	const canvas = document.querySelector("#glCanvas");
-	canvas.width = canvas.clientWidth;
-	canvas.height = canvas.clientHeight;
-
-	new ResizeObserver(_=>main).observe(canvas)
-
-	// Initialize the GL context
 	const gl = canvas.getContext("webgl2",{antialias: false,preserveDrawingBuffer: true});
 
+	function resize() {
+		canvas.width = canvas.clientWidth;
+		canvas.height = canvas.clientHeight;
+		gl.viewport(0, 0, canvas.width, canvas.height);
+	}
+	new ResizeObserver(resize).observe(canvas)
 
-
-	new ResizeObserver(_=>main).observe(canvas)
+	// Initialize the GL context
 
 
 	const vsSource = `

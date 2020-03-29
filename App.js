@@ -4,10 +4,10 @@ const config = require('./config.json')
 const WebSocket = require('ws');
 const router = require('./other/router.js')(); //Custom Router Implementation
 const ETagger = new (require('./other/ETagger.js'))('./public/static',/sw\.js$/) //Custom Not Really An ETag System
-const Dependents = require('./dependents.json');
+const MetaHTML = require('./metaHTML.json');
 const http2 = require('http2');
 const fs = require('fs');
-const keyPath = require('os').arch() === 'x64' ? 'C:/Users/Lachlan/Documents/Certificate/' : '/etc/letsencrypt/live/lkao.science/';
+const keyPath = require('os').arch() === 'x64' ? 'C:/Users/Lachlan/Documents/Certificate/' : '/etc/letsencrypt/live/lkao.hopto.org/';
 const pfx = {
 	cert: fs.readFileSync(keyPath + 'fullchain.pem'),
 	key: fs.readFileSync(keyPath + 'privkey.pem'),
@@ -57,7 +57,7 @@ router.route(/debug/,'GET',(stream,req)=>{
 	}
 })
 
-
+router.route(/\/\.git\//, 'all', ()=>{});
 
 ////////////////////////////////////////////////Static File Handler/////////////////////////////////////
 
@@ -66,7 +66,7 @@ router.route(/^\/uploaded\//,'GET',(stream,req,next)=>{
 	next();
 });
 
-router.route(/^(\/(?:.(?!\.\.))+)\.(css|mjs|js|png|wasm|pdf|html|json|mp4|mp3)$|\/$/,'GET',(stream,req,next)=>{
+router.route(/^(\/(?:.(?!\.\.))+)\.(css|mjs|js|png|wasm|pdf|html|json|mp4|mp3|webm)$|\/$/,'GET',(stream,req,next)=>{
 	if (req[':path']==='/') {req[':path']='/home.html'; req.params = ['/home','html'];}
 
 	// req.params[1] ==='html' && console.log(req);
@@ -76,7 +76,7 @@ router.route(/^(\/(?:.(?!\.\.))+)\.(css|mjs|js|png|wasm|pdf|html|json|mp4|mp3)$|
 	console.log(cached);
 
 	var headers = {
-		'Content-Type': ({css:'text/css',js:'application/javascript',mjs:'application/javascript',png:'image/png',wasm:'application/wasm',pdf:'application/pdf',html:'text/html',json:'application/json',mp4:'video/mp4'})[req.params[1]],
+		'Content-Type': ({css:'text/css',js:'application/javascript',mjs:'application/javascript',png:'image/png',wasm:'application/wasm',pdf:'application/pdf',html:'text/html',json:'application/json',mp4:'video/mp4', webm:'video/webm'})[req.params[1]],
 		'Strict-Transport-Security':'max-age=31536000; includeSubDomains',
 		':status':req.params[0]==='/404' ? 404 : 200, 
 		...(SW && {'ETag':ETagger.getETag(req[':path'])})
@@ -86,7 +86,7 @@ router.route(/^(\/(?:.(?!\.\.))+)\.(css|mjs|js|png|wasm|pdf|html|json|mp4|mp3)$|
 
 	if (!cached.includes(req[':path'])) {
 		if (req.params[1]==='html'||req.params[1]==='css') stream.priority({weight:50,silent:true}); //prioritise html & css to give faster draw times
-		if (req.params[1]==='html'&&!SW&&req[':path']!=='/index.html') {
+		if (req.params[1]==='html'&&!SW&&req[':path']!=='/index.html'&&MetaHTML[req[':path']]&&MetaHTML[req[':path']].transclude) {
 			console.log('no service worker, passing at', req[':path'])
 			next();
 		} else {
@@ -117,7 +117,7 @@ router.route(/^(\/(?:.(?!\.\.))+)\.(css|mjs|js|png|wasm|pdf|html|json|mp4|mp3)$|
 		stream.respond(headers);
 	}
 
-	if(stream.session.pushAllowed) (Dependents[req[':path']] || []).forEach(k=>{	//If there are dependents associated with the file, push them
+	if(stream.session.pushAllowed) (MetaHTML[req[':path']]&&MetaHTML[req[':path']].dependents || []).forEach(k=>{	//If there are dependents associated with the file, push them
 		stream.session.pushStream({':path':`${k}`,'cache-digest':req['cache-digest']},{parent:stream.id},router.push);
 	});
 });
