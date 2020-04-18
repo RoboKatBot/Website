@@ -66,7 +66,7 @@ router.route(/^\/uploaded\//,'GET',(stream,req,next)=>{
 	next();
 });
 
-router.route(/^(\/(?:.(?!\.\.))+)\.(css|mjs|js|png|wasm|pdf|html|json|mp4|mp3|webm)$|\/$/,'GET',(stream,req,next)=>{
+router.route(/^(\/(?:.(?!\.\.))+)\.(css|mjs|js|png|wasm|pdf|html|json|mp4|mp3|webm|jpg)$|\/$/,'GET',(stream,req,next)=>{
 	if (req[':path']==='/') {req[':path']='/home.html'; req.params = ['/home','html'];}
 
 	// req.params[1] ==='html' && console.log(req);
